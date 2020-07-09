@@ -1,0 +1,199 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "click >=5.0",
+    "python"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/python-dotenv-0.13.0-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/dotenv/__init__.py",
+    "lib/python3.7/site-packages/dotenv/cli.py",
+    "lib/python3.7/site-packages/dotenv/compat.py",
+    "lib/python3.7/site-packages/dotenv/ipython.py",
+    "lib/python3.7/site-packages/dotenv/main.py",
+    "lib/python3.7/site-packages/dotenv/parser.py",
+    "lib/python3.7/site-packages/dotenv/py.typed",
+    "lib/python3.7/site-packages/dotenv/version.py",
+    "lib/python3.7/site-packages/python_dotenv-0.13.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/python_dotenv-0.13.0.dist-info/LICENSE",
+    "lib/python3.7/site-packages/python_dotenv-0.13.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/python_dotenv-0.13.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/python_dotenv-0.13.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/python_dotenv-0.13.0.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/python_dotenv-0.13.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/dotenv/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/dotenv/__pycache__/cli.cpython-37.pyc",
+    "lib/python3.7/site-packages/dotenv/__pycache__/compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/dotenv/__pycache__/ipython.cpython-37.pyc",
+    "lib/python3.7/site-packages/dotenv/__pycache__/main.cpython-37.pyc",
+    "lib/python3.7/site-packages/dotenv/__pycache__/parser.cpython-37.pyc",
+    "lib/python3.7/site-packages/dotenv/__pycache__/version.cpython-37.pyc",
+    "bin/dotenv"
+  ],
+  "fn": "python-dotenv-0.13.0-pyh9f0ad1d_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/python-dotenv-0.13.0-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "873dbe1aab93f407d1b4c8c1a1e48bea",
+  "name": "python-dotenv",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/python-dotenv-0.13.0-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dotenv/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ec3a3b49a2bbf40adf6fc5a4c9fae7fbbc028f693c56413aaae4f2cfcf1ad317",
+        "sha256_in_prefix": "ec3a3b49a2bbf40adf6fc5a4c9fae7fbbc028f693c56413aaae4f2cfcf1ad317",
+        "size_in_bytes": 1339
+      },
+      {
+        "_path": "site-packages/dotenv/cli.py",
+        "path_type": "hardlink",
+        "sha256": "b6ecf963c72062f63c1942e03903fd5538753b14d8071c7ab19c93a16551c38d",
+        "sha256_in_prefix": "b6ecf963c72062f63c1942e03903fd5538753b14d8071c7ab19c93a16551c38d",
+        "size_in_bytes": 4026
+      },
+      {
+        "_path": "site-packages/dotenv/compat.py",
+        "path_type": "hardlink",
+        "sha256": "2213260665e3b6bb3b55d29a0ca3428e27be4c08030b6108e69d014ab35f468f",
+        "sha256_in_prefix": "2213260665e3b6bb3b55d29a0ca3428e27be4c08030b6108e69d014ab35f468f",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "site-packages/dotenv/ipython.py",
+        "path_type": "hardlink",
+        "sha256": "3a5b2ad50f2ac045b5c707d3c25a9a27ab635ccedf2207b15e5b6602ca1a4eae",
+        "sha256_in_prefix": "3a5b2ad50f2ac045b5c707d3c25a9a27ab635ccedf2207b15e5b6602ca1a4eae",
+        "size_in_bytes": 1342
+      },
+      {
+        "_path": "site-packages/dotenv/main.py",
+        "path_type": "hardlink",
+        "sha256": "19cb2993346338f00ecae1a4956fd3ab07b80190ed6a229586905e5aefc24146",
+        "sha256_in_prefix": "19cb2993346338f00ecae1a4956fd3ab07b80190ed6a229586905e5aefc24146",
+        "size_in_bytes": 10830
+      },
+      {
+        "_path": "site-packages/dotenv/parser.py",
+        "path_type": "hardlink",
+        "sha256": "e7fab02fde277fa2ed1f44e0b3fa7195abbef1b6501cdf7293c3a5425dea889f",
+        "sha256_in_prefix": "e7fab02fde277fa2ed1f44e0b3fa7195abbef1b6501cdf7293c3a5425dea889f",
+        "size_in_bytes": 6534
+      },
+      {
+        "_path": "site-packages/dotenv/py.typed",
+        "path_type": "hardlink",
+        "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "sha256_in_prefix": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "site-packages/dotenv/version.py",
+        "path_type": "hardlink",
+        "sha256": "0e0a4b35bbf47b52c810e39ee780dbf3fdfdd22f697a53041449ec06c366ca10",
+        "sha256_in_prefix": "0e0a4b35bbf47b52c810e39ee780dbf3fdfdd22f697a53041449ec06c366ca10",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/python_dotenv-0.13.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/python_dotenv-0.13.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d27209ab3d162782a8f8e3872b9b353c49e092c9aa467a64522883407d8d1030",
+        "sha256_in_prefix": "d27209ab3d162782a8f8e3872b9b353c49e092c9aa467a64522883407d8d1030",
+        "size_in_bytes": 4600
+      },
+      {
+        "_path": "site-packages/python_dotenv-0.13.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9118687526048196bb5951a4f58b640c2dfc37c9245c9f28b71229962bfc66bd",
+        "sha256_in_prefix": "9118687526048196bb5951a4f58b640c2dfc37c9245c9f28b71229962bfc66bd",
+        "size_in_bytes": 17107
+      },
+      {
+        "_path": "site-packages/python_dotenv-0.13.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cbc68e1a8c2552a6b4fe14671a2905a9afca4012108ec8d5b91d13cfec801014",
+        "sha256_in_prefix": "cbc68e1a8c2552a6b4fe14671a2905a9afca4012108ec8d5b91d13cfec801014",
+        "size_in_bytes": 1594
+      },
+      {
+        "_path": "site-packages/python_dotenv-0.13.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "sha256_in_prefix": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/python_dotenv-0.13.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "73cd335927605a3dbad115ad7084b89349266a1c977f87a5b6da8762eb18c1d9",
+        "sha256_in_prefix": "73cd335927605a3dbad115ad7084b89349266a1c977f87a5b6da8762eb18c1d9",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "site-packages/python_dotenv-0.13.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7b2a941f848724dafa6a139897122e9d3af85e29c4f19e5a8d62ddacadebd03f",
+        "sha256_in_prefix": "7b2a941f848724dafa6a139897122e9d3af85e29c4f19e5a8d62ddacadebd03f",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dotenv/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dotenv/__pycache__/cli.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dotenv/__pycache__/compat.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dotenv/__pycache__/ipython.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dotenv/__pycache__/main.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dotenv/__pycache__/parser.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/dotenv/__pycache__/version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/dotenv",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-dotenv",
+  "sha256": "8adefcc4e2c853b34e6cd9b5290c1ce6aff7bd35fb1a4cbb9271dcb77f129a0b",
+  "size": 19297,
+  "subdir": "noarch",
+  "timestamp": 1587128134619,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-dotenv-0.13.0-pyh9f0ad1d_0.tar.bz2",
+  "version": "0.13.0"
+}

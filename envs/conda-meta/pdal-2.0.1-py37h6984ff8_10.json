@@ -1,0 +1,2105 @@
+{
+  "build": "py37h6984ff8_10",
+  "build_number": 10,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "curl >=7.64.1,<8.0a0",
+    "geos >=3.8.1,<3.8.2.0a0",
+    "geotiff >=1.5.1,<1.5.2.0a0",
+    "hdf5 >=1.10.5,<1.10.6.0a0",
+    "jsoncpp >=1.8.4,<1.8.5.0a0",
+    "laszip",
+    "laz-perf",
+    "libgcc-ng >=7.3.0",
+    "libgdal >=3.0.4,<3.1.0a0",
+    "libkml >=1.3.0,<1.4.0a0",
+    "libpq >=12.2,<13.0a0",
+    "libstdcxx-ng >=7.3.0",
+    "libxml2 >=2.9.10,<2.10.0a0",
+    "nitro",
+    "numpy >=1.14.6,<2.0a0",
+    "postgresql",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "sqlite >=3.30.1,<4.0a0",
+    "tiledb >=1.7.0,<1.7.1.0a0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.4.4,<1.4.5.0a0"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/pdal-2.0.1-py37h6984ff8_10",
+  "features": "",
+  "files": [
+    "bin/pdal",
+    "bin/pdal-config",
+    "etc/conda/activate.d/pdal-activate.sh",
+    "etc/conda/deactivate.d/pdal-deactivate.sh",
+    "include/pdal/Artifact.hpp",
+    "include/pdal/ArtifactManager.hpp",
+    "include/pdal/DbReader.hpp",
+    "include/pdal/DbWriter.hpp",
+    "include/pdal/DimDetail.hpp",
+    "include/pdal/DimType.hpp",
+    "include/pdal/DimUtil.hpp",
+    "include/pdal/Dimension.hpp",
+    "include/pdal/EigenUtils.hpp",
+    "include/pdal/Filter.hpp",
+    "include/pdal/FlexWriter.hpp",
+    "include/pdal/GDALUtils.hpp",
+    "include/pdal/Geometry.hpp",
+    "include/pdal/JsonFwd.hpp",
+    "include/pdal/KDIndex.hpp",
+    "include/pdal/Kernel.hpp",
+    "include/pdal/Log.hpp",
+    "include/pdal/Mesh.hpp",
+    "include/pdal/Metadata.hpp",
+    "include/pdal/Options.hpp",
+    "include/pdal/PDALUtils.hpp",
+    "include/pdal/PipelineExecutor.hpp",
+    "include/pdal/PipelineManager.hpp",
+    "include/pdal/PipelineReaderJSON.hpp",
+    "include/pdal/PipelineWriter.hpp",
+    "include/pdal/PluginDirectory.hpp",
+    "include/pdal/PluginHelper.hpp",
+    "include/pdal/PluginInfo.hpp",
+    "include/pdal/PluginManager.hpp",
+    "include/pdal/PointContainer.hpp",
+    "include/pdal/PointLayout.hpp",
+    "include/pdal/PointRef.hpp",
+    "include/pdal/PointTable.hpp",
+    "include/pdal/PointView.hpp",
+    "include/pdal/PointViewIter.hpp",
+    "include/pdal/Polygon.hpp",
+    "include/pdal/QuadIndex.hpp",
+    "include/pdal/QuickInfo.hpp",
+    "include/pdal/Reader.hpp",
+    "include/pdal/Scaling.hpp",
+    "include/pdal/SpatialReference.hpp",
+    "include/pdal/SrsBounds.hpp",
+    "include/pdal/Stage.hpp",
+    "include/pdal/StageExtensions.hpp",
+    "include/pdal/StageFactory.hpp",
+    "include/pdal/StageWrapper.hpp",
+    "include/pdal/Streamable.hpp",
+    "include/pdal/SubcommandKernel.hpp",
+    "include/pdal/Writer.hpp",
+    "include/pdal/XMLSchema.hpp",
+    "include/pdal/compression/Compression.hpp",
+    "include/pdal/compression/DeflateCompression.hpp",
+    "include/pdal/compression/LazPerfCompression.hpp",
+    "include/pdal/compression/LazPerfVlrCompression.hpp",
+    "include/pdal/compression/ZstdCompression.hpp",
+    "include/pdal/filters/ApproximateCoplanarFilter.hpp",
+    "include/pdal/filters/AssignFilter.hpp",
+    "include/pdal/filters/ChipperFilter.hpp",
+    "include/pdal/filters/ClusterFilter.hpp",
+    "include/pdal/filters/ColorInterpRamps.hpp",
+    "include/pdal/filters/ColorinterpFilter.hpp",
+    "include/pdal/filters/ColorizationFilter.hpp",
+    "include/pdal/filters/CovarianceFeaturesFilter.hpp",
+    "include/pdal/filters/CropFilter.hpp",
+    "include/pdal/filters/DEMFilter.hpp",
+    "include/pdal/filters/DecimationFilter.hpp",
+    "include/pdal/filters/DelaunayFilter.hpp",
+    "include/pdal/filters/DividerFilter.hpp",
+    "include/pdal/filters/ELMFilter.hpp",
+    "include/pdal/filters/EigenvaluesFilter.hpp",
+    "include/pdal/filters/EstimateRankFilter.hpp",
+    "include/pdal/filters/FerryFilter.hpp",
+    "include/pdal/filters/GreedyProjection.hpp",
+    "include/pdal/filters/GroupByFilter.hpp",
+    "include/pdal/filters/HAGFilter.hpp",
+    "include/pdal/filters/HeadFilter.hpp",
+    "include/pdal/filters/HexBinFilter.hpp",
+    "include/pdal/filters/IQRFilter.hpp",
+    "include/pdal/filters/InfoFilter.hpp",
+    "include/pdal/filters/IterativeClosestPoint.hpp",
+    "include/pdal/filters/LOFFilter.hpp",
+    "include/pdal/filters/LocateFilter.hpp",
+    "include/pdal/filters/MADFilter.hpp",
+    "include/pdal/filters/MergeFilter.hpp",
+    "include/pdal/filters/MiniballFilter.hpp",
+    "include/pdal/filters/MongoExpressionFilter.hpp",
+    "include/pdal/filters/MortonOrderFilter.hpp",
+    "include/pdal/filters/NNDistanceFilter.hpp",
+    "include/pdal/filters/NeighborClassifierFilter.hpp",
+    "include/pdal/filters/NormalFilter.hpp",
+    "include/pdal/filters/OutlierFilter.hpp",
+    "include/pdal/filters/OverlayFilter.hpp",
+    "include/pdal/filters/PMFFilter.hpp",
+    "include/pdal/filters/PlaneFitFilter.hpp",
+    "include/pdal/filters/PoissonFilter.hpp",
+    "include/pdal/filters/ProjPipelineFilter.hpp",
+    "include/pdal/filters/RadialDensityFilter.hpp",
+    "include/pdal/filters/RandomizeFilter.hpp",
+    "include/pdal/filters/RangeFilter.hpp",
+    "include/pdal/filters/ReciprocityFilter.hpp",
+    "include/pdal/filters/ReprojectionFilter.hpp",
+    "include/pdal/filters/ReturnsFilter.hpp",
+    "include/pdal/filters/SMRFilter.hpp",
+    "include/pdal/filters/SampleFilter.hpp",
+    "include/pdal/filters/ShellFilter.hpp",
+    "include/pdal/filters/SortFilter.hpp",
+    "include/pdal/filters/SplitterFilter.hpp",
+    "include/pdal/filters/StatsFilter.hpp",
+    "include/pdal/filters/StreamCallbackFilter.hpp",
+    "include/pdal/filters/TailFilter.hpp",
+    "include/pdal/filters/TransformationFilter.hpp",
+    "include/pdal/filters/VoxelCenterNearestNeighborFilter.hpp",
+    "include/pdal/filters/VoxelCentroidNearestNeighborFilter.hpp",
+    "include/pdal/gitsha.h",
+    "include/pdal/io/BpfCompressor.hpp",
+    "include/pdal/io/BpfHeader.hpp",
+    "include/pdal/io/BpfReader.hpp",
+    "include/pdal/io/BpfWriter.hpp",
+    "include/pdal/io/BufferReader.hpp",
+    "include/pdal/io/EptAddonWriter.hpp",
+    "include/pdal/io/EptReader.hpp",
+    "include/pdal/io/FauxReader.hpp",
+    "include/pdal/io/GDALReader.hpp",
+    "include/pdal/io/GDALWriter.hpp",
+    "include/pdal/io/GeotiffSupport.hpp",
+    "include/pdal/io/GltfWriter.hpp",
+    "include/pdal/io/HeaderVal.hpp",
+    "include/pdal/io/Ilvis2MetadataReader.hpp",
+    "include/pdal/io/Ilvis2Reader.hpp",
+    "include/pdal/io/LasError.hpp",
+    "include/pdal/io/LasHeader.hpp",
+    "include/pdal/io/LasReader.hpp",
+    "include/pdal/io/LasSummaryData.hpp",
+    "include/pdal/io/LasUtils.hpp",
+    "include/pdal/io/LasVLR.hpp",
+    "include/pdal/io/LasWriter.hpp",
+    "include/pdal/io/MemoryViewReader.hpp",
+    "include/pdal/io/NullWriter.hpp",
+    "include/pdal/io/NumpyReader.hpp",
+    "include/pdal/io/OGRWriter.hpp",
+    "include/pdal/io/OptechCommon.hpp",
+    "include/pdal/io/OptechReader.hpp",
+    "include/pdal/io/OptechRotationMatrix.hpp",
+    "include/pdal/io/PcdHeader.hpp",
+    "include/pdal/io/PcdReader.hpp",
+    "include/pdal/io/PcdWriter.hpp",
+    "include/pdal/io/PlyReader.hpp",
+    "include/pdal/io/PlyWriter.hpp",
+    "include/pdal/io/PtsReader.hpp",
+    "include/pdal/io/QfitReader.hpp",
+    "include/pdal/io/SbetCommon.hpp",
+    "include/pdal/io/SbetReader.hpp",
+    "include/pdal/io/SbetWriter.hpp",
+    "include/pdal/io/TIndexReader.hpp",
+    "include/pdal/io/TerrasolidReader.hpp",
+    "include/pdal/io/TextReader.hpp",
+    "include/pdal/io/TextWriter.hpp",
+    "include/pdal/io/point_types.hpp",
+    "include/pdal/kernels/DeltaKernel.hpp",
+    "include/pdal/kernels/DensityKernel.hpp",
+    "include/pdal/kernels/GroundKernel.hpp",
+    "include/pdal/kernels/HausdorffKernel.hpp",
+    "include/pdal/kernels/InfoKernel.hpp",
+    "include/pdal/kernels/MergeKernel.hpp",
+    "include/pdal/kernels/PipelineKernel.hpp",
+    "include/pdal/kernels/RandomKernel.hpp",
+    "include/pdal/kernels/SortKernel.hpp",
+    "include/pdal/kernels/SplitKernel.hpp",
+    "include/pdal/kernels/TIndexKernel.hpp",
+    "include/pdal/kernels/TileKernel.hpp",
+    "include/pdal/kernels/TranslateKernel.hpp",
+    "include/pdal/pdal.hpp",
+    "include/pdal/pdal_config.hpp",
+    "include/pdal/pdal_export.hpp",
+    "include/pdal/pdal_features.hpp",
+    "include/pdal/pdal_internal.hpp",
+    "include/pdal/pdal_test_main.hpp",
+    "include/pdal/pdal_types.hpp",
+    "include/pdal/util/Algorithm.hpp",
+    "include/pdal/util/Backtrace.hpp",
+    "include/pdal/util/Bounds.hpp",
+    "include/pdal/util/Charbuf.hpp",
+    "include/pdal/util/Extractor.hpp",
+    "include/pdal/util/FileUtils.hpp",
+    "include/pdal/util/Georeference.hpp",
+    "include/pdal/util/IStream.hpp",
+    "include/pdal/util/Inserter.hpp",
+    "include/pdal/util/NullOStream.hpp",
+    "include/pdal/util/OStream.hpp",
+    "include/pdal/util/ProgramArgs.hpp",
+    "include/pdal/util/Utils.hpp",
+    "include/pdal/util/Uuid.hpp",
+    "include/pdal/util/pdal_util_export.hpp",
+    "include/pdal/util/portable_endian.hpp",
+    "lib/cmake/PDAL/PDALConfig.cmake",
+    "lib/cmake/PDAL/PDALConfigVersion.cmake",
+    "lib/cmake/PDAL/PDALTargets-release.cmake",
+    "lib/cmake/PDAL/PDALTargets.cmake",
+    "lib/libpdal_base.so",
+    "lib/libpdal_base.so.10",
+    "lib/libpdal_base.so.9",
+    "lib/libpdal_plugin_filter_python.so",
+    "lib/libpdal_plugin_filter_python.so.10",
+    "lib/libpdal_plugin_filter_python.so.9",
+    "lib/libpdal_plugin_kernel_fauxplugin.so",
+    "lib/libpdal_plugin_kernel_fauxplugin.so.10",
+    "lib/libpdal_plugin_kernel_fauxplugin.so.9",
+    "lib/libpdal_plugin_reader_e57.so",
+    "lib/libpdal_plugin_reader_e57.so.10",
+    "lib/libpdal_plugin_reader_e57.so.9",
+    "lib/libpdal_plugin_reader_i3s.so",
+    "lib/libpdal_plugin_reader_i3s.so.10",
+    "lib/libpdal_plugin_reader_i3s.so.9",
+    "lib/libpdal_plugin_reader_icebridge.so",
+    "lib/libpdal_plugin_reader_icebridge.so.10",
+    "lib/libpdal_plugin_reader_icebridge.so.9",
+    "lib/libpdal_plugin_reader_nitf.so",
+    "lib/libpdal_plugin_reader_nitf.so.10",
+    "lib/libpdal_plugin_reader_nitf.so.9",
+    "lib/libpdal_plugin_reader_numpy.so",
+    "lib/libpdal_plugin_reader_numpy.so.10",
+    "lib/libpdal_plugin_reader_numpy.so.9",
+    "lib/libpdal_plugin_reader_pgpointcloud.so",
+    "lib/libpdal_plugin_reader_pgpointcloud.so.10",
+    "lib/libpdal_plugin_reader_pgpointcloud.so.9",
+    "lib/libpdal_plugin_reader_slpk.so",
+    "lib/libpdal_plugin_reader_slpk.so.10",
+    "lib/libpdal_plugin_reader_slpk.so.9",
+    "lib/libpdal_plugin_reader_sqlite.so",
+    "lib/libpdal_plugin_reader_sqlite.so.10",
+    "lib/libpdal_plugin_reader_sqlite.so.9",
+    "lib/libpdal_plugin_reader_tiledb.so",
+    "lib/libpdal_plugin_reader_tiledb.so.10",
+    "lib/libpdal_plugin_reader_tiledb.so.9",
+    "lib/libpdal_plugin_writer_e57.so",
+    "lib/libpdal_plugin_writer_e57.so.10",
+    "lib/libpdal_plugin_writer_e57.so.9",
+    "lib/libpdal_plugin_writer_nitf.so",
+    "lib/libpdal_plugin_writer_nitf.so.10",
+    "lib/libpdal_plugin_writer_nitf.so.9",
+    "lib/libpdal_plugin_writer_pgpointcloud.so",
+    "lib/libpdal_plugin_writer_pgpointcloud.so.10",
+    "lib/libpdal_plugin_writer_pgpointcloud.so.9",
+    "lib/libpdal_plugin_writer_sqlite.so",
+    "lib/libpdal_plugin_writer_sqlite.so.10",
+    "lib/libpdal_plugin_writer_sqlite.so.9",
+    "lib/libpdal_plugin_writer_tiledb.so",
+    "lib/libpdal_plugin_writer_tiledb.so.10",
+    "lib/libpdal_plugin_writer_tiledb.so.9",
+    "lib/libpdal_util.so",
+    "lib/libpdal_util.so.10",
+    "lib/libpdal_util.so.9",
+    "lib/libpdalcpp.so",
+    "lib/pkgconfig/pdal.pc"
+  ],
+  "fn": "pdal-2.0.1-py37h6984ff8_10.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/pdal-2.0.1-py37h6984ff8_10",
+    "type": 1
+  },
+  "md5": "0ae182194e690b73daf766215f70132f",
+  "name": "pdal",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/pdal-2.0.1-py37h6984ff8_10.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pdal",
+        "path_type": "hardlink",
+        "sha256": "87541d569f47938b5f7a292b324369f8a475f3afab721434c91a86faa7642cc4",
+        "sha256_in_prefix": "87541d569f47938b5f7a292b324369f8a475f3afab721434c91a86faa7642cc4",
+        "size_in_bytes": 237552
+      },
+      {
+        "_path": "bin/pdal-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "420cb7e71370f26048da59fbf8476af7b2b864ca725dc9b9ba1412f8298aa628",
+        "sha256_in_prefix": "4eabd4d24c3f2090fd8bd2a2fb2c3cd996d9dea6f7afbcc22b099e94db5a29c2",
+        "size_in_bytes": 4729
+      },
+      {
+        "_path": "etc/conda/activate.d/pdal-activate.sh",
+        "path_type": "hardlink",
+        "sha256": "8cd5bdcde07471043910a96f95e22b0e3522f6fbb131ac4b19108e8cbebea613",
+        "sha256_in_prefix": "8cd5bdcde07471043910a96f95e22b0e3522f6fbb131ac4b19108e8cbebea613",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "etc/conda/deactivate.d/pdal-deactivate.sh",
+        "path_type": "hardlink",
+        "sha256": "7ac24e7a6088c37540dcb17ce364dfb82bb0f7a925344630840200f8500ba909",
+        "sha256_in_prefix": "7ac24e7a6088c37540dcb17ce364dfb82bb0f7a925344630840200f8500ba909",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "include/pdal/Artifact.hpp",
+        "path_type": "hardlink",
+        "sha256": "4fd4dc2585f90b4137ed822af6826cb644d9966b435dbfb8b44d5678fa334bed",
+        "sha256_in_prefix": "4fd4dc2585f90b4137ed822af6826cb644d9966b435dbfb8b44d5678fa334bed",
+        "size_in_bytes": 1989
+      },
+      {
+        "_path": "include/pdal/ArtifactManager.hpp",
+        "path_type": "hardlink",
+        "sha256": "d2265562cb054b75ca65be1fa758655adcfb19df33dde2b0cfad45e5683c40f8",
+        "sha256_in_prefix": "d2265562cb054b75ca65be1fa758655adcfb19df33dde2b0cfad45e5683c40f8",
+        "size_in_bytes": 3509
+      },
+      {
+        "_path": "include/pdal/DbReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "1a9d9b50db770dcc4aac8c4484b0315693ac22a5ce993646c29b44f34ba89c25",
+        "sha256_in_prefix": "1a9d9b50db770dcc4aac8c4484b0315693ac22a5ce993646c29b44f34ba89c25",
+        "size_in_bytes": 2815
+      },
+      {
+        "_path": "include/pdal/DbWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "e9bb646c4babe0ff8a2b7d1a16bdbbeba38f1145fcecaeae96bc46aae5ee219e",
+        "sha256_in_prefix": "e9bb646c4babe0ff8a2b7d1a16bdbbeba38f1145fcecaeae96bc46aae5ee219e",
+        "size_in_bytes": 3360
+      },
+      {
+        "_path": "include/pdal/DimDetail.hpp",
+        "path_type": "hardlink",
+        "sha256": "1ddba4b1d0f7f0233093a64e80e98b287e7fe55f69e51f4d60bb93f4238aa648",
+        "sha256_in_prefix": "1ddba4b1d0f7f0233093a64e80e98b287e7fe55f69e51f4d60bb93f4238aa648",
+        "size_in_bytes": 2971
+      },
+      {
+        "_path": "include/pdal/DimType.hpp",
+        "path_type": "hardlink",
+        "sha256": "251cf42e5512b1b9c2181375e52e14d7f081a2a2d35daa5bf5e6e22b344bd85e",
+        "sha256_in_prefix": "251cf42e5512b1b9c2181375e52e14d7f081a2a2d35daa5bf5e6e22b344bd85e",
+        "size_in_bytes": 2472
+      },
+      {
+        "_path": "include/pdal/DimUtil.hpp",
+        "path_type": "hardlink",
+        "sha256": "7fa4ea21a27c5d47d06535bf84344d76b01ed24714c24ceb17a437d47c9743d7",
+        "sha256_in_prefix": "7fa4ea21a27c5d47d06535bf84344d76b01ed24714c24ceb17a437d47c9743d7",
+        "size_in_bytes": 6673
+      },
+      {
+        "_path": "include/pdal/Dimension.hpp",
+        "path_type": "hardlink",
+        "sha256": "ea0a6c0b0ac996d63169b4b989af4e9817c7cde3f54e59ccc3090861d67dec0f",
+        "sha256_in_prefix": "ea0a6c0b0ac996d63169b4b989af4e9817c7cde3f54e59ccc3090861d67dec0f",
+        "size_in_bytes": 22872
+      },
+      {
+        "_path": "include/pdal/EigenUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "66b5255a45b272f5d582ecf9b0d974feca6627b2c01baf209eca865d3de3a8a3",
+        "sha256_in_prefix": "66b5255a45b272f5d582ecf9b0d974feca6627b2c01baf209eca865d3de3a8a3",
+        "size_in_bytes": 11484
+      },
+      {
+        "_path": "include/pdal/Filter.hpp",
+        "path_type": "hardlink",
+        "sha256": "fde30fd4e53a5d578a844f185ccf45e0f43c04ad0a96e3d2016094ff4d3d2f17",
+        "sha256_in_prefix": "fde30fd4e53a5d578a844f185ccf45e0f43c04ad0a96e3d2016094ff4d3d2f17",
+        "size_in_bytes": 2352
+      },
+      {
+        "_path": "include/pdal/FlexWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "6ad28577edb02e20cc98bf8e6890d19de15ae33e69e549dc8db65aac0df6eda7",
+        "sha256_in_prefix": "6ad28577edb02e20cc98bf8e6890d19de15ae33e69e549dc8db65aac0df6eda7",
+        "size_in_bytes": 5457
+      },
+      {
+        "_path": "include/pdal/GDALUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "70fb20fc5a1f5b344178b0fc5565f8f0f83114553d1b8211c5f33a598717318a",
+        "sha256_in_prefix": "70fb20fc5a1f5b344178b0fc5565f8f0f83114553d1b8211c5f33a598717318a",
+        "size_in_bytes": 27117
+      },
+      {
+        "_path": "include/pdal/Geometry.hpp",
+        "path_type": "hardlink",
+        "sha256": "12c116c2874d61ab8a514c6a3fd8403b379b2345bdaf6d2165db287430207973",
+        "sha256_in_prefix": "12c116c2874d61ab8a514c6a3fd8403b379b2345bdaf6d2165db287430207973",
+        "size_in_bytes": 3120
+      },
+      {
+        "_path": "include/pdal/JsonFwd.hpp",
+        "path_type": "hardlink",
+        "sha256": "e10fb5f2f149c552f2e6e30dd680c63021416efac8e023ed13b4d919341bba74",
+        "sha256_in_prefix": "e10fb5f2f149c552f2e6e30dd680c63021416efac8e023ed13b4d919341bba74",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "include/pdal/KDIndex.hpp",
+        "path_type": "hardlink",
+        "sha256": "0261e94358396680734213239b63a9a23b8006228164674f4ea3675a30f64b38",
+        "sha256_in_prefix": "0261e94358396680734213239b63a9a23b8006228164674f4ea3675a30f64b38",
+        "size_in_bytes": 15418
+      },
+      {
+        "_path": "include/pdal/Kernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "9ee1b2c042367db11bd4a3d42834be3bd3acfed1c9b7aee3d916b6811401b032",
+        "sha256_in_prefix": "9ee1b2c042367db11bd4a3d42834be3bd3acfed1c9b7aee3d916b6811401b032",
+        "size_in_bytes": 4592
+      },
+      {
+        "_path": "include/pdal/Log.hpp",
+        "path_type": "hardlink",
+        "sha256": "b05f507b328639d298392ac83afb6a8554c6740c6dccdc37c7363ab6c19b1954",
+        "sha256_in_prefix": "b05f507b328639d298392ac83afb6a8554c6740c6dccdc37c7363ab6c19b1954",
+        "size_in_bytes": 5442
+      },
+      {
+        "_path": "include/pdal/Mesh.hpp",
+        "path_type": "hardlink",
+        "sha256": "fe22129915d5e1778547ddf279da3c082daea07c2efc9adada1b8dcad1d2cd8b",
+        "sha256_in_prefix": "fe22129915d5e1778547ddf279da3c082daea07c2efc9adada1b8dcad1d2cd8b",
+        "size_in_bytes": 3129
+      },
+      {
+        "_path": "include/pdal/Metadata.hpp",
+        "path_type": "hardlink",
+        "sha256": "f84a24960bf42b7008f4d285fae04cefee60b37ac1bd490e86d515d13edb3746",
+        "sha256_in_prefix": "f84a24960bf42b7008f4d285fae04cefee60b37ac1bd490e86d515d13edb3746",
+        "size_in_bytes": 20808
+      },
+      {
+        "_path": "include/pdal/Options.hpp",
+        "path_type": "hardlink",
+        "sha256": "6dec9ae3c6cefe51475e30e46ca03ca701551b2f2b37f43632aefa782a8b942c",
+        "sha256_in_prefix": "6dec9ae3c6cefe51475e30e46ca03ca701551b2f2b37f43632aefa782a8b942c",
+        "size_in_bytes": 6666
+      },
+      {
+        "_path": "include/pdal/PDALUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "7eb6c54da42c4e022b3c974929338dc0af955033bdbbc5fcfce07d7fa055c3ab",
+        "sha256_in_prefix": "7eb6c54da42c4e022b3c974929338dc0af955033bdbbc5fcfce07d7fa055c3ab",
+        "size_in_bytes": 7064
+      },
+      {
+        "_path": "include/pdal/PipelineExecutor.hpp",
+        "path_type": "hardlink",
+        "sha256": "e820890d273a9cd501cd50c2b47bdf94085c02e8a03d225a62e40102389d6c16",
+        "sha256_in_prefix": "e820890d273a9cd501cd50c2b47bdf94085c02e8a03d225a62e40102389d6c16",
+        "size_in_bytes": 3875
+      },
+      {
+        "_path": "include/pdal/PipelineManager.hpp",
+        "path_type": "hardlink",
+        "sha256": "7c33706b3954ac4528a4e18a35dc1c9050efb3b893bedc7307a2f6d0275502b9",
+        "sha256_in_prefix": "7c33706b3954ac4528a4e18a35dc1c9050efb3b893bedc7307a2f6d0275502b9",
+        "size_in_bytes": 6049
+      },
+      {
+        "_path": "include/pdal/PipelineReaderJSON.hpp",
+        "path_type": "hardlink",
+        "sha256": "c729446167f980c3da8124da8033f0eb519bf7c2c4c65ed510fb1f6b5015c223",
+        "sha256_in_prefix": "c729446167f980c3da8124da8033f0eb519bf7c2c4c65ed510fb1f6b5015c223",
+        "size_in_bytes": 2926
+      },
+      {
+        "_path": "include/pdal/PipelineWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "cb009c9824ecb7c672a31b0dfb81254fb6ab3c723f8781e298b5f729f58ae534",
+        "sha256_in_prefix": "cb009c9824ecb7c672a31b0dfb81254fb6ab3c723f8781e298b5f729f58ae534",
+        "size_in_bytes": 2145
+      },
+      {
+        "_path": "include/pdal/PluginDirectory.hpp",
+        "path_type": "hardlink",
+        "sha256": "2a61fac2dc7b7944ba2195e5792af4933eb3c5c10cb7b39e984282ab78043a52",
+        "sha256_in_prefix": "2a61fac2dc7b7944ba2195e5792af4933eb3c5c10cb7b39e984282ab78043a52",
+        "size_in_bytes": 2648
+      },
+      {
+        "_path": "include/pdal/PluginHelper.hpp",
+        "path_type": "hardlink",
+        "sha256": "260f423a9a150695b0d51876b109805d5619bca3df3588e03a19e3488c99a326",
+        "sha256_in_prefix": "260f423a9a150695b0d51876b109805d5619bca3df3588e03a19e3488c99a326",
+        "size_in_bytes": 2926
+      },
+      {
+        "_path": "include/pdal/PluginInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "d893efcff08c396bed2c6f0815f7f33a8616ec2ed795bff48b073c8f0d3332ec",
+        "sha256_in_prefix": "d893efcff08c396bed2c6f0815f7f33a8616ec2ed795bff48b073c8f0d3332ec",
+        "size_in_bytes": 2622
+      },
+      {
+        "_path": "include/pdal/PluginManager.hpp",
+        "path_type": "hardlink",
+        "sha256": "68ba732cb793c72cc402d9bb82cf2cedbd96c7126dda9903e266df62e9f4f5c9",
+        "sha256_in_prefix": "68ba732cb793c72cc402d9bb82cf2cedbd96c7126dda9903e266df62e9f4f5c9",
+        "size_in_bytes": 5140
+      },
+      {
+        "_path": "include/pdal/PointContainer.hpp",
+        "path_type": "hardlink",
+        "sha256": "6d865606a24fa119b3dce28615b561297a9d59b9be4336aa739c2cf02648ab4f",
+        "sha256_in_prefix": "6d865606a24fa119b3dce28615b561297a9d59b9be4336aa739c2cf02648ab4f",
+        "size_in_bytes": 2283
+      },
+      {
+        "_path": "include/pdal/PointLayout.hpp",
+        "path_type": "hardlink",
+        "sha256": "f794d43e9352328bb49c64ff674eda08ec93c16f6e3d086cf1d2cc0519966071",
+        "sha256_in_prefix": "f794d43e9352328bb49c64ff674eda08ec93c16f6e3d086cf1d2cc0519966071",
+        "size_in_bytes": 8277
+      },
+      {
+        "_path": "include/pdal/PointRef.hpp",
+        "path_type": "hardlink",
+        "sha256": "c70d700bd3319b9a221bab8b61e8ca721633bbde234764030bd61f00e5c95bb5",
+        "sha256_in_prefix": "c70d700bd3319b9a221bab8b61e8ca721633bbde234764030bd61f00e5c95bb5",
+        "size_in_bytes": 11221
+      },
+      {
+        "_path": "include/pdal/PointTable.hpp",
+        "path_type": "hardlink",
+        "sha256": "dca62a5b0fe7a3301edca67ac48b7f1938c4998b8bd3872cf11b248c3015584a",
+        "sha256_in_prefix": "dca62a5b0fe7a3301edca67ac48b7f1938c4998b8bd3872cf11b248c3015584a",
+        "size_in_bytes": 8290
+      },
+      {
+        "_path": "include/pdal/PointView.hpp",
+        "path_type": "hardlink",
+        "sha256": "70882649e9ab42633f46d69336dd3920a9f5152d585412f9849c3595882a79f7",
+        "sha256_in_prefix": "70882649e9ab42633f46d69336dd3920a9f5152d585412f9849c3595882a79f7",
+        "size_in_bytes": 19048
+      },
+      {
+        "_path": "include/pdal/PointViewIter.hpp",
+        "path_type": "hardlink",
+        "sha256": "89584b1fad45dfe5cf9bb56281da85f7ccacc76d9ea3fad4f7a4447effe865b9",
+        "sha256_in_prefix": "89584b1fad45dfe5cf9bb56281da85f7ccacc76d9ea3fad4f7a4447effe865b9",
+        "size_in_bytes": 5371
+      },
+      {
+        "_path": "include/pdal/Polygon.hpp",
+        "path_type": "hardlink",
+        "sha256": "87a3e94978a041b24462451c411a2b85e4c042d34b2bebd881927a89ea4d5cf8",
+        "sha256_in_prefix": "87a3e94978a041b24462451c411a2b85e4c042d34b2bebd881927a89ea4d5cf8",
+        "size_in_bytes": 2955
+      },
+      {
+        "_path": "include/pdal/QuadIndex.hpp",
+        "path_type": "hardlink",
+        "sha256": "a6d56f8916e7148141555cb88eccc512936b75325f787e62a05c77727f92904d",
+        "sha256_in_prefix": "a6d56f8916e7148141555cb88eccc512936b75325f787e62a05c77727f92904d",
+        "size_in_bytes": 5878
+      },
+      {
+        "_path": "include/pdal/QuickInfo.hpp",
+        "path_type": "hardlink",
+        "sha256": "9f173479c3c41c4ab73ef9ab79d6cdcff05fc4ce46fca02fb1b288e0411749b2",
+        "sha256_in_prefix": "9f173479c3c41c4ab73ef9ab79d6cdcff05fc4ce46fca02fb1b288e0411749b2",
+        "size_in_bytes": 2173
+      },
+      {
+        "_path": "include/pdal/Reader.hpp",
+        "path_type": "hardlink",
+        "sha256": "823f5f27d395c7b31bae09abf5752e8722aeb31f1a5a769a304fd104acf9913f",
+        "sha256_in_prefix": "823f5f27d395c7b31bae09abf5752e8722aeb31f1a5a769a304fd104acf9913f",
+        "size_in_bytes": 2957
+      },
+      {
+        "_path": "include/pdal/Scaling.hpp",
+        "path_type": "hardlink",
+        "sha256": "0ee9d3ad10c87b23da252759cc2bce1cee2456eb3b95035a8d797a9d46b8c381",
+        "sha256_in_prefix": "0ee9d3ad10c87b23da252759cc2bce1cee2456eb3b95035a8d797a9d46b8c381",
+        "size_in_bytes": 3026
+      },
+      {
+        "_path": "include/pdal/SpatialReference.hpp",
+        "path_type": "hardlink",
+        "sha256": "1cd29d2d56ec695fbf6d2dc00449cb42ed219e4ac73ae07f60f49798acd01ad5",
+        "sha256_in_prefix": "1cd29d2d56ec695fbf6d2dc00449cb42ed219e4ac73ae07f60f49798acd01ad5",
+        "size_in_bytes": 6452
+      },
+      {
+        "_path": "include/pdal/SrsBounds.hpp",
+        "path_type": "hardlink",
+        "sha256": "4c808e54c61c596839287434a8fbd1686acf9a9f8520583997fef24c72fbda45",
+        "sha256_in_prefix": "4c808e54c61c596839287434a8fbd1686acf9a9f8520583997fef24c72fbda45",
+        "size_in_bytes": 2754
+      },
+      {
+        "_path": "include/pdal/Stage.hpp",
+        "path_type": "hardlink",
+        "sha256": "e827fe15cf203af7aa97396f9088b06202eb3e793b9fdc614f3bc54b6c017a05",
+        "sha256_in_prefix": "e827fe15cf203af7aa97396f9088b06202eb3e793b9fdc614f3bc54b6c017a05",
+        "size_in_bytes": 14503
+      },
+      {
+        "_path": "include/pdal/StageExtensions.hpp",
+        "path_type": "hardlink",
+        "sha256": "d023778b96b55029943e8a30ec2205a2b404f073e4bb7bec1c88a3e5e3a848bc",
+        "sha256_in_prefix": "d023778b96b55029943e8a30ec2205a2b404f073e4bb7bec1c88a3e5e3a848bc",
+        "size_in_bytes": 2379
+      },
+      {
+        "_path": "include/pdal/StageFactory.hpp",
+        "path_type": "hardlink",
+        "sha256": "0016b96aa2631b14d7c6ac28c03c47796e0457498a1ff5340e57e83d25cae88e",
+        "sha256_in_prefix": "0016b96aa2631b14d7c6ac28c03c47796e0457498a1ff5340e57e83d25cae88e",
+        "size_in_bytes": 3815
+      },
+      {
+        "_path": "include/pdal/StageWrapper.hpp",
+        "path_type": "hardlink",
+        "sha256": "f206b48861743f845db67506459a1222d2551f3476d0eb6365ebf00115b5a165",
+        "sha256_in_prefix": "f206b48861743f845db67506459a1222d2551f3476d0eb6365ebf00115b5a165",
+        "size_in_bytes": 1435
+      },
+      {
+        "_path": "include/pdal/Streamable.hpp",
+        "path_type": "hardlink",
+        "sha256": "bff9d7a3c72374e04745a4dc274b58a861389edf841ce40c4f86073bd6b68b93",
+        "sha256_in_prefix": "bff9d7a3c72374e04745a4dc274b58a861389edf841ce40c4f86073bd6b68b93",
+        "size_in_bytes": 4262
+      },
+      {
+        "_path": "include/pdal/SubcommandKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "599fc4151873aa27891392c1adb202318223ac70d9384b74b2bf88949fda73a4",
+        "sha256_in_prefix": "599fc4151873aa27891392c1adb202318223ac70d9384b74b2bf88949fda73a4",
+        "size_in_bytes": 2574
+      },
+      {
+        "_path": "include/pdal/Writer.hpp",
+        "path_type": "hardlink",
+        "sha256": "4b56bce786aeb688dd6cd6eb8b9c39b93d664116df0765c4b926f775c5441ae6",
+        "sha256_in_prefix": "4b56bce786aeb688dd6cd6eb8b9c39b93d664116df0765c4b926f775c5441ae6",
+        "size_in_bytes": 3228
+      },
+      {
+        "_path": "include/pdal/XMLSchema.hpp",
+        "path_type": "hardlink",
+        "sha256": "1e27b63e7f9a564d86237317c0050f8685eafb86444d687eed7c46c8f83b86dc",
+        "sha256_in_prefix": "1e27b63e7f9a564d86237317c0050f8685eafb86444d687eed7c46c8f83b86dc",
+        "size_in_bytes": 4724
+      },
+      {
+        "_path": "include/pdal/compression/Compression.hpp",
+        "path_type": "hardlink",
+        "sha256": "3332eeebe6649ba131b01c1b9de5dbc4d622e8fd7d188f7fe0d239d3899bfac0",
+        "sha256_in_prefix": "3332eeebe6649ba131b01c1b9de5dbc4d622e8fd7d188f7fe0d239d3899bfac0",
+        "size_in_bytes": 2732
+      },
+      {
+        "_path": "include/pdal/compression/DeflateCompression.hpp",
+        "path_type": "hardlink",
+        "sha256": "4a18bc607d2634cc868bb499acdfc99166d7ad7bb293197e39a8278ea74f1bc9",
+        "sha256_in_prefix": "4a18bc607d2634cc868bb499acdfc99166d7ad7bb293197e39a8278ea74f1bc9",
+        "size_in_bytes": 2508
+      },
+      {
+        "_path": "include/pdal/compression/LazPerfCompression.hpp",
+        "path_type": "hardlink",
+        "sha256": "95f54bcb405e65974ec2a3fa97d2bf6ec8e928529e83c95a7f23177dd1651dd7",
+        "sha256_in_prefix": "95f54bcb405e65974ec2a3fa97d2bf6ec8e928529e83c95a7f23177dd1651dd7",
+        "size_in_bytes": 2776
+      },
+      {
+        "_path": "include/pdal/compression/LazPerfVlrCompression.hpp",
+        "path_type": "hardlink",
+        "sha256": "e2e421c59f8a1c465f77b22af4da2a06a39d10168004d4c0ecfdb9c98426c0ba",
+        "sha256_in_prefix": "e2e421c59f8a1c465f77b22af4da2a06a39d10168004d4c0ecfdb9c98426c0ba",
+        "size_in_bytes": 3421
+      },
+      {
+        "_path": "include/pdal/compression/ZstdCompression.hpp",
+        "path_type": "hardlink",
+        "sha256": "5f6f0835ef997b8fc1cbbc8612f29c5ca4e9b1e9b8f059593d2bc8db12f12154",
+        "sha256_in_prefix": "5f6f0835ef997b8fc1cbbc8612f29c5ca4e9b1e9b8f059593d2bc8db12f12154",
+        "size_in_bytes": 2547
+      },
+      {
+        "_path": "include/pdal/filters/ApproximateCoplanarFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "6e6a4ab30a591a66f7a20306b2d30ba67a6a3c709c50084b32a2f7259cc83c73",
+        "sha256_in_prefix": "6e6a4ab30a591a66f7a20306b2d30ba67a6a3c709c50084b32a2f7259cc83c73",
+        "size_in_bytes": 2549
+      },
+      {
+        "_path": "include/pdal/filters/AssignFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "7dece9c5250c2d568d92f190660c1885e1d4d07c250b445939bdaa39757d3145",
+        "sha256_in_prefix": "7dece9c5250c2d568d92f190660c1885e1d4d07c250b445939bdaa39757d3145",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "include/pdal/filters/ChipperFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "ef45ee739a2837d8ad304379a6bb8f3a9284a8551096eebf19593787f935a79e",
+        "sha256_in_prefix": "ef45ee739a2837d8ad304379a6bb8f3a9284a8551096eebf19593787f935a79e",
+        "size_in_bytes": 4216
+      },
+      {
+        "_path": "include/pdal/filters/ClusterFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "5294c097a96cff864fac256ccf9e40a1d8a63ba524eb6390ea3fda5afd5f1f9d",
+        "sha256_in_prefix": "5294c097a96cff864fac256ccf9e40a1d8a63ba524eb6390ea3fda5afd5f1f9d",
+        "size_in_bytes": 2468
+      },
+      {
+        "_path": "include/pdal/filters/ColorInterpRamps.hpp",
+        "path_type": "hardlink",
+        "sha256": "b5146a3c24eb589da451cf8d7510aeb5f40b3fb7c131ff2d50882993bb9943ff",
+        "sha256_in_prefix": "b5146a3c24eb589da451cf8d7510aeb5f40b3fb7c131ff2d50882993bb9943ff",
+        "size_in_bytes": 28116
+      },
+      {
+        "_path": "include/pdal/filters/ColorinterpFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "ff5955044feef16ad30df866a2b67243ba02be0e2de33e6d389eaae81f565f71",
+        "sha256_in_prefix": "ff5955044feef16ad30df866a2b67243ba02be0e2de33e6d389eaae81f565f71",
+        "size_in_bytes": 3487
+      },
+      {
+        "_path": "include/pdal/filters/ColorizationFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "c741d84ceb3827bbe8cf3d39fce211a21c38c2e689fcb23d7673933ff081f587",
+        "sha256_in_prefix": "c741d84ceb3827bbe8cf3d39fce211a21c38c2e689fcb23d7673933ff081f587",
+        "size_in_bytes": 3308
+      },
+      {
+        "_path": "include/pdal/filters/CovarianceFeaturesFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "20bd713508592e9ff28b1603f0d677c21c8d4922de8918aa0b9e94a382e9a7a9",
+        "sha256_in_prefix": "20bd713508592e9ff28b1603f0d677c21c8d4922de8918aa0b9e94a382e9a7a9",
+        "size_in_bytes": 2524
+      },
+      {
+        "_path": "include/pdal/filters/CropFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "eef068f852c35403e4dbad23b80bcda61fa211b1cbe7c057600cf90a04b2789f",
+        "sha256_in_prefix": "eef068f852c35403e4dbad23b80bcda61fa211b1cbe7c057600cf90a04b2789f",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "include/pdal/filters/DEMFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "87a2c398cd7e04deec1283b0feffb66d1eb2d99fe721402a7d578ad46132f34a",
+        "sha256_in_prefix": "87a2c398cd7e04deec1283b0feffb66d1eb2d99fe721402a7d578ad46132f34a",
+        "size_in_bytes": 2689
+      },
+      {
+        "_path": "include/pdal/filters/DecimationFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "ba9e37131e5b6e69bc1a9440ef07606514b9ab883fe3d2857c281c72925d9fc9",
+        "sha256_in_prefix": "ba9e37131e5b6e69bc1a9440ef07606514b9ab883fe3d2857c281c72925d9fc9",
+        "size_in_bytes": 2603
+      },
+      {
+        "_path": "include/pdal/filters/DelaunayFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "562affb71bae2a46e3d81e642181f5df918427f2fbad2930fbccfee27d33abf4",
+        "sha256_in_prefix": "562affb71bae2a46e3d81e642181f5df918427f2fbad2930fbccfee27d33abf4",
+        "size_in_bytes": 2167
+      },
+      {
+        "_path": "include/pdal/filters/DividerFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "a7717b4dca64105974ba21305f6f7d428508c05e6f3721cb02af66e5f57f7f4c",
+        "sha256_in_prefix": "a7717b4dca64105974ba21305f6f7d428508c05e6f3721cb02af66e5f57f7f4c",
+        "size_in_bytes": 2727
+      },
+      {
+        "_path": "include/pdal/filters/ELMFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "134b082acafb7c07b4eedca5439ae23b337de3a729c133ca2cc619f11f27f8fc",
+        "sha256_in_prefix": "134b082acafb7c07b4eedca5439ae23b337de3a729c133ca2cc619f11f27f8fc",
+        "size_in_bytes": 2455
+      },
+      {
+        "_path": "include/pdal/filters/EigenvaluesFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "5e2fa51f9f64f7305b7d15e6d20989b833176b7090f002e48e9893f273ea7fe1",
+        "sha256_in_prefix": "5e2fa51f9f64f7305b7d15e6d20989b833176b7090f002e48e9893f273ea7fe1",
+        "size_in_bytes": 2454
+      },
+      {
+        "_path": "include/pdal/filters/EstimateRankFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "c3bfea708f25f63e194534d4f857f22fb697944a8b5166a7d052375e787e4301",
+        "sha256_in_prefix": "c3bfea708f25f63e194534d4f857f22fb697944a8b5166a7d052375e787e4301",
+        "size_in_bytes": 2471
+      },
+      {
+        "_path": "include/pdal/filters/FerryFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "4a7a6373cb564933974ffdfe474b6629b2d71c061ef3dd7f3e27dda98425f286",
+        "sha256_in_prefix": "4a7a6373cb564933974ffdfe474b6629b2d71c061ef3dd7f3e27dda98425f286",
+        "size_in_bytes": 2884
+      },
+      {
+        "_path": "include/pdal/filters/GreedyProjection.hpp",
+        "path_type": "hardlink",
+        "sha256": "cf178fd75ef54127940376daa9d4d5aaead9a88f76ab216da68aa3b78dbd99e1",
+        "sha256_in_prefix": "cf178fd75ef54127940376daa9d4d5aaead9a88f76ab216da68aa3b78dbd99e1",
+        "size_in_bytes": 15567
+      },
+      {
+        "_path": "include/pdal/filters/GroupByFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "da1786a3442f730d11440981fc6544e9b74ee703662f774ea4804c2cd5d96d39",
+        "sha256_in_prefix": "da1786a3442f730d11440981fc6544e9b74ee703662f774ea4804c2cd5d96d39",
+        "size_in_bytes": 2480
+      },
+      {
+        "_path": "include/pdal/filters/HAGFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "50ddbf641f1728dd0c03754e67397f141a0dae8ec1b328f00364dfd9577e0b3d",
+        "sha256_in_prefix": "50ddbf641f1728dd0c03754e67397f141a0dae8ec1b328f00364dfd9577e0b3d",
+        "size_in_bytes": 2532
+      },
+      {
+        "_path": "include/pdal/filters/HeadFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "8cb8819c32b70945ac624500186009e9135a006418622d0826fc955d6ad8db15",
+        "sha256_in_prefix": "8cb8819c32b70945ac624500186009e9135a006418622d0826fc955d6ad8db15",
+        "size_in_bytes": 3329
+      },
+      {
+        "_path": "include/pdal/filters/HexBinFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "e30604fca44ae2b690eb651169dd9e9b77e5d221f7476e64e2df08d07f490020",
+        "sha256_in_prefix": "e30604fca44ae2b690eb651169dd9e9b77e5d221f7476e64e2df08d07f490020",
+        "size_in_bytes": 2786
+      },
+      {
+        "_path": "include/pdal/filters/IQRFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "279293d2231b4c7967caa76e11213d48c880bc9298d76defdf83a0f2430f7696",
+        "sha256_in_prefix": "279293d2231b4c7967caa76e11213d48c880bc9298d76defdf83a0f2430f7696",
+        "size_in_bytes": 2421
+      },
+      {
+        "_path": "include/pdal/filters/InfoFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "d4162814948391da3f09f4a495224c9c4eb8ab3705e08e16e8d8a0a62bdbd34c",
+        "sha256_in_prefix": "d4162814948391da3f09f4a495224c9c4eb8ab3705e08e16e8d8a0a62bdbd34c",
+        "size_in_bytes": 3395
+      },
+      {
+        "_path": "include/pdal/filters/IterativeClosestPoint.hpp",
+        "path_type": "hardlink",
+        "sha256": "887293f85d177219b8465b7e74c55baea3ff62cffc64ee35e915cfe531e81539",
+        "sha256_in_prefix": "887293f85d177219b8465b7e74c55baea3ff62cffc64ee35e915cfe531e81539",
+        "size_in_bytes": 2669
+      },
+      {
+        "_path": "include/pdal/filters/LOFFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "0e2112a527042e202df76abec6c6ce038f4bf63b99d0c15a62db9a28c8dedb70",
+        "sha256_in_prefix": "0e2112a527042e202df76abec6c6ce038f4bf63b99d0c15a62db9a28c8dedb70",
+        "size_in_bytes": 2402
+      },
+      {
+        "_path": "include/pdal/filters/LocateFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "463521e60115baeac6f9b5340a9028373d2e34bc0464a3f978b82f1d08d205fd",
+        "sha256_in_prefix": "463521e60115baeac6f9b5340a9028373d2e34bc0464a3f978b82f1d08d205fd",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "include/pdal/filters/MADFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "382c26309c468526b499fe3ee8691215928fb4e41f4556ac937a59f3f51bb4b7",
+        "sha256_in_prefix": "382c26309c468526b499fe3ee8691215928fb4e41f4556ac937a59f3f51bb4b7",
+        "size_in_bytes": 2449
+      },
+      {
+        "_path": "include/pdal/filters/MergeFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "bb57733ce24d5c8c360cd143a3548878d613e2d2cab4f6a30a5ade8d147b3559",
+        "sha256_in_prefix": "bb57733ce24d5c8c360cd143a3548878d613e2d2cab4f6a30a5ade8d147b3559",
+        "size_in_bytes": 2351
+      },
+      {
+        "_path": "include/pdal/filters/MiniballFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "248d7b8e86cecd6c437ef0ab150ced19bb1c8ed980debaff2da9ae9c93a17872",
+        "sha256_in_prefix": "248d7b8e86cecd6c437ef0ab150ced19bb1c8ed980debaff2da9ae9c93a17872",
+        "size_in_bytes": 2478
+      },
+      {
+        "_path": "include/pdal/filters/MongoExpressionFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "a844f56c3218e9cd67073b60de057e3832c5eb4e0db52103e4f7ba860b4fd9c4",
+        "sha256_in_prefix": "a844f56c3218e9cd67073b60de057e3832c5eb4e0db52103e4f7ba860b4fd9c4",
+        "size_in_bytes": 2464
+      },
+      {
+        "_path": "include/pdal/filters/MortonOrderFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "e3372e59ccf6af11cb3d6d215b806151d9a531c3303eb7d63462603e4654582a",
+        "sha256_in_prefix": "e3372e59ccf6af11cb3d6d215b806151d9a531c3303eb7d63462603e4654582a",
+        "size_in_bytes": 2398
+      },
+      {
+        "_path": "include/pdal/filters/NNDistanceFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "ab4e2e9b42424103e62665fea89b5ee664f8e67b3c210374a210ef3050eb7c16",
+        "sha256_in_prefix": "ab4e2e9b42424103e62665fea89b5ee664f8e67b3c210374a210ef3050eb7c16",
+        "size_in_bytes": 2622
+      },
+      {
+        "_path": "include/pdal/filters/NeighborClassifierFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "38855c8ca2161309d712989690c3dec54850275f46f4a10af1985c614928632b",
+        "sha256_in_prefix": "38855c8ca2161309d712989690c3dec54850275f46f4a10af1985c614928632b",
+        "size_in_bytes": 3008
+      },
+      {
+        "_path": "include/pdal/filters/NormalFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "14d9b72ffc788cc16e7236ed0db542d97af648e607614f437b5cd587a4f98af8",
+        "sha256_in_prefix": "14d9b72ffc788cc16e7236ed0db542d97af648e607614f437b5cd587a4f98af8",
+        "size_in_bytes": 2615
+      },
+      {
+        "_path": "include/pdal/filters/OutlierFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "b4251450f4ecb14ea3ec85d621da7d26944fea5f82c1f34d0418a161415992dc",
+        "sha256_in_prefix": "b4251450f4ecb14ea3ec85d621da7d26944fea5f82c1f34d0418a161415992dc",
+        "size_in_bytes": 2743
+      },
+      {
+        "_path": "include/pdal/filters/OverlayFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "d79a5ea9303ba99ed27489862bff4bf2ed30cb3238a1c0bc782b83858db121ed",
+        "sha256_in_prefix": "d79a5ea9303ba99ed27489862bff4bf2ed30cb3238a1c0bc782b83858db121ed",
+        "size_in_bytes": 3182
+      },
+      {
+        "_path": "include/pdal/filters/PMFFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "045e9ec397034df4d3c5a6cbc10289d81bf4b2e42158c07d2e4ffcf0a197287a",
+        "sha256_in_prefix": "045e9ec397034df4d3c5a6cbc10289d81bf4b2e42158c07d2e4ffcf0a197287a",
+        "size_in_bytes": 2489
+      },
+      {
+        "_path": "include/pdal/filters/PlaneFitFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "dbb33b7eae27ddede72a89e0c5879de4beade714200916ffbaa0e9a8c093d75a",
+        "sha256_in_prefix": "dbb33b7eae27ddede72a89e0c5879de4beade714200916ffbaa0e9a8c093d75a",
+        "size_in_bytes": 2641
+      },
+      {
+        "_path": "include/pdal/filters/PoissonFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "bba0a0f4353f88f28000f18d41716e69e497371c2053f0771fd80c630165683d",
+        "sha256_in_prefix": "bba0a0f4353f88f28000f18d41716e69e497371c2053f0771fd80c630165683d",
+        "size_in_bytes": 2369
+      },
+      {
+        "_path": "include/pdal/filters/ProjPipelineFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "66ca5264b5eb6caaee605ac78009b606e5f3f894e35227b1c3084095905f1730",
+        "sha256_in_prefix": "66ca5264b5eb6caaee605ac78009b606e5f3f894e35227b1c3084095905f1730",
+        "size_in_bytes": 2979
+      },
+      {
+        "_path": "include/pdal/filters/RadialDensityFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "d6f0a2ea4efe65fc74dd546f0b079dfd942d407ff10bb3f3b7bd1ecadf5d5158",
+        "sha256_in_prefix": "d6f0a2ea4efe65fc74dd546f0b079dfd942d407ff10bb3f3b7bd1ecadf5d5158",
+        "size_in_bytes": 2448
+      },
+      {
+        "_path": "include/pdal/filters/RandomizeFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "2204e91d54fea3cfdc914f4801904cdbc799f58bfd2374579bbb6bc43acab331",
+        "sha256_in_prefix": "2204e91d54fea3cfdc914f4801904cdbc799f58bfd2374579bbb6bc43acab331",
+        "size_in_bytes": 2264
+      },
+      {
+        "_path": "include/pdal/filters/RangeFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "bfca5c2e2b211562a40b316da117c0e20e9d35ae508ce1f8bc7e479a74029192",
+        "sha256_in_prefix": "bfca5c2e2b211562a40b316da117c0e20e9d35ae508ce1f8bc7e479a74029192",
+        "size_in_bytes": 2498
+      },
+      {
+        "_path": "include/pdal/filters/ReciprocityFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "be1df26ed94aa13bda6a2c30cec02edbcb416bf826ffaa2927464d4bf4196787",
+        "sha256_in_prefix": "be1df26ed94aa13bda6a2c30cec02edbcb416bf826ffaa2927464d4bf4196787",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "include/pdal/filters/ReprojectionFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "7c8a4f562c5f81ffbac25d7058cc78fe25a591934a7f589625b5d49d6b8d7176",
+        "sha256_in_prefix": "7c8a4f562c5f81ffbac25d7058cc78fe25a591934a7f589625b5d49d6b8d7176",
+        "size_in_bytes": 2682
+      },
+      {
+        "_path": "include/pdal/filters/ReturnsFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "4ee270639e8ccc4222bf767375beebffb1a89439be70d838df0906bee2c419cf",
+        "sha256_in_prefix": "4ee270639e8ccc4222bf767375beebffb1a89439be70d838df0906bee2c419cf",
+        "size_in_bytes": 2607
+      },
+      {
+        "_path": "include/pdal/filters/SMRFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "cd3f6d6a3ba6947e58529e5649ae15677233d3ddeca383f8c811da787b68ed57",
+        "sha256_in_prefix": "cd3f6d6a3ba6947e58529e5649ae15677233d3ddeca383f8c811da787b68ed57",
+        "size_in_bytes": 3458
+      },
+      {
+        "_path": "include/pdal/filters/SampleFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "c81feb08cd9e657a694c10aef07ae753ff52cb4ff0c603eee98baadf09faa22b",
+        "sha256_in_prefix": "c81feb08cd9e657a694c10aef07ae753ff52cb4ff0c603eee98baadf09faa22b",
+        "size_in_bytes": 2366
+      },
+      {
+        "_path": "include/pdal/filters/ShellFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "625f1c4a9ce564a032e8e7a9f09209030db05c7c3c2b42721df25bf2676c96ec",
+        "sha256_in_prefix": "625f1c4a9ce564a032e8e7a9f09209030db05c7c3c2b42721df25bf2676c96ec",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "include/pdal/filters/SortFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "bdcaa356f542cb0b87f2214cba00f033a998e63c91cb34b101ef2ed341bd3168",
+        "sha256_in_prefix": "bdcaa356f542cb0b87f2214cba00f033a998e63c91cb34b101ef2ed341bd3168",
+        "size_in_bytes": 2648
+      },
+      {
+        "_path": "include/pdal/filters/SplitterFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "b9596cc5484baa6d3cde60e7a3ded53b695c49fb00547f2670d4665052216162",
+        "sha256_in_prefix": "b9596cc5484baa6d3cde60e7a3ded53b695c49fb00547f2670d4665052216162",
+        "size_in_bytes": 3108
+      },
+      {
+        "_path": "include/pdal/filters/StatsFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "74e19e7852eec694a8d08fbfe98aaca17ca35262212cf414b9b03b8f86031ad8",
+        "sha256_in_prefix": "74e19e7852eec694a8d08fbfe98aaca17ca35262212cf414b9b03b8f86031ad8",
+        "size_in_bytes": 5917
+      },
+      {
+        "_path": "include/pdal/filters/StreamCallbackFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "0e5b66dd325c03621959c48d01f38607e407879c5874376e9a8ebf6cbf5247f6",
+        "sha256_in_prefix": "0e5b66dd325c03621959c48d01f38607e407879c5874376e9a8ebf6cbf5247f6",
+        "size_in_bytes": 2773
+      },
+      {
+        "_path": "include/pdal/filters/TailFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "a25d61cff320cadf305ddde379a7a1e54b2ba39cfa3ace2e89b7e52241d3719c",
+        "sha256_in_prefix": "a25d61cff320cadf305ddde379a7a1e54b2ba39cfa3ace2e89b7e52241d3719c",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "include/pdal/filters/TransformationFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "facbd4226c32617490f45c9dd354063c0d04a6011f20feab8af47683af224540",
+        "sha256_in_prefix": "facbd4226c32617490f45c9dd354063c0d04a6011f20feab8af47683af224540",
+        "size_in_bytes": 3322
+      },
+      {
+        "_path": "include/pdal/filters/VoxelCenterNearestNeighborFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "40ed0453ebcb0c72431d8a3acf7cd34b22e5d734dfb340d544a14e5ee2f2c746",
+        "sha256_in_prefix": "40ed0453ebcb0c72431d8a3acf7cd34b22e5d734dfb340d544a14e5ee2f2c746",
+        "size_in_bytes": 2502
+      },
+      {
+        "_path": "include/pdal/filters/VoxelCentroidNearestNeighborFilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "ba7286637d300448f5bce54afd4d05b895f8106c7a963dd3d6b929af5fd382d9",
+        "sha256_in_prefix": "ba7286637d300448f5bce54afd4d05b895f8106c7a963dd3d6b929af5fd382d9",
+        "size_in_bytes": 2514
+      },
+      {
+        "_path": "include/pdal/gitsha.h",
+        "path_type": "hardlink",
+        "sha256": "82c881519e495ff64d8069bb6866cfbd00eb0b911e162cda0e553c0e145b2f55",
+        "sha256_in_prefix": "82c881519e495ff64d8069bb6866cfbd00eb0b911e162cda0e553c0e145b2f55",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "include/pdal/io/BpfCompressor.hpp",
+        "path_type": "hardlink",
+        "sha256": "20e056a7186d165ed92b2f593ad0e2d528a4c9fa16c97dc56f635a63e53e5bdc",
+        "sha256_in_prefix": "20e056a7186d165ed92b2f593ad0e2d528a4c9fa16c97dc56f635a63e53e5bdc",
+        "size_in_bytes": 2843
+      },
+      {
+        "_path": "include/pdal/io/BpfHeader.hpp",
+        "path_type": "hardlink",
+        "sha256": "308490a60d4e773a7a110471bf94987ba5aa1a7e96fc0ec8d385329643285cf0",
+        "sha256_in_prefix": "308490a60d4e773a7a110471bf94987ba5aa1a7e96fc0ec8d385329643285cf0",
+        "size_in_bytes": 7164
+      },
+      {
+        "_path": "include/pdal/io/BpfReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "a1ae732c2bd4af0b16225f401bf3b32d582becf58c0fc6c40068a348d2104ffa",
+        "sha256_in_prefix": "a1ae732c2bd4af0b16225f401bf3b32d582becf58c0fc6c40068a348d2104ffa",
+        "size_in_bytes": 4225
+      },
+      {
+        "_path": "include/pdal/io/BpfWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "862fec491c19eed8adf74c9f06a60869b7f1a39802114118e0ead7619506513e",
+        "sha256_in_prefix": "862fec491c19eed8adf74c9f06a60869b7f1a39802114118e0ead7619506513e",
+        "size_in_bytes": 3393
+      },
+      {
+        "_path": "include/pdal/io/BufferReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "8ead5cec20bfc86da54549079e2083d15f30cbc295893f5b497caaa6287a21dd",
+        "sha256_in_prefix": "8ead5cec20bfc86da54549079e2083d15f30cbc295893f5b497caaa6287a21dd",
+        "size_in_bytes": 2284
+      },
+      {
+        "_path": "include/pdal/io/EptAddonWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "43172f509d5bba1050c17dc0deef4ae614b5bfe3ed21c616ae76c2d403d5ad5b",
+        "sha256_in_prefix": "43172f509d5bba1050c17dc0deef4ae614b5bfe3ed21c616ae76c2d403d5ad5b",
+        "size_in_bytes": 3126
+      },
+      {
+        "_path": "include/pdal/io/EptReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "58169ac310f8393f31f30177afa5f71f9e011c5a78eae2e5335bf9da952064b2",
+        "sha256_in_prefix": "58169ac310f8393f31f30177afa5f71f9e011c5a78eae2e5335bf9da952064b2",
+        "size_in_bytes": 5122
+      },
+      {
+        "_path": "include/pdal/io/FauxReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "c43c397c40cd6933d1aa97156d4ba3d566e3b36e55d05352d7810538a24a1ea1",
+        "sha256_in_prefix": "c43c397c40cd6933d1aa97156d4ba3d566e3b36e55d05352d7810538a24a1ea1",
+        "size_in_bytes": 5025
+      },
+      {
+        "_path": "include/pdal/io/GDALReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "75eb4dc6a37dc0ee0e9465eeb099be4029b89e6c54b61cfc57286f8018878cc4",
+        "sha256_in_prefix": "75eb4dc6a37dc0ee0e9465eeb099be4029b89e6c54b61cfc57286f8018878cc4",
+        "size_in_bytes": 2939
+      },
+      {
+        "_path": "include/pdal/io/GDALWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "44a82b4a2abc9cf7a0880cf6e452862b264ff167eac4245ab7d70bab82207aa7",
+        "sha256_in_prefix": "44a82b4a2abc9cf7a0880cf6e452862b264ff167eac4245ab7d70bab82207aa7",
+        "size_in_bytes": 3510
+      },
+      {
+        "_path": "include/pdal/io/GeotiffSupport.hpp",
+        "path_type": "hardlink",
+        "sha256": "d0e31e28de3d2589a372e7bee15d4c9b85eb015d36ad002fea008e54be10124a",
+        "sha256_in_prefix": "d0e31e28de3d2589a372e7bee15d4c9b85eb015d36ad002fea008e54be10124a",
+        "size_in_bytes": 2916
+      },
+      {
+        "_path": "include/pdal/io/GltfWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "eb698bcc618b6b1419ac506d791b6e69a6c3b01944d4d890712d06c14975525e",
+        "sha256_in_prefix": "eb698bcc618b6b1419ac506d791b6e69a6c3b01944d4d890712d06c14975525e",
+        "size_in_bytes": 2762
+      },
+      {
+        "_path": "include/pdal/io/HeaderVal.hpp",
+        "path_type": "hardlink",
+        "sha256": "d2776a7b3164c7f208d019cdff7ee184fdad70b7af70139f6bf496f511cd14c0",
+        "sha256_in_prefix": "d2776a7b3164c7f208d019cdff7ee184fdad70b7af70139f6bf496f511cd14c0",
+        "size_in_bytes": 5375
+      },
+      {
+        "_path": "include/pdal/io/Ilvis2MetadataReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "f6a6a46b08b7de7ef4f63b1ef2aaa8ac75ff32b0c510fc6ea087b28b52d3f545",
+        "sha256_in_prefix": "f6a6a46b08b7de7ef4f63b1ef2aaa8ac75ff32b0c510fc6ea087b28b52d3f545",
+        "size_in_bytes": 4603
+      },
+      {
+        "_path": "include/pdal/io/Ilvis2Reader.hpp",
+        "path_type": "hardlink",
+        "sha256": "0899bee8b89804e8110b1fef9982a49accce52ca49b585948d57db65c058d9c3",
+        "sha256_in_prefix": "0899bee8b89804e8110b1fef9982a49accce52ca49b585948d57db65c058d9c3",
+        "size_in_bytes": 3325
+      },
+      {
+        "_path": "include/pdal/io/LasError.hpp",
+        "path_type": "hardlink",
+        "sha256": "3cb381a2b507955368812e22892fdcb08befd445e708abf8370088ddb9f1af6e",
+        "sha256_in_prefix": "3cb381a2b507955368812e22892fdcb08befd445e708abf8370088ddb9f1af6e",
+        "size_in_bytes": 2931
+      },
+      {
+        "_path": "include/pdal/io/LasHeader.hpp",
+        "path_type": "hardlink",
+        "sha256": "fcb33596ad4dda763c43da259a6d1a61744dd2c6b433958e1e6a1cc1ae02a673",
+        "sha256_in_prefix": "fcb33596ad4dda763c43da259a6d1a61744dd2c6b433958e1e6a1cc1ae02a673",
+        "size_in_bytes": 14095
+      },
+      {
+        "_path": "include/pdal/io/LasReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "63598c8663dbff48dfd59dd9cde6f40715bc295571830a32e21c8da7b2f877a8",
+        "sha256_in_prefix": "63598c8663dbff48dfd59dd9cde6f40715bc295571830a32e21c8da7b2f877a8",
+        "size_in_bytes": 5468
+      },
+      {
+        "_path": "include/pdal/io/LasSummaryData.hpp",
+        "path_type": "hardlink",
+        "sha256": "e82de256d69cab302af7275ebe3db4fa41cf22d920ff9fe399200440978bb7cf",
+        "sha256_in_prefix": "e82de256d69cab302af7275ebe3db4fa41cf22d920ff9fe399200440978bb7cf",
+        "size_in_bytes": 2855
+      },
+      {
+        "_path": "include/pdal/io/LasUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "c51f221c0e2ecbcdc7108eb03edd2c26d5e9168950174c072afd95a559dfe7ae",
+        "sha256_in_prefix": "c51f221c0e2ecbcdc7108eb03edd2c26d5e9168950174c072afd95a559dfe7ae",
+        "size_in_bytes": 5591
+      },
+      {
+        "_path": "include/pdal/io/LasVLR.hpp",
+        "path_type": "hardlink",
+        "sha256": "6e8866544de643c49ad8b4b561c9eef3de851d91e57b0fc25d9d369e4737843a",
+        "sha256_in_prefix": "6e8866544de643c49ad8b4b561c9eef3de851d91e57b0fc25d9d369e4737843a",
+        "size_in_bytes": 4597
+      },
+      {
+        "_path": "include/pdal/io/LasWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "56053180f5ddd25d69658f99f2892711f8d9c93e38c751c25b9f411285414f85",
+        "sha256_in_prefix": "56053180f5ddd25d69658f99f2892711f8d9c93e38c751c25b9f411285414f85",
+        "size_in_bytes": 6609
+      },
+      {
+        "_path": "include/pdal/io/MemoryViewReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "4acbfd87c02934396c994ee7505507ad766dd963895ccd46e48d9e1823267f26",
+        "sha256_in_prefix": "4acbfd87c02934396c994ee7505507ad766dd963895ccd46e48d9e1823267f26",
+        "size_in_bytes": 7269
+      },
+      {
+        "_path": "include/pdal/io/NullWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "336a44f43c3f830e96b26d0cfc95f458eb4dfbc6935dc1018d269213bc49cf15",
+        "sha256_in_prefix": "336a44f43c3f830e96b26d0cfc95f458eb4dfbc6935dc1018d269213bc49cf15",
+        "size_in_bytes": 2016
+      },
+      {
+        "_path": "include/pdal/io/NumpyReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "23e485b96587109b63fcc24f92b395fc5c6604af35c3c1c392836e4f312a931c",
+        "sha256_in_prefix": "23e485b96587109b63fcc24f92b395fc5c6604af35c3c1c392836e4f312a931c",
+        "size_in_bytes": 4108
+      },
+      {
+        "_path": "include/pdal/io/OGRWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "ee0914c2808e27f6fa9b2e92f051a77cb7a0dedc383c8e55d5bcf3f7ac535215",
+        "sha256_in_prefix": "ee0914c2808e27f6fa9b2e92f051a77cb7a0dedc383c8e55d5bcf3f7ac535215",
+        "size_in_bytes": 2903
+      },
+      {
+        "_path": "include/pdal/io/OptechCommon.hpp",
+        "path_type": "hardlink",
+        "sha256": "ba031e5059f1ab0f1f36fc6d689e673b4f34f0b5fda6d751802fc70e16abc76e",
+        "sha256_in_prefix": "ba031e5059f1ab0f1f36fc6d689e673b4f34f0b5fda6d751802fc70e16abc76e",
+        "size_in_bytes": 3933
+      },
+      {
+        "_path": "include/pdal/io/OptechReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "67df2ffcf32e88fd8a7e24279427910c484840fd719a6bb8b9d36d729f6468c7",
+        "sha256_in_prefix": "67df2ffcf32e88fd8a7e24279427910c484840fd719a6bb8b9d36d729f6468c7",
+        "size_in_bytes": 3065
+      },
+      {
+        "_path": "include/pdal/io/OptechRotationMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "b8aad2c1c6fcf63436ce32f33c1f3093fb0a2f49eb6baa8e9ab009f0c8caeb55",
+        "sha256_in_prefix": "b8aad2c1c6fcf63436ce32f33c1f3093fb0a2f49eb6baa8e9ab009f0c8caeb55",
+        "size_in_bytes": 1885
+      },
+      {
+        "_path": "include/pdal/io/PcdHeader.hpp",
+        "path_type": "hardlink",
+        "sha256": "5792c05590f9f4599940731fb4d29ff19a7a006a3750a937a231c27146ad7b62",
+        "sha256_in_prefix": "5792c05590f9f4599940731fb4d29ff19a7a006a3750a937a231c27146ad7b62",
+        "size_in_bytes": 3737
+      },
+      {
+        "_path": "include/pdal/io/PcdReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "b9370abf13d6cfc13f7408322ffa9bc183b87acaccf2f88bcd1e1dfef57ea9a3",
+        "sha256_in_prefix": "b9370abf13d6cfc13f7408322ffa9bc183b87acaccf2f88bcd1e1dfef57ea9a3",
+        "size_in_bytes": 2682
+      },
+      {
+        "_path": "include/pdal/io/PcdWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "215b65889815b34c0fb43f1ce33af188d3d09a8f5d1dc5592b639770ff493219",
+        "sha256_in_prefix": "215b65889815b34c0fb43f1ce33af188d3d09a8f5d1dc5592b639770ff493219",
+        "size_in_bytes": 3121
+      },
+      {
+        "_path": "include/pdal/io/PlyReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "912b980da16b1da3bdaf80eb88bec962468ffb2c0d65b2edb67f29c3cf3c7741",
+        "sha256_in_prefix": "912b980da16b1da3bdaf80eb88bec962468ffb2c0d65b2edb67f29c3cf3c7741",
+        "size_in_bytes": 4812
+      },
+      {
+        "_path": "include/pdal/io/PlyWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "2911dd10e038179ce292625324bd78b880040036585a4a21c68dc48af619bfb9",
+        "sha256_in_prefix": "2911dd10e038179ce292625324bd78b880040036585a4a21c68dc48af619bfb9",
+        "size_in_bytes": 3783
+      },
+      {
+        "_path": "include/pdal/io/PtsReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "df13bf6b725ac71c39e61c8deae2a1c64f3a736528915afbdbe0b26d15b2ecaf",
+        "sha256_in_prefix": "df13bf6b725ac71c39e61c8deae2a1c64f3a736528915afbdbe0b26d15b2ecaf",
+        "size_in_bytes": 3288
+      },
+      {
+        "_path": "include/pdal/io/QfitReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "46363bcaff0bccef757a4e167cb372d2743cbc98b501b8b782ab298076f54d56",
+        "sha256_in_prefix": "46363bcaff0bccef757a4e167cb372d2743cbc98b501b8b782ab298076f54d56",
+        "size_in_bytes": 2892
+      },
+      {
+        "_path": "include/pdal/io/SbetCommon.hpp",
+        "path_type": "hardlink",
+        "sha256": "726b7e8e2843ab554f4f20bbfd4ed788f85e99c657a789faa913d400a5f66b0d",
+        "sha256_in_prefix": "726b7e8e2843ab554f4f20bbfd4ed788f85e99c657a789faa913d400a5f66b0d",
+        "size_in_bytes": 3176
+      },
+      {
+        "_path": "include/pdal/io/SbetReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "f9e75a3f3266d1b73f9b0c3cfc2f2f2e707e460d06a996ecb2a6c9225021cf3e",
+        "sha256_in_prefix": "f9e75a3f3266d1b73f9b0c3cfc2f2f2e707e460d06a996ecb2a6c9225021cf3e",
+        "size_in_bytes": 2672
+      },
+      {
+        "_path": "include/pdal/io/SbetWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "be79a87b22fa090e111f7e4db253085c7124d7125df81533f5531386f6d631c6",
+        "sha256_in_prefix": "be79a87b22fa090e111f7e4db253085c7124d7125df81533f5531386f6d631c6",
+        "size_in_bytes": 2316
+      },
+      {
+        "_path": "include/pdal/io/TIndexReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "ea52376f98c5ab6f0f5aaf4448b85227471faf59c162491110a7312c0eb1e666",
+        "sha256_in_prefix": "ea52376f98c5ab6f0f5aaf4448b85227471faf59c162491110a7312c0eb1e666",
+        "size_in_bytes": 3300
+      },
+      {
+        "_path": "include/pdal/io/TerrasolidReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "f4be606bb172039eb2f366f6bd5331e2e9e1e6fff42100d723d45de96b0c0664",
+        "sha256_in_prefix": "f4be606bb172039eb2f366f6bd5331e2e9e1e6fff42100d723d45de96b0c0664",
+        "size_in_bytes": 3831
+      },
+      {
+        "_path": "include/pdal/io/TextReader.hpp",
+        "path_type": "hardlink",
+        "sha256": "3d908296fd48061e059aceb942944f06761110b17702f977594324052c9251ea",
+        "sha256_in_prefix": "3d908296fd48061e059aceb942944f06761110b17702f977594324052c9251ea",
+        "size_in_bytes": 4346
+      },
+      {
+        "_path": "include/pdal/io/TextWriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "62be2807840b92bc29a15ebda089ac3355f71744350984b8d66d44d9a202559e",
+        "sha256_in_prefix": "62be2807840b92bc29a15ebda089ac3355f71744350984b8d66d44d9a202559e",
+        "size_in_bytes": 3606
+      },
+      {
+        "_path": "include/pdal/io/point_types.hpp",
+        "path_type": "hardlink",
+        "sha256": "1cb94218b2380e2e86a404b4e6e09c15adf3b02f507fa81fa1536ca0f8a24725",
+        "sha256_in_prefix": "1cb94218b2380e2e86a404b4e6e09c15adf3b02f507fa81fa1536ca0f8a24725",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "include/pdal/kernels/DeltaKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "61f45c27e1ae6f494238f1e9a86fb5ccd1cfcc2bd4368fef438ccd755bbd7ecf",
+        "sha256_in_prefix": "61f45c27e1ae6f494238f1e9a86fb5ccd1cfcc2bd4368fef438ccd755bbd7ecf",
+        "size_in_bytes": 3098
+      },
+      {
+        "_path": "include/pdal/kernels/DensityKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "77cd116bc8269567b0b65feeacfcde0c1c8b59da152043eefef93b6c5fc446c0",
+        "sha256_in_prefix": "77cd116bc8269567b0b65feeacfcde0c1c8b59da152043eefef93b6c5fc446c0",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "include/pdal/kernels/GroundKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "83243bebc0205915d0a7be3c23ffce8872027c564a8ac69c8bcd7de46a6c9ce3",
+        "sha256_in_prefix": "83243bebc0205915d0a7be3c23ffce8872027c564a8ac69c8bcd7de46a6c9ce3",
+        "size_in_bytes": 2718
+      },
+      {
+        "_path": "include/pdal/kernels/HausdorffKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "7be6a42d8262624ee20e826285c5cda548a4d056c013b739db3c96e46e5f489d",
+        "sha256_in_prefix": "7be6a42d8262624ee20e826285c5cda548a4d056c013b739db3c96e46e5f489d",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "include/pdal/kernels/InfoKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "2bcd29c8e481d9d2bfae7e14b99af4413bdad42be207c0cc7b33e84c33dae4fc",
+        "sha256_in_prefix": "2bcd29c8e481d9d2bfae7e14b99af4413bdad42be207c0cc7b33e84c33dae4fc",
+        "size_in_bytes": 3327
+      },
+      {
+        "_path": "include/pdal/kernels/MergeKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "f52ba108ddd1a5835c821dc7b7c7042246a4bddbb11181547c74c9c1c077595d",
+        "sha256_in_prefix": "f52ba108ddd1a5835c821dc7b7c7042246a4bddbb11181547c74c9c1c077595d",
+        "size_in_bytes": 2117
+      },
+      {
+        "_path": "include/pdal/kernels/PipelineKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "911f427ff1ffb05c6b0888b3f737ff099a36bf9f0d1ff4f013b179f2073554c4",
+        "sha256_in_prefix": "911f427ff1ffb05c6b0888b3f737ff099a36bf9f0d1ff4f013b179f2073554c4",
+        "size_in_bytes": 2544
+      },
+      {
+        "_path": "include/pdal/kernels/RandomKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "18421ec132c690107ceb9e5bf9d997938a2ce26e9169a34bf4af44e05b990c1f",
+        "sha256_in_prefix": "18421ec132c690107ceb9e5bf9d997938a2ce26e9169a34bf4af44e05b990c1f",
+        "size_in_bytes": 2265
+      },
+      {
+        "_path": "include/pdal/kernels/SortKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "668134836b608ffee09d934d2cd9d8d8465c0f5c8b35ae0015a3e300cca7fbe5",
+        "sha256_in_prefix": "668134836b608ffee09d934d2cd9d8d8465c0f5c8b35ae0015a3e300cca7fbe5",
+        "size_in_bytes": 2164
+      },
+      {
+        "_path": "include/pdal/kernels/SplitKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "8655b746bab4931b0a251afbaab74e1d0aff7269edfa7dfe95c8d4f584651992",
+        "sha256_in_prefix": "8655b746bab4931b0a251afbaab74e1d0aff7269edfa7dfe95c8d4f584651992",
+        "size_in_bytes": 2222
+      },
+      {
+        "_path": "include/pdal/kernels/TIndexKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "006b6fd825a993583be5164d2ccc2944e74830f28d0475353d5ed2dd81903ba1",
+        "sha256_in_prefix": "006b6fd825a993583be5164d2ccc2944e74830f28d0475353d5ed2dd81903ba1",
+        "size_in_bytes": 3985
+      },
+      {
+        "_path": "include/pdal/kernels/TileKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "6eae51c68493bb36d1d7d05ad8f1051448b543ff7b82f72590fe9831fc024871",
+        "sha256_in_prefix": "6eae51c68493bb36d1d7d05ad8f1051448b543ff7b82f72590fe9831fc024871",
+        "size_in_bytes": 2783
+      },
+      {
+        "_path": "include/pdal/kernels/TranslateKernel.hpp",
+        "path_type": "hardlink",
+        "sha256": "ae1ca5e49a81ec14d21faf2c84f0afb2b06e16d820e5606d74c3f9e29e71b9e2",
+        "sha256_in_prefix": "ae1ca5e49a81ec14d21faf2c84f0afb2b06e16d820e5606d74c3f9e29e71b9e2",
+        "size_in_bytes": 2635
+      },
+      {
+        "_path": "include/pdal/pdal.hpp",
+        "path_type": "hardlink",
+        "sha256": "9c6d4b66f87be711b279a4295f867f7d534bc52f62b1a412f3e0efb92ad0a402",
+        "sha256_in_prefix": "9c6d4b66f87be711b279a4295f867f7d534bc52f62b1a412f3e0efb92ad0a402",
+        "size_in_bytes": 1963
+      },
+      {
+        "_path": "include/pdal/pdal_config.hpp",
+        "path_type": "hardlink",
+        "sha256": "7d88a6f29b2ffd2b64f82dc6e965a56fac7cd273e5c4b922b89ccfae2731ac0d",
+        "sha256_in_prefix": "7d88a6f29b2ffd2b64f82dc6e965a56fac7cd273e5c4b922b89ccfae2731ac0d",
+        "size_in_bytes": 2495
+      },
+      {
+        "_path": "include/pdal/pdal_export.hpp",
+        "path_type": "hardlink",
+        "sha256": "2b71ae28f92577141fec281783cd21ff0d1941842f167299169917e66a82c49f",
+        "sha256_in_prefix": "2b71ae28f92577141fec281783cd21ff0d1941842f167299169917e66a82c49f",
+        "size_in_bytes": 1981
+      },
+      {
+        "_path": "include/pdal/pdal_features.hpp",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "bba669285c52dd1c3d7fce283bc3e71206886da14785657440d5f43fa7e1fe57",
+        "sha256_in_prefix": "a4119c7685615a84e159bd6deeb910adfed6c0cd0bd2eaff0decf998184b255d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "include/pdal/pdal_internal.hpp",
+        "path_type": "hardlink",
+        "sha256": "68223bcb05eb6ba5d1fb4e5dc367612a6e0640aea32bcca07dec2e8fffe13d5a",
+        "sha256_in_prefix": "68223bcb05eb6ba5d1fb4e5dc367612a6e0640aea32bcca07dec2e8fffe13d5a",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "include/pdal/pdal_test_main.hpp",
+        "path_type": "hardlink",
+        "sha256": "49e7e9e4891fd2fd869caf374cec75a978e3424fc3645575809f9b4dfed023fb",
+        "sha256_in_prefix": "49e7e9e4891fd2fd869caf374cec75a978e3424fc3645575809f9b4dfed023fb",
+        "size_in_bytes": 2179
+      },
+      {
+        "_path": "include/pdal/pdal_types.hpp",
+        "path_type": "hardlink",
+        "sha256": "f244f2734f481a49262110339650318dda4c3a7c0673a4021f31cc5352e362aa",
+        "sha256_in_prefix": "f244f2734f481a49262110339650318dda4c3a7c0673a4021f31cc5352e362aa",
+        "size_in_bytes": 5781
+      },
+      {
+        "_path": "include/pdal/util/Algorithm.hpp",
+        "path_type": "hardlink",
+        "sha256": "49fb5e8d196e26f8cc28b34a9588c43f7bbcf019a30d51f9932f260561265e5c",
+        "sha256_in_prefix": "49fb5e8d196e26f8cc28b34a9588c43f7bbcf019a30d51f9932f260561265e5c",
+        "size_in_bytes": 3193
+      },
+      {
+        "_path": "include/pdal/util/Backtrace.hpp",
+        "path_type": "hardlink",
+        "sha256": "c08c2836228d065b49da8ac25b261e0abec4f7a143f256a841d28023f9f9b6ae",
+        "sha256_in_prefix": "c08c2836228d065b49da8ac25b261e0abec4f7a143f256a841d28023f9f9b6ae",
+        "size_in_bytes": 2114
+      },
+      {
+        "_path": "include/pdal/util/Bounds.hpp",
+        "path_type": "hardlink",
+        "sha256": "aa90a3a7445125124e724c769e8969ccd660743ffee50dcacc274bdbc187af2a",
+        "sha256_in_prefix": "aa90a3a7445125124e724c769e8969ccd660743ffee50dcacc274bdbc187af2a",
+        "size_in_bytes": 21068
+      },
+      {
+        "_path": "include/pdal/util/Charbuf.hpp",
+        "path_type": "hardlink",
+        "sha256": "6992e6c83ca812f95c6462f7d7efa9b14ecff3b9eca159207cc00468b04b2fab",
+        "sha256_in_prefix": "6992e6c83ca812f95c6462f7d7efa9b14ecff3b9eca159207cc00468b04b2fab",
+        "size_in_bytes": 4209
+      },
+      {
+        "_path": "include/pdal/util/Extractor.hpp",
+        "path_type": "hardlink",
+        "sha256": "83d453efe91af8b7beacd389a15e64340fd39fb690386a051f3c376ec5c8bfc8",
+        "sha256_in_prefix": "83d453efe91af8b7beacd389a15e64340fd39fb690386a051f3c376ec5c8bfc8",
+        "size_in_bytes": 17533
+      },
+      {
+        "_path": "include/pdal/util/FileUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "5433049cc81bbd730fddf2eaf251b52a6e6ff3dfa1573240c5f0a4126183c099",
+        "sha256_in_prefix": "5433049cc81bbd730fddf2eaf251b52a6e6ff3dfa1573240c5f0a4126183c099",
+        "size_in_bytes": 7876
+      },
+      {
+        "_path": "include/pdal/util/Georeference.hpp",
+        "path_type": "hardlink",
+        "sha256": "8bedb61fe1957ea2870b7fac8019e9135539c627d5265352315bb0707a54cb1d",
+        "sha256_in_prefix": "8bedb61fe1957ea2870b7fac8019e9135539c627d5265352315bb0707a54cb1d",
+        "size_in_bytes": 2898
+      },
+      {
+        "_path": "include/pdal/util/IStream.hpp",
+        "path_type": "hardlink",
+        "sha256": "7de1ca468f1170aec2a0cb604c00beb08474a9011c5ebff0adab233f64e022c5",
+        "sha256_in_prefix": "7de1ca468f1170aec2a0cb604c00beb08474a9011c5ebff0adab233f64e022c5",
+        "size_in_bytes": 18143
+      },
+      {
+        "_path": "include/pdal/util/Inserter.hpp",
+        "path_type": "hardlink",
+        "sha256": "64ca3a9c14b0457873ae448437a9ec03ad45746b92a189c6d29ca6720e2b09d4",
+        "sha256_in_prefix": "64ca3a9c14b0457873ae448437a9ec03ad45746b92a189c6d29ca6720e2b09d4",
+        "size_in_bytes": 7812
+      },
+      {
+        "_path": "include/pdal/util/NullOStream.hpp",
+        "path_type": "hardlink",
+        "sha256": "d3a9a87c85971fde57ea653e4a56674a8e8ed33e109b1bb2e810963d02f71aba",
+        "sha256_in_prefix": "d3a9a87c85971fde57ea653e4a56674a8e8ed33e109b1bb2e810963d02f71aba",
+        "size_in_bytes": 2417
+      },
+      {
+        "_path": "include/pdal/util/OStream.hpp",
+        "path_type": "hardlink",
+        "sha256": "5a06d74147ce3829113e4b025c7e587181461387d781115df728d725d9ea8326",
+        "sha256_in_prefix": "5a06d74147ce3829113e4b025c7e587181461387d781115df728d725d9ea8326",
+        "size_in_bytes": 8719
+      },
+      {
+        "_path": "include/pdal/util/ProgramArgs.hpp",
+        "path_type": "hardlink",
+        "sha256": "06f2a456f480a0c513f9fea0c4bcb9a7213cb5f58627eca71d7cf9360482fb10",
+        "sha256_in_prefix": "06f2a456f480a0c513f9fea0c4bcb9a7213cb5f58627eca71d7cf9360482fb10",
+        "size_in_bytes": 47245
+      },
+      {
+        "_path": "include/pdal/util/Utils.hpp",
+        "path_type": "hardlink",
+        "sha256": "1f9b50cceefcb446a3e728f63a834ecba9fd64ea5d0261154fed9fbe44ee215a",
+        "sha256_in_prefix": "1f9b50cceefcb446a3e728f63a834ecba9fd64ea5d0261154fed9fbe44ee215a",
+        "size_in_bytes": 33406
+      },
+      {
+        "_path": "include/pdal/util/Uuid.hpp",
+        "path_type": "hardlink",
+        "sha256": "cf7e7f0fa37f120a30866773f80852c02aef832ad172635fbab04c1b7ef6934c",
+        "sha256_in_prefix": "cf7e7f0fa37f120a30866773f80852c02aef832ad172635fbab04c1b7ef6934c",
+        "size_in_bytes": 6921
+      },
+      {
+        "_path": "include/pdal/util/pdal_util_export.hpp",
+        "path_type": "hardlink",
+        "sha256": "03c263dd9c68facc1d2264b12558a0012bc9602e3a6c92661a7a5cbd4129aa8e",
+        "sha256_in_prefix": "03c263dd9c68facc1d2264b12558a0012bc9602e3a6c92661a7a5cbd4129aa8e",
+        "size_in_bytes": 2330
+      },
+      {
+        "_path": "include/pdal/util/portable_endian.hpp",
+        "path_type": "hardlink",
+        "sha256": "814f1b711c653f16cba59f7d09e23cd31ac0c7e33d7c13abf6693ecedf1b3a92",
+        "sha256_in_prefix": "814f1b711c653f16cba59f7d09e23cd31ac0c7e33d7c13abf6693ecedf1b3a92",
+        "size_in_bytes": 3133
+      },
+      {
+        "_path": "lib/cmake/PDAL/PDALConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a5940167fbb4f77175439ddf7d9fe260b137f738bcbb46cc90b2dcf21c67d2f3",
+        "sha256_in_prefix": "1be81a4d47e4d5755613281842f96bc086dc89cb6e8b928e1e9ae12f72ff798b",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "lib/cmake/PDAL/PDALConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "6397f38e98771f34bb425b40cb51bf004e3c9f1226c7a8bda207ac0eed672156",
+        "sha256_in_prefix": "6397f38e98771f34bb425b40cb51bf004e3c9f1226c7a8bda207ac0eed672156",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "lib/cmake/PDAL/PDALTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "5830401035213084622e598e845cda9f2f4b3298986e4ddbbc05a7fc08ed1fd8",
+        "sha256_in_prefix": "5830401035213084622e598e845cda9f2f4b3298986e4ddbbc05a7fc08ed1fd8",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "lib/cmake/PDAL/PDALTargets.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "2537eaf2d8ad498f4dd2eeb6913967028805653c0254ce60291374b911064900",
+        "sha256_in_prefix": "6733f27bc92db24cc5bb5638d4cb6c1dd1cd067f224df3d901ac49c38a95f25a",
+        "size_in_bytes": 3816
+      },
+      {
+        "_path": "lib/libpdal_base.so",
+        "path_type": "softlink",
+        "sha256": "74ffe88be939102e06ffa3a5b6fdce866b376ad0f807686237d4ec0f0d4812a2",
+        "size_in_bytes": 7692840
+      },
+      {
+        "_path": "lib/libpdal_base.so.10",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "74ffe88be939102e06ffa3a5b6fdce866b376ad0f807686237d4ec0f0d4812a2",
+        "sha256_in_prefix": "d70de34b03c27f73500ee99784757d8d896f5eea8ef49a321df992353394be10",
+        "size_in_bytes": 7692840
+      },
+      {
+        "_path": "lib/libpdal_base.so.9",
+        "path_type": "softlink",
+        "sha256": "74ffe88be939102e06ffa3a5b6fdce866b376ad0f807686237d4ec0f0d4812a2",
+        "size_in_bytes": 7692840
+      },
+      {
+        "_path": "lib/libpdal_plugin_filter_python.so",
+        "path_type": "softlink",
+        "sha256": "ecf3a9b9e90b7d50fd50ebeed36213ddfc16138703deeaa3719f6368e0ea2e61",
+        "size_in_bytes": 354216
+      },
+      {
+        "_path": "lib/libpdal_plugin_filter_python.so.10",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ecf3a9b9e90b7d50fd50ebeed36213ddfc16138703deeaa3719f6368e0ea2e61",
+        "sha256_in_prefix": "cdf8d2e614f2f4d956597823a28e4e449d54298e179e09f0583b8a8bcef8ff0f",
+        "size_in_bytes": 354216
+      },
+      {
+        "_path": "lib/libpdal_plugin_filter_python.so.9",
+        "path_type": "softlink",
+        "sha256": "ecf3a9b9e90b7d50fd50ebeed36213ddfc16138703deeaa3719f6368e0ea2e61",
+        "size_in_bytes": 354216
+      },
+      {
+        "_path": "lib/libpdal_plugin_kernel_fauxplugin.so",
+        "path_type": "softlink",
+        "sha256": "819f514421cebc713216bbcd22f568514ae6ae5df1b1d13872159a547e73dec8",
+        "size_in_bytes": 59352
+      },
+      {
+        "_path": "lib/libpdal_plugin_kernel_fauxplugin.so.10",
+        "path_type": "hardlink",
+        "sha256": "819f514421cebc713216bbcd22f568514ae6ae5df1b1d13872159a547e73dec8",
+        "sha256_in_prefix": "819f514421cebc713216bbcd22f568514ae6ae5df1b1d13872159a547e73dec8",
+        "size_in_bytes": 59352
+      },
+      {
+        "_path": "lib/libpdal_plugin_kernel_fauxplugin.so.9",
+        "path_type": "softlink",
+        "sha256": "819f514421cebc713216bbcd22f568514ae6ae5df1b1d13872159a547e73dec8",
+        "size_in_bytes": 59352
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_e57.so",
+        "path_type": "softlink",
+        "sha256": "20d84f43fcb99a584f7ba6f6eefa367047380490b37cdb4e350c5f695461e647",
+        "size_in_bytes": 1007400
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_e57.so.10",
+        "path_type": "hardlink",
+        "sha256": "20d84f43fcb99a584f7ba6f6eefa367047380490b37cdb4e350c5f695461e647",
+        "sha256_in_prefix": "20d84f43fcb99a584f7ba6f6eefa367047380490b37cdb4e350c5f695461e647",
+        "size_in_bytes": 1007400
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_e57.so.9",
+        "path_type": "softlink",
+        "sha256": "20d84f43fcb99a584f7ba6f6eefa367047380490b37cdb4e350c5f695461e647",
+        "size_in_bytes": 1007400
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_i3s.so",
+        "path_type": "softlink",
+        "sha256": "9754c6fcaa44530934aaec72902d87de6844f5420cd62ac60e91170e3573c173",
+        "size_in_bytes": 510744
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_i3s.so.10",
+        "path_type": "hardlink",
+        "sha256": "9754c6fcaa44530934aaec72902d87de6844f5420cd62ac60e91170e3573c173",
+        "sha256_in_prefix": "9754c6fcaa44530934aaec72902d87de6844f5420cd62ac60e91170e3573c173",
+        "size_in_bytes": 510744
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_i3s.so.9",
+        "path_type": "softlink",
+        "sha256": "9754c6fcaa44530934aaec72902d87de6844f5420cd62ac60e91170e3573c173",
+        "size_in_bytes": 510744
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_icebridge.so",
+        "path_type": "softlink",
+        "sha256": "c0b25a9f876151cba05375fa1368cd5bd87697dac3b305472a8a20c12cd36646",
+        "size_in_bytes": 135216
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_icebridge.so.10",
+        "path_type": "hardlink",
+        "sha256": "c0b25a9f876151cba05375fa1368cd5bd87697dac3b305472a8a20c12cd36646",
+        "sha256_in_prefix": "c0b25a9f876151cba05375fa1368cd5bd87697dac3b305472a8a20c12cd36646",
+        "size_in_bytes": 135216
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_icebridge.so.9",
+        "path_type": "softlink",
+        "sha256": "c0b25a9f876151cba05375fa1368cd5bd87697dac3b305472a8a20c12cd36646",
+        "size_in_bytes": 135216
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_nitf.so",
+        "path_type": "softlink",
+        "sha256": "5382d8c3fc1a10437da16144a1ed5914df839a18d6fd32ded711586b2824dfae",
+        "size_in_bytes": 305648
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_nitf.so.10",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5382d8c3fc1a10437da16144a1ed5914df839a18d6fd32ded711586b2824dfae",
+        "sha256_in_prefix": "48100fc2e45f32cdd47ba7507f82a2a6f9b55824d47b89ae432a788043fdbf2a",
+        "size_in_bytes": 305648
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_nitf.so.9",
+        "path_type": "softlink",
+        "sha256": "5382d8c3fc1a10437da16144a1ed5914df839a18d6fd32ded711586b2824dfae",
+        "size_in_bytes": 305648
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_numpy.so",
+        "path_type": "softlink",
+        "sha256": "931cc0192d231b6a54d0a21470df9fafad9455dfd3b76dad06ed4eb44f5ec79b",
+        "size_in_bytes": 187344
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_numpy.so.10",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "931cc0192d231b6a54d0a21470df9fafad9455dfd3b76dad06ed4eb44f5ec79b",
+        "sha256_in_prefix": "1200233790350a41203a3534ed2074d17bbd789033eb2416a21fc57b6ec120d6",
+        "size_in_bytes": 187344
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_numpy.so.9",
+        "path_type": "softlink",
+        "sha256": "931cc0192d231b6a54d0a21470df9fafad9455dfd3b76dad06ed4eb44f5ec79b",
+        "size_in_bytes": 187344
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_pgpointcloud.so",
+        "path_type": "softlink",
+        "sha256": "23b03c3db372c97668aaee410e07155f0d7d61c540cb825eb20af1d62fd6417b",
+        "size_in_bytes": 124576
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_pgpointcloud.so.10",
+        "path_type": "hardlink",
+        "sha256": "23b03c3db372c97668aaee410e07155f0d7d61c540cb825eb20af1d62fd6417b",
+        "sha256_in_prefix": "23b03c3db372c97668aaee410e07155f0d7d61c540cb825eb20af1d62fd6417b",
+        "size_in_bytes": 124576
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_pgpointcloud.so.9",
+        "path_type": "softlink",
+        "sha256": "23b03c3db372c97668aaee410e07155f0d7d61c540cb825eb20af1d62fd6417b",
+        "size_in_bytes": 124576
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_slpk.so",
+        "path_type": "softlink",
+        "sha256": "93c929d8405d9672d65ef6569e33ac175f6f30e5d42bd522c661543d64f94f4c",
+        "size_in_bytes": 491240
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_slpk.so.10",
+        "path_type": "hardlink",
+        "sha256": "93c929d8405d9672d65ef6569e33ac175f6f30e5d42bd522c661543d64f94f4c",
+        "sha256_in_prefix": "93c929d8405d9672d65ef6569e33ac175f6f30e5d42bd522c661543d64f94f4c",
+        "size_in_bytes": 491240
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_slpk.so.9",
+        "path_type": "softlink",
+        "sha256": "93c929d8405d9672d65ef6569e33ac175f6f30e5d42bd522c661543d64f94f4c",
+        "size_in_bytes": 491240
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_sqlite.so",
+        "path_type": "softlink",
+        "sha256": "4bb427aebb818e8b302296de94860163acf81e9db0df23a1d1c08249f4fa6fc6",
+        "size_in_bytes": 165992
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_sqlite.so.10",
+        "path_type": "hardlink",
+        "sha256": "4bb427aebb818e8b302296de94860163acf81e9db0df23a1d1c08249f4fa6fc6",
+        "sha256_in_prefix": "4bb427aebb818e8b302296de94860163acf81e9db0df23a1d1c08249f4fa6fc6",
+        "size_in_bytes": 165992
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_sqlite.so.9",
+        "path_type": "softlink",
+        "sha256": "4bb427aebb818e8b302296de94860163acf81e9db0df23a1d1c08249f4fa6fc6",
+        "size_in_bytes": 165992
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_tiledb.so",
+        "path_type": "softlink",
+        "sha256": "8beb185eefb6e78359d0f502f846286a9e39c0292cd0c08f6d0cbeff271b65c3",
+        "size_in_bytes": 225304
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_tiledb.so.10",
+        "path_type": "hardlink",
+        "sha256": "8beb185eefb6e78359d0f502f846286a9e39c0292cd0c08f6d0cbeff271b65c3",
+        "sha256_in_prefix": "8beb185eefb6e78359d0f502f846286a9e39c0292cd0c08f6d0cbeff271b65c3",
+        "size_in_bytes": 225304
+      },
+      {
+        "_path": "lib/libpdal_plugin_reader_tiledb.so.9",
+        "path_type": "softlink",
+        "sha256": "8beb185eefb6e78359d0f502f846286a9e39c0292cd0c08f6d0cbeff271b65c3",
+        "size_in_bytes": 225304
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_e57.so",
+        "path_type": "softlink",
+        "sha256": "b6a13ae86b0fa6005d7cd07dff5ef2d71a762c021d90d4aacdf06bac567c1c29",
+        "size_in_bytes": 1016952
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_e57.so.10",
+        "path_type": "hardlink",
+        "sha256": "b6a13ae86b0fa6005d7cd07dff5ef2d71a762c021d90d4aacdf06bac567c1c29",
+        "sha256_in_prefix": "b6a13ae86b0fa6005d7cd07dff5ef2d71a762c021d90d4aacdf06bac567c1c29",
+        "size_in_bytes": 1016952
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_e57.so.9",
+        "path_type": "softlink",
+        "sha256": "b6a13ae86b0fa6005d7cd07dff5ef2d71a762c021d90d4aacdf06bac567c1c29",
+        "size_in_bytes": 1016952
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_nitf.so",
+        "path_type": "softlink",
+        "sha256": "a0f08bd93e4d2093f8f1bc4df288b607eb3c4cab6edc40932438521780680730",
+        "size_in_bytes": 346544
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_nitf.so.10",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a0f08bd93e4d2093f8f1bc4df288b607eb3c4cab6edc40932438521780680730",
+        "sha256_in_prefix": "ffc0a96b3f57ed327ace2d73e6c84986eb5e987a0df743e6dc57e772c23baaf5",
+        "size_in_bytes": 346544
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_nitf.so.9",
+        "path_type": "softlink",
+        "sha256": "a0f08bd93e4d2093f8f1bc4df288b607eb3c4cab6edc40932438521780680730",
+        "size_in_bytes": 346544
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_pgpointcloud.so",
+        "path_type": "softlink",
+        "sha256": "7494a784b344d6444cf3ee9dbd66242813d1e985f4ab09efd5c900425b929d73",
+        "size_in_bytes": 142648
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_pgpointcloud.so.10",
+        "path_type": "hardlink",
+        "sha256": "7494a784b344d6444cf3ee9dbd66242813d1e985f4ab09efd5c900425b929d73",
+        "sha256_in_prefix": "7494a784b344d6444cf3ee9dbd66242813d1e985f4ab09efd5c900425b929d73",
+        "size_in_bytes": 142648
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_pgpointcloud.so.9",
+        "path_type": "softlink",
+        "sha256": "7494a784b344d6444cf3ee9dbd66242813d1e985f4ab09efd5c900425b929d73",
+        "size_in_bytes": 142648
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_sqlite.so",
+        "path_type": "softlink",
+        "sha256": "b5680f36c0da8d826bd53a75f53d6d8b7574f445e08c2b6f7b2bd74285e1fd1e",
+        "size_in_bytes": 197736
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_sqlite.so.10",
+        "path_type": "hardlink",
+        "sha256": "b5680f36c0da8d826bd53a75f53d6d8b7574f445e08c2b6f7b2bd74285e1fd1e",
+        "sha256_in_prefix": "b5680f36c0da8d826bd53a75f53d6d8b7574f445e08c2b6f7b2bd74285e1fd1e",
+        "size_in_bytes": 197736
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_sqlite.so.9",
+        "path_type": "softlink",
+        "sha256": "b5680f36c0da8d826bd53a75f53d6d8b7574f445e08c2b6f7b2bd74285e1fd1e",
+        "size_in_bytes": 197736
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_tiledb.so",
+        "path_type": "softlink",
+        "sha256": "3e9fb4f7b72a5dbcc4f2e083f14d49fc1d7715d43bc4aa087ad0507947c368c4",
+        "size_in_bytes": 277048
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_tiledb.so.10",
+        "path_type": "hardlink",
+        "sha256": "3e9fb4f7b72a5dbcc4f2e083f14d49fc1d7715d43bc4aa087ad0507947c368c4",
+        "sha256_in_prefix": "3e9fb4f7b72a5dbcc4f2e083f14d49fc1d7715d43bc4aa087ad0507947c368c4",
+        "size_in_bytes": 277048
+      },
+      {
+        "_path": "lib/libpdal_plugin_writer_tiledb.so.9",
+        "path_type": "softlink",
+        "sha256": "3e9fb4f7b72a5dbcc4f2e083f14d49fc1d7715d43bc4aa087ad0507947c368c4",
+        "size_in_bytes": 277048
+      },
+      {
+        "_path": "lib/libpdal_util.so",
+        "path_type": "softlink",
+        "sha256": "d6cd26a8135cf75ac31a1108ab95d2f44bbdd437b38ca65ca05021e6bd69cc5c",
+        "size_in_bytes": 226992
+      },
+      {
+        "_path": "lib/libpdal_util.so.10",
+        "path_type": "hardlink",
+        "sha256": "d6cd26a8135cf75ac31a1108ab95d2f44bbdd437b38ca65ca05021e6bd69cc5c",
+        "sha256_in_prefix": "d6cd26a8135cf75ac31a1108ab95d2f44bbdd437b38ca65ca05021e6bd69cc5c",
+        "size_in_bytes": 226992
+      },
+      {
+        "_path": "lib/libpdal_util.so.9",
+        "path_type": "softlink",
+        "sha256": "d6cd26a8135cf75ac31a1108ab95d2f44bbdd437b38ca65ca05021e6bd69cc5c",
+        "size_in_bytes": 226992
+      },
+      {
+        "_path": "lib/libpdalcpp.so",
+        "path_type": "hardlink",
+        "sha256": "8a0736c8c9e9c6ccd3d2543db1124d8c8e06c3244c21b1ab5833677b0fc36dcb",
+        "sha256_in_prefix": "8a0736c8c9e9c6ccd3d2543db1124d8c8e06c3244c21b1ab5833677b0fc36dcb",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "lib/pkgconfig/pdal.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a04b1d018d39a16a03d11d4f1e8e3be3d640de3a404e1b77ae0baa6ea3f987e2",
+        "sha256_in_prefix": "347f7bbce662617c1e0040eaaa267bb36e0523adc07f2c94148f62907b2b0909",
+        "size_in_bytes": 1233
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pdal==2.0.1=py37h6984ff8_10",
+  "sha256": "4fd6aed6882d2dfd2ad4e46fbdecab870751950b3533186c111dd01c57283820",
+  "size": 4193631,
+  "subdir": "linux-64",
+  "timestamp": 1584303615369,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pdal-2.0.1-py37h6984ff8_10.tar.bz2",
+  "version": "2.0.1"
+}

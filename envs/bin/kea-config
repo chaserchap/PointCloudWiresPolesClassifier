@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+
+usage()
+{
+    cat <<EOF
+Usage: kea-config [OPTIONS]
+Options:
+     [--prefix]
+     [--hgversion]
+     [--version]
+     [--libs]
+     [--cflags]
+     [--ldflags]
+     [--includes]
+     [--hdfincludes]
+     [--hdfcflags]
+     [--hdflibs]
+EOF
+    exit $1
+}
+if test $# -eq 0; then
+  usage 1 1>&2
+fi
+while test $# -gt 0; do
+case "$1" in
+    -*=*) optarg=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'` ;;
+    *) optarg= ;;
+esac
+case $1 in
+    --prefix)
+    echo -n "/home/chapmaca/Projects/pointcloudclassifier/envs "
+     ;;
+    --hgversion)
+    echo -n "357 "
+     ;;
+	--version)
+    echo -n "1.4.12 "
+     ;;
+    --cflags)
+    echo -n "-I/home/chapmaca/Projects/pointcloudclassifier/envs/include "
+      ;;
+    --libs)
+      echo -n "-L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lkea "
+      ;;
+    --ldflags)
+      echo -n "/home/chapmaca/Projects/pointcloudclassifier/envs/lib "
+      ;;
+    --includes)
+      echo -n "/home/chapmaca/Projects/pointcloudclassifier/envs/include "
+      ;;
+	--hdfincludes)
+      echo -n " /home/chapmaca/Projects/pointcloudclassifier/envs/include "
+      ;;
+	--hdfcflags)
+      echo -n " -I/home/chapmaca/Projects/pointcloudclassifier/envs/include "
+      ;;
+	--hdflibs)
+      echo -n " -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -L/home/conda/feedstock_root/build_artifacts/kealib_1583982014507/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -lhdf5_cpp -lhdf5 -lrt -lpthread -lz -ldl -lm "
+      ;;
+  esac
+  shift
+done
+echo

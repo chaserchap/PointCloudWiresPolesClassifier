@@ -1,0 +1,74 @@
+#!/bin/sh
+CONFIG_LIBS="-L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lgdal"
+CONFIG_DEP_LIBS=" -lcrypto -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -ltiledb -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lpoppler -ljson-c -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lfreexl -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lgeos_c -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lwebp -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lsqlite3 -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lkmlbase -lkmldom -lkmlengine -lkmlxsd -lkmlregionator -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lexpat -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lxerces-c -lpthread -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lopenjp2 -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lnetcdf -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lhdf5  -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lmfhdf -ldf -lgif -L/home/chapmaca/Projects/pointcloudclassifier/envs -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -ljpeg -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lgeotiff -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -ltiff -L/home/chapmaca/Projects/pointcloudclassifier/envs -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lpng -L/home/chapmaca/Projects/pointcloudclassifier/envs -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lcfitsio -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lpq -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lzstd -llzma -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lproj -lz -L/home/chapmaca/Projects/pointcloudclassifier/envs -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lpthread -lm -lrt -ldl  -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib64 -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -ldap -ldapserver -ldapclient -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lcurl -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lxml2 -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lz -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -llzma -lpthread -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -liconv -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -licui18n -licuuc -licudata -lm -ldl -lpthread -luuid  -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lspatialite -lpcre   -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lcurl          -liconv  -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lxml2 -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lz -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -llzma -lpthread -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -liconv -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -licui18n -licuuc -licudata -lm -ldl      -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lkea  -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -L/home/conda/feedstock_root/build_artifacts/kealib_1559925589184/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -lhdf5_cpp -lhdf5 -lrt -lpthread -lz -ldl -lm "
+CONFIG_PREFIX="/home/chapmaca/Projects/pointcloudclassifier/envs"
+CONFIG_CFLAGS="-I/home/chapmaca/Projects/pointcloudclassifier/envs/include"
+CONFIG_DATA="/home/chapmaca/Projects/pointcloudclassifier/envs/share/gdal"
+CONFIG_VERSION="3.0.4"
+CONFIG_OGR_ENABLED=yes
+CONFIG_GNM_ENABLED=yes
+CONFIG_FORMATS="derived gtiff hfa mem vrt  aaigrid adrg aigrid airsar arg blx bmp bsb cals ceos ceos2 coasp cosar ctg dimap dted e00grid elas envisat ers fit gff gsg gxf hf2 idrisi ignfheightasciigrid ilwis ingr iris iso8211 jaxapalsar jdem kmlsuperoverlay l1b leveller map mrf msgn ngsgeoid nitf northwood pds prf r raw rmf rs2 safe saga sdts sentinel2 sgi sigdem srtmhgt terragen til tsx usgsdem xpm xyz zmap rik ozi grib eeda plmosaic rda wcs wms wmts daas rasterlite mbtiles pdf tiledb webp dods openjpeg netcdf kea hdf5 hdf4 gif jpeg png pcraster fits  pcidsk postgisraster"
+usage()
+{
+	cat <<EOF
+Usage: gdal-config [OPTIONS]
+Options:
+	[--prefix[=DIR]]
+	[--libs]
+	[--dep-libs]
+	[--cflags]
+	[--datadir]
+	[--version]
+	[--ogr-enabled]
+	[--gnm-enabled]
+	[--formats]
+EOF
+	exit $1
+}
+
+if test $# -eq 0; then
+	usage 1 1>&2
+fi
+
+case $1 in
+  --libs)
+    echo $CONFIG_LIBS
+    ;;
+
+  --dep-libs)
+    echo $CONFIG_DEP_LIBS
+    ;;
+
+  --cflags)
+    echo $CONFIG_CFLAGS
+    ;;
+
+  --datadir)
+    echo $CONFIG_DATA
+    ;;
+
+  --prefix)
+    echo $CONFIG_PREFIX
+    ;;
+
+  --version)
+    echo $CONFIG_VERSION
+    ;;
+
+  --ogr-enabled)
+    echo yes
+    ;;
+
+  --gnm-enabled)
+    echo $CONFIG_GNM_ENABLED
+    ;;
+
+  --formats)
+    echo $CONFIG_FORMATS
+    ;;
+
+  *)
+    usage 1 1>&2
+    ;;
+
+esac

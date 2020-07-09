@@ -1,0 +1,660 @@
+{
+  "build": "hf484d3e_1000",
+  "build_number": 1000,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/lastools-20171231-hf484d3e_1000",
+  "features": "",
+  "files": [
+    "bin/las2las",
+    "bin/las2txt",
+    "bin/lasdiff",
+    "bin/lasindex",
+    "bin/lasinfo",
+    "bin/lasmerge",
+    "bin/lasprecision",
+    "bin/laszip",
+    "bin/txt2las",
+    "include/arithmeticdecoder.hpp",
+    "include/arithmeticencoder.hpp",
+    "include/arithmeticmodel.hpp",
+    "include/bytestreamin.hpp",
+    "include/bytestreamin_array.hpp",
+    "include/bytestreamin_file.hpp",
+    "include/bytestreamin_istream.hpp",
+    "include/bytestreaminout.hpp",
+    "include/bytestreaminout_file.hpp",
+    "include/bytestreamout.hpp",
+    "include/bytestreamout_array.hpp",
+    "include/bytestreamout_file.hpp",
+    "include/bytestreamout_nil.hpp",
+    "include/bytestreamout_ostream.hpp",
+    "include/integercompressor.hpp",
+    "include/lasattributer.hpp",
+    "include/lasdefinitions.hpp",
+    "include/lasfilter.hpp",
+    "include/lasindex.hpp",
+    "include/lasinterval.hpp",
+    "include/laspoint.hpp",
+    "include/lasquadtree.hpp",
+    "include/lasquantizer.hpp",
+    "include/lasreader.hpp",
+    "include/lasreader_asc.hpp",
+    "include/lasreader_bil.hpp",
+    "include/lasreader_bin.hpp",
+    "include/lasreader_dtm.hpp",
+    "include/lasreader_las.hpp",
+    "include/lasreader_qfit.hpp",
+    "include/lasreader_shp.hpp",
+    "include/lasreader_txt.hpp",
+    "include/lasreaderbuffered.hpp",
+    "include/lasreadermerged.hpp",
+    "include/lasreaderpipeon.hpp",
+    "include/lasreaditem.hpp",
+    "include/lasreaditemcompressed_v1.hpp",
+    "include/lasreaditemcompressed_v2.hpp",
+    "include/lasreaditemcompressed_v3.hpp",
+    "include/lasreaditemcompressed_v4.hpp",
+    "include/lasreaditemraw.hpp",
+    "include/lasreadpoint.hpp",
+    "include/lastransform.hpp",
+    "include/lasunzipper.hpp",
+    "include/lasutility.hpp",
+    "include/laswaveform13reader.hpp",
+    "include/laswaveform13writer.hpp",
+    "include/laswriteitem.hpp",
+    "include/laswriteitemcompressed_v1.hpp",
+    "include/laswriteitemcompressed_v2.hpp",
+    "include/laswriteitemcompressed_v3.hpp",
+    "include/laswriteitemcompressed_v4.hpp",
+    "include/laswriteitemraw.hpp",
+    "include/laswritepoint.hpp",
+    "include/laswriter.hpp",
+    "include/laswriter_bin.hpp",
+    "include/laswriter_las.hpp",
+    "include/laswriter_qfit.hpp",
+    "include/laswriter_txt.hpp",
+    "include/laswriter_wrl.hpp",
+    "include/laswritercompatible.hpp",
+    "include/laszip.hpp",
+    "include/laszip_common_v1.hpp",
+    "include/laszip_common_v2.hpp",
+    "include/laszip_common_v3.hpp",
+    "include/laszip_decompress_selective_v3.hpp",
+    "include/laszipper.hpp",
+    "include/mydefs.hpp",
+    "lib/liblas.so"
+  ],
+  "fn": "lastools-20171231-hf484d3e_1000.tar.bz2",
+  "license": "LGPL2.1",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/lastools-20171231-hf484d3e_1000",
+    "type": 1
+  },
+  "md5": "467240f44cf0dd7f5dea82bad6f00a19",
+  "name": "lastools",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/lastools-20171231-hf484d3e_1000.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/las2las",
+        "path_type": "hardlink",
+        "sha256": "7d984148e6100f6cfde7ee3d92e451e6ca2da675496a4ee5f07499298c0d1c15",
+        "sha256_in_prefix": "7d984148e6100f6cfde7ee3d92e451e6ca2da675496a4ee5f07499298c0d1c15",
+        "size_in_bytes": 190720
+      },
+      {
+        "_path": "bin/las2txt",
+        "path_type": "hardlink",
+        "sha256": "f795458faeb99df38cbb0559d73bb2c0c15442c5b5141a3e0c595df44cfb14a0",
+        "sha256_in_prefix": "f795458faeb99df38cbb0559d73bb2c0c15442c5b5141a3e0c595df44cfb14a0",
+        "size_in_bytes": 47040
+      },
+      {
+        "_path": "bin/lasdiff",
+        "path_type": "hardlink",
+        "sha256": "51ff2b1cc93309c12295ccc79cbc493445b20d583d98a3ad400ffbcdf1894f94",
+        "sha256_in_prefix": "51ff2b1cc93309c12295ccc79cbc493445b20d583d98a3ad400ffbcdf1894f94",
+        "size_in_bytes": 58960
+      },
+      {
+        "_path": "bin/lasindex",
+        "path_type": "hardlink",
+        "sha256": "cf3f863f3033d53a7ec744ee5d854c37b0dd072505fe6042ad4e7fea0497ab9b",
+        "sha256_in_prefix": "cf3f863f3033d53a7ec744ee5d854c37b0dd072505fe6042ad4e7fea0497ab9b",
+        "size_in_bytes": 172976
+      },
+      {
+        "_path": "bin/lasinfo",
+        "path_type": "hardlink",
+        "sha256": "a4a0e6cb54e6e52cb4b801e987ffaea71af5940f29612150108d68a4376e7f0a",
+        "sha256_in_prefix": "a4a0e6cb54e6e52cb4b801e987ffaea71af5940f29612150108d68a4376e7f0a",
+        "size_in_bytes": 272808
+      },
+      {
+        "_path": "bin/lasmerge",
+        "path_type": "hardlink",
+        "sha256": "321992d7e1b2d3f824ee4283b9c2459d587ae823d2467e2d7c550aed98618de7",
+        "sha256_in_prefix": "321992d7e1b2d3f824ee4283b9c2459d587ae823d2467e2d7c550aed98618de7",
+        "size_in_bytes": 177520
+      },
+      {
+        "_path": "bin/lasprecision",
+        "path_type": "hardlink",
+        "sha256": "dab9ff927bfdff4cecf895b04fc80a4fe6b779dbf6c4c50c1e1cda5d79e8f4f9",
+        "sha256_in_prefix": "dab9ff927bfdff4cecf895b04fc80a4fe6b779dbf6c4c50c1e1cda5d79e8f4f9",
+        "size_in_bytes": 181896
+      },
+      {
+        "_path": "bin/laszip",
+        "path_type": "hardlink",
+        "sha256": "33c74de941f27361447b2a697bc07451c3a0da047b09e68f6170ef81627fa05a",
+        "sha256_in_prefix": "33c74de941f27361447b2a697bc07451c3a0da047b09e68f6170ef81627fa05a",
+        "size_in_bytes": 204824
+      },
+      {
+        "_path": "bin/txt2las",
+        "path_type": "hardlink",
+        "sha256": "722dbe03267fbb9788a40de3af358371208374f763407c520a691c835b9fbe25",
+        "sha256_in_prefix": "722dbe03267fbb9788a40de3af358371208374f763407c520a691c835b9fbe25",
+        "size_in_bytes": 190496
+      },
+      {
+        "_path": "include/arithmeticdecoder.hpp",
+        "path_type": "hardlink",
+        "sha256": "4e0f7d585b3b65c251da4839548bb34694c12f0cbb1b3da0cf4fa907bc2ea4c5",
+        "sha256_in_prefix": "4e0f7d585b3b65c251da4839548bb34694c12f0cbb1b3da0cf4fa907bc2ea4c5",
+        "size_in_bytes": 3335
+      },
+      {
+        "_path": "include/arithmeticencoder.hpp",
+        "path_type": "hardlink",
+        "sha256": "fcbf38a73ec90ff1eb98e78a3066de2757f067f7996059a10737f41a2b4e1f58",
+        "sha256_in_prefix": "fcbf38a73ec90ff1eb98e78a3066de2757f067f7996059a10737f41a2b4e1f58",
+        "size_in_bytes": 3451
+      },
+      {
+        "_path": "include/arithmeticmodel.hpp",
+        "path_type": "hardlink",
+        "sha256": "b4787d65d4ad27e3bc6e8f9fb0dbd2933c77cbdf2467586725431cbc6f118718",
+        "sha256_in_prefix": "b4787d65d4ad27e3bc6e8f9fb0dbd2933c77cbdf2467586725431cbc6f118718",
+        "size_in_bytes": 2665
+      },
+      {
+        "_path": "include/bytestreamin.hpp",
+        "path_type": "hardlink",
+        "sha256": "316c585dcce3d0a1d8e66df92e33f02e364835fac95aef5839ac9127abb02164",
+        "sha256_in_prefix": "316c585dcce3d0a1d8e66df92e33f02e364835fac95aef5839ac9127abb02164",
+        "size_in_bytes": 3471
+      },
+      {
+        "_path": "include/bytestreamin_array.hpp",
+        "path_type": "hardlink",
+        "sha256": "5697e772475808da062466b202529af173a7ee7295bb1bdfb9a6a351218ddbcd",
+        "sha256_in_prefix": "5697e772475808da062466b202529af173a7ee7295bb1bdfb9a6a351218ddbcd",
+        "size_in_bytes": 6942
+      },
+      {
+        "_path": "include/bytestreamin_file.hpp",
+        "path_type": "hardlink",
+        "sha256": "104047b712658abbaa5e0cd2b3ee2dfbc05ce94421da4aa76f12121084a0843b",
+        "sha256_in_prefix": "104047b712658abbaa5e0cd2b3ee2dfbc05ce94421da4aa76f12121084a0843b",
+        "size_in_bytes": 6721
+      },
+      {
+        "_path": "include/bytestreamin_istream.hpp",
+        "path_type": "hardlink",
+        "sha256": "ff0e0d57f4098c89701c1be8796927465658c65c3ebeb3afbce4305105b71a96",
+        "sha256_in_prefix": "ff0e0d57f4098c89701c1be8796927465658c65c3ebeb3afbce4305105b71a96",
+        "size_in_bytes": 6387
+      },
+      {
+        "_path": "include/bytestreaminout.hpp",
+        "path_type": "hardlink",
+        "sha256": "3d00e676d9fded93adc8d8db7a32d2b999057ad44b5b784e04f91fe2a593a004",
+        "sha256_in_prefix": "3d00e676d9fded93adc8d8db7a32d2b999057ad44b5b784e04f91fe2a593a004",
+        "size_in_bytes": 1264
+      },
+      {
+        "_path": "include/bytestreaminout_file.hpp",
+        "path_type": "hardlink",
+        "sha256": "b8fcb178f4aff19f61eb25f979b0cb331a3663af786c713e92b7d85a3fa95943",
+        "sha256_in_prefix": "b8fcb178f4aff19f61eb25f979b0cb331a3663af786c713e92b7d85a3fa95943",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "include/bytestreamout.hpp",
+        "path_type": "hardlink",
+        "sha256": "75e5b918a4c8c5d730e9415f302dfbae3c064860ea1a67680c87f5720490442d",
+        "sha256_in_prefix": "75e5b918a4c8c5d730e9415f302dfbae3c064860ea1a67680c87f5720490442d",
+        "size_in_bytes": 3642
+      },
+      {
+        "_path": "include/bytestreamout_array.hpp",
+        "path_type": "hardlink",
+        "sha256": "228d3e1cc327f222dce5be41f0b1623318531014ae6442cc6c9f454f9cd97bcd",
+        "sha256_in_prefix": "228d3e1cc327f222dce5be41f0b1623318531014ae6442cc6c9f454f9cd97bcd",
+        "size_in_bytes": 7116
+      },
+      {
+        "_path": "include/bytestreamout_file.hpp",
+        "path_type": "hardlink",
+        "sha256": "cdc17a69507dd501d55e3ef7dbf34b8b529b75921d87322bc15cc25c1c058727",
+        "sha256_in_prefix": "cdc17a69507dd501d55e3ef7dbf34b8b529b75921d87322bc15cc25c1c058727",
+        "size_in_bytes": 7031
+      },
+      {
+        "_path": "include/bytestreamout_nil.hpp",
+        "path_type": "hardlink",
+        "sha256": "970944542d04f0d9f6ec867606f8e1ebe7739f2dbe200483efdbea2d8200eb8d",
+        "sha256_in_prefix": "970944542d04f0d9f6ec867606f8e1ebe7739f2dbe200483efdbea2d8200eb8d",
+        "size_in_bytes": 3653
+      },
+      {
+        "_path": "include/bytestreamout_ostream.hpp",
+        "path_type": "hardlink",
+        "sha256": "d70aff78c3a58459859eeb55d87cd6fc881a87bb5cf952843e2d9cfe05d3a27d",
+        "sha256_in_prefix": "d70aff78c3a58459859eeb55d87cd6fc881a87bb5cf952843e2d9cfe05d3a27d",
+        "size_in_bytes": 6466
+      },
+      {
+        "_path": "include/integercompressor.hpp",
+        "path_type": "hardlink",
+        "sha256": "7e7b273e1f278ea9316cc7d69f99e8e99ad75fc3c5ce94267210a15de49ab087",
+        "sha256_in_prefix": "7e7b273e1f278ea9316cc7d69f99e8e99ad75fc3c5ce94267210a15de49ab087",
+        "size_in_bytes": 3048
+      },
+      {
+        "_path": "include/lasattributer.hpp",
+        "path_type": "hardlink",
+        "sha256": "4fc10ae661a6fe7d908495c9ec0338458a60f2f1e7b21eb79477c84977e0cb4d",
+        "sha256_in_prefix": "4fc10ae661a6fe7d908495c9ec0338458a60f2f1e7b21eb79477c84977e0cb4d",
+        "size_in_bytes": 16802
+      },
+      {
+        "_path": "include/lasdefinitions.hpp",
+        "path_type": "hardlink",
+        "sha256": "9a17962025f42771ae92f7f2f3ab17a4e49f009a98d7b44068f59cdd6ef6982d",
+        "sha256_in_prefix": "9a17962025f42771ae92f7f2f3ab17a4e49f009a98d7b44068f59cdd6ef6982d",
+        "size_in_bytes": 29914
+      },
+      {
+        "_path": "include/lasfilter.hpp",
+        "path_type": "hardlink",
+        "sha256": "8fb7058234de85da4dee85c6212f25ab81344f6318ed0610a48f1af378ba9e82",
+        "sha256_in_prefix": "8fb7058234de85da4dee85c6212f25ab81344f6318ed0610a48f1af378ba9e82",
+        "size_in_bytes": 2125
+      },
+      {
+        "_path": "include/lasindex.hpp",
+        "path_type": "hardlink",
+        "sha256": "f2237816be2fc32aec4755676e47623cc718ee30bb304897ff6f0970b43bd2cf",
+        "sha256_in_prefix": "f2237816be2fc32aec4755676e47623cc718ee30bb304897ff6f0970b43bd2cf",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "include/lasinterval.hpp",
+        "path_type": "hardlink",
+        "sha256": "843db3384317b820b9a5fcc0b939318a061383572998128659ebb5b0b8ec3e99",
+        "sha256_in_prefix": "843db3384317b820b9a5fcc0b939318a061383572998128659ebb5b0b8ec3e99",
+        "size_in_bytes": 3066
+      },
+      {
+        "_path": "include/laspoint.hpp",
+        "path_type": "hardlink",
+        "sha256": "e4533980db3fc3e81b8807c4d329ccaf59160a8fe4cf0cca9b666d9f952c66a0",
+        "sha256_in_prefix": "e4533980db3fc3e81b8807c4d329ccaf59160a8fe4cf0cca9b666d9f952c66a0",
+        "size_in_bytes": 24550
+      },
+      {
+        "_path": "include/lasquadtree.hpp",
+        "path_type": "hardlink",
+        "sha256": "90ce83da12c8ab56758bb7b3a369ec4f5cf51eef00b5cf7042ead5d21ac4ecca",
+        "sha256_in_prefix": "90ce83da12c8ab56758bb7b3a369ec4f5cf51eef00b5cf7042ead5d21ac4ecca",
+        "size_in_bytes": 7026
+      },
+      {
+        "_path": "include/lasquantizer.hpp",
+        "path_type": "hardlink",
+        "sha256": "26faaddabad1d53bddbfa682ff5ef7c5e9653895d4c31af32919f6234a1334f9",
+        "sha256_in_prefix": "26faaddabad1d53bddbfa682ff5ef7c5e9653895d4c31af32919f6234a1334f9",
+        "size_in_bytes": 2672
+      },
+      {
+        "_path": "include/lasreader.hpp",
+        "path_type": "hardlink",
+        "sha256": "8e01075f29d57cdf73b2d9b890d6019d847425b514f1c683a9edeb93a1ebe581",
+        "sha256_in_prefix": "8e01075f29d57cdf73b2d9b890d6019d847425b514f1c683a9edeb93a1ebe581",
+        "size_in_bytes": 10872
+      },
+      {
+        "_path": "include/lasreader_asc.hpp",
+        "path_type": "hardlink",
+        "sha256": "9936b6e005948b793636382e469a358835ec116f69bc2bf90eac3f9569b21b17",
+        "sha256_in_prefix": "9936b6e005948b793636382e469a358835ec116f69bc2bf90eac3f9569b21b17",
+        "size_in_bytes": 2761
+      },
+      {
+        "_path": "include/lasreader_bil.hpp",
+        "path_type": "hardlink",
+        "sha256": "cf06ea4fc31e838c441f3d45c8ade21a28cf04d75c0c40a99cb88d9a6229deb2",
+        "sha256_in_prefix": "cf06ea4fc31e838c441f3d45c8ade21a28cf04d75c0c40a99cb88d9a6229deb2",
+        "size_in_bytes": 2697
+      },
+      {
+        "_path": "include/lasreader_bin.hpp",
+        "path_type": "hardlink",
+        "sha256": "ac3481f243d40ab80b37984868eed53ec6544515c37f21067323d4e735a539fd",
+        "sha256_in_prefix": "ac3481f243d40ab80b37984868eed53ec6544515c37f21067323d4e735a539fd",
+        "size_in_bytes": 2315
+      },
+      {
+        "_path": "include/lasreader_dtm.hpp",
+        "path_type": "hardlink",
+        "sha256": "0a6c8470996d4e135f8b03c622e0d6097be4c9c03c5f66634719737a74cdf603",
+        "sha256_in_prefix": "0a6c8470996d4e135f8b03c622e0d6097be4c9c03c5f66634719737a74cdf603",
+        "size_in_bytes": 2502
+      },
+      {
+        "_path": "include/lasreader_las.hpp",
+        "path_type": "hardlink",
+        "sha256": "04b96599561de36a87b67d07a49ce79575708c5c8b8f7c420da3b8f3e0054af8",
+        "sha256_in_prefix": "04b96599561de36a87b67d07a49ce79575708c5c8b8f7c420da3b8f3e0054af8",
+        "size_in_bytes": 4268
+      },
+      {
+        "_path": "include/lasreader_qfit.hpp",
+        "path_type": "hardlink",
+        "sha256": "4f77ad0cdb0c54993251b8f06d1f6e71f1f91269e21040b6680aa00189a200e7",
+        "sha256_in_prefix": "4f77ad0cdb0c54993251b8f06d1f6e71f1f91269e21040b6680aa00189a200e7",
+        "size_in_bytes": 2622
+      },
+      {
+        "_path": "include/lasreader_shp.hpp",
+        "path_type": "hardlink",
+        "sha256": "51867fb0ed42d714a09aab363cf5e28c741f67ac44eef919595a7ccaaa3207b4",
+        "sha256_in_prefix": "51867fb0ed42d714a09aab363cf5e28c741f67ac44eef919595a7ccaaa3207b4",
+        "size_in_bytes": 2487
+      },
+      {
+        "_path": "include/lasreader_txt.hpp",
+        "path_type": "hardlink",
+        "sha256": "8f6e018c5761ad7b465f76633e10215fead3a90579a7ccf901cd88313d4fba19",
+        "sha256_in_prefix": "8f6e018c5761ad7b465f76633e10215fead3a90579a7ccf901cd88313d4fba19",
+        "size_in_bytes": 4348
+      },
+      {
+        "_path": "include/lasreaderbuffered.hpp",
+        "path_type": "hardlink",
+        "sha256": "b235d71bd4cb6a7f775d5406479c9d324da16644d22c476ae0c3a02805668679",
+        "sha256_in_prefix": "b235d71bd4cb6a7f775d5406479c9d324da16644d22c476ae0c3a02805668679",
+        "size_in_bytes": 3214
+      },
+      {
+        "_path": "include/lasreadermerged.hpp",
+        "path_type": "hardlink",
+        "sha256": "662870d93eaa79827cd893fb238f8af3b2994cd781a30efb2cbc4d667f6f1ab1",
+        "sha256_in_prefix": "662870d93eaa79827cd893fb238f8af3b2994cd781a30efb2cbc4d667f6f1ab1",
+        "size_in_bytes": 3700
+      },
+      {
+        "_path": "include/lasreaderpipeon.hpp",
+        "path_type": "hardlink",
+        "sha256": "7b763d516ed447b29599c0ab2270e821905ab93cfe9e62e713d2ef51e554ebbd",
+        "sha256_in_prefix": "7b763d516ed447b29599c0ab2270e821905ab93cfe9e62e713d2ef51e554ebbd",
+        "size_in_bytes": 1984
+      },
+      {
+        "_path": "include/lasreaditem.hpp",
+        "path_type": "hardlink",
+        "sha256": "67787b7cdaf84fb4231cc4a2b7e815433eb0f768f80923e5f1a1c4a9e0e5fa7e",
+        "sha256_in_prefix": "67787b7cdaf84fb4231cc4a2b7e815433eb0f768f80923e5f1a1c4a9e0e5fa7e",
+        "size_in_bytes": 1887
+      },
+      {
+        "_path": "include/lasreaditemcompressed_v1.hpp",
+        "path_type": "hardlink",
+        "sha256": "08c47e6f25a7fe16c71619d8c689aa72043e86933d1086a6e309af93602fe138",
+        "sha256_in_prefix": "08c47e6f25a7fe16c71619d8c689aa72043e86933d1086a6e309af93602fe138",
+        "size_in_bytes": 4174
+      },
+      {
+        "_path": "include/lasreaditemcompressed_v2.hpp",
+        "path_type": "hardlink",
+        "sha256": "363f36a112e95ff6c5474f76e2bf726408a2bd9d2cc88e62a0392a9a9f467725",
+        "sha256_in_prefix": "363f36a112e95ff6c5474f76e2bf726408a2bd9d2cc88e62a0392a9a9f467725",
+        "size_in_bytes": 3753
+      },
+      {
+        "_path": "include/lasreaditemcompressed_v3.hpp",
+        "path_type": "hardlink",
+        "sha256": "ccba77abe66dac8c5da9c86eb6f2cbbb51abcd09d2ea8b9df92397b2701257aa",
+        "sha256_in_prefix": "ccba77abe66dac8c5da9c86eb6f2cbbb51abcd09d2ea8b9df92397b2701257aa",
+        "size_in_bytes": 6925
+      },
+      {
+        "_path": "include/lasreaditemcompressed_v4.hpp",
+        "path_type": "hardlink",
+        "sha256": "b67e75feec1ae698c5269b2b30360e310f8a24a8fab1ab121731c4ea98286ef9",
+        "sha256_in_prefix": "b67e75feec1ae698c5269b2b30360e310f8a24a8fab1ab121731c4ea98286ef9",
+        "size_in_bytes": 7005
+      },
+      {
+        "_path": "include/lasreaditemraw.hpp",
+        "path_type": "hardlink",
+        "sha256": "d9419a260c08f80e54fcab39ffc6c06911cffd92cd4efaf2dae590704708efe7",
+        "sha256_in_prefix": "d9419a260c08f80e54fcab39ffc6c06911cffd92cd4efaf2dae590704708efe7",
+        "size_in_bytes": 11351
+      },
+      {
+        "_path": "include/lasreadpoint.hpp",
+        "path_type": "hardlink",
+        "sha256": "c774972e228bc6362a5d07a1ae68b3b4cff91450f455cac44e217bed9c628447",
+        "sha256_in_prefix": "c774972e228bc6362a5d07a1ae68b3b4cff91450f455cac44e217bed9c628447",
+        "size_in_bytes": 3421
+      },
+      {
+        "_path": "include/lastransform.hpp",
+        "path_type": "hardlink",
+        "sha256": "54058c3056902f977e050122e1ffa180ba235ec5f4c28b179037bdc53251f920",
+        "sha256_in_prefix": "54058c3056902f977e050122e1ffa180ba235ec5f4c28b179037bdc53251f920",
+        "size_in_bytes": 2413
+      },
+      {
+        "_path": "include/lasunzipper.hpp",
+        "path_type": "hardlink",
+        "sha256": "71e7e08a96a8ff8f8b01d56b89b99109ef73b5918486d3b0020cad2e47bd9cb5",
+        "sha256_in_prefix": "71e7e08a96a8ff8f8b01d56b89b99109ef73b5918486d3b0020cad2e47bd9cb5",
+        "size_in_bytes": 1976
+      },
+      {
+        "_path": "include/lasutility.hpp",
+        "path_type": "hardlink",
+        "sha256": "ca26409bbc188aee5d17d636f7c7ea0763fceae6dddca66e6c90e9ed137a8699",
+        "sha256_in_prefix": "ca26409bbc188aee5d17d636f7c7ea0763fceae6dddca66e6c90e9ed137a8699",
+        "size_in_bytes": 6277
+      },
+      {
+        "_path": "include/laswaveform13reader.hpp",
+        "path_type": "hardlink",
+        "sha256": "a582eba273177ff779910c169751da4e05bad132957983cefdb46b560f7c59d3",
+        "sha256_in_prefix": "a582eba273177ff779910c169751da4e05bad132957983cefdb46b560f7c59d3",
+        "size_in_bytes": 2091
+      },
+      {
+        "_path": "include/laswaveform13writer.hpp",
+        "path_type": "hardlink",
+        "sha256": "fb26c2ce7198b2f58b9af646bab70589ae6f41cbe300b8397e3e4c9a185ce6e1",
+        "sha256_in_prefix": "fb26c2ce7198b2f58b9af646bab70589ae6f41cbe300b8397e3e4c9a185ce6e1",
+        "size_in_bytes": 1614
+      },
+      {
+        "_path": "include/laswriteitem.hpp",
+        "path_type": "hardlink",
+        "sha256": "e40c8536289c4bd767b2de438d284ebb9d960463ea9ce5ff122d1a07aeaa5c59",
+        "sha256_in_prefix": "e40c8536289c4bd767b2de438d284ebb9d960463ea9ce5ff122d1a07aeaa5c59",
+        "size_in_bytes": 1955
+      },
+      {
+        "_path": "include/laswriteitemcompressed_v1.hpp",
+        "path_type": "hardlink",
+        "sha256": "bedb09a995a5e4735319b2f0fea6769e2869489f5d33fe2c056575af899e4afe",
+        "sha256_in_prefix": "bedb09a995a5e4735319b2f0fea6769e2869489f5d33fe2c056575af899e4afe",
+        "size_in_bytes": 3985
+      },
+      {
+        "_path": "include/laswriteitemcompressed_v2.hpp",
+        "path_type": "hardlink",
+        "sha256": "f80cf6cf8f28e57a15bc1ff7be94e8b730d587770a40d617c0eb7be4be061674",
+        "sha256_in_prefix": "f80cf6cf8f28e57a15bc1ff7be94e8b730d587770a40d617c0eb7be4be061674",
+        "size_in_bytes": 3608
+      },
+      {
+        "_path": "include/laswriteitemcompressed_v3.hpp",
+        "path_type": "hardlink",
+        "sha256": "76ed71bdaff88ef179248b2d846830f52a42e2a72d4caf5f30d8410d36906783",
+        "sha256_in_prefix": "76ed71bdaff88ef179248b2d846830f52a42e2a72d4caf5f30d8410d36906783",
+        "size_in_bytes": 5943
+      },
+      {
+        "_path": "include/laswriteitemcompressed_v4.hpp",
+        "path_type": "hardlink",
+        "sha256": "821ca74367d7829400ed8c08556e35e1b8384e77417e91841005843e7dfda587",
+        "sha256_in_prefix": "821ca74367d7829400ed8c08556e35e1b8384e77417e91841005843e7dfda587",
+        "size_in_bytes": 6023
+      },
+      {
+        "_path": "include/laswriteitemraw.hpp",
+        "path_type": "hardlink",
+        "sha256": "165fc13bc4f9bef67bce77085b487130386ac1fec67bef2cb918f2bafd2f1d20",
+        "sha256_in_prefix": "165fc13bc4f9bef67bce77085b487130386ac1fec67bef2cb918f2bafd2f1d20",
+        "size_in_bytes": 10925
+      },
+      {
+        "_path": "include/laswritepoint.hpp",
+        "path_type": "hardlink",
+        "sha256": "26a406b1791d38f7d42b8d36d724410ed9abe54eb50b7f30db6a89ec5a9e8225",
+        "sha256_in_prefix": "26a406b1791d38f7d42b8d36d724410ed9abe54eb50b7f30db6a89ec5a9e8225",
+        "size_in_bytes": 2616
+      },
+      {
+        "_path": "include/laswriter.hpp",
+        "path_type": "hardlink",
+        "sha256": "5813e565ae286a338a9c687998d712e6553aaf3f74c47ed44c8165e327c21dc2",
+        "sha256_in_prefix": "5813e565ae286a338a9c687998d712e6553aaf3f74c47ed44c8165e327c21dc2",
+        "size_in_bytes": 4401
+      },
+      {
+        "_path": "include/laswriter_bin.hpp",
+        "path_type": "hardlink",
+        "sha256": "b949b2e66dda2c65dae1043d7cdb2b6cb703a1b25ab797942f4d9236338cc86c",
+        "sha256_in_prefix": "b949b2e66dda2c65dae1043d7cdb2b6cb703a1b25ab797942f4d9236338cc86c",
+        "size_in_bytes": 1974
+      },
+      {
+        "_path": "include/laswriter_las.hpp",
+        "path_type": "hardlink",
+        "sha256": "dea9d849b471fb4d4f7c4e746cf92fd77e36885d0e918e155d67154e3e1ce1c7",
+        "sha256_in_prefix": "dea9d849b471fb4d4f7c4e746cf92fd77e36885d0e918e155d67154e3e1ce1c7",
+        "size_in_bytes": 3307
+      },
+      {
+        "_path": "include/laswriter_qfit.hpp",
+        "path_type": "hardlink",
+        "sha256": "0f335220e633dec42f365dd5a9d2d1663beb8f50a1dd6e12274698e9b3f725d1",
+        "sha256_in_prefix": "0f335220e633dec42f365dd5a9d2d1663beb8f50a1dd6e12274698e9b3f725d1",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "include/laswriter_txt.hpp",
+        "path_type": "hardlink",
+        "sha256": "746d3e4480d12519f26cfcdefb18b1e3d2ad22d4d04087d3901811a3de3d214b",
+        "sha256_in_prefix": "746d3e4480d12519f26cfcdefb18b1e3d2ad22d4d04087d3901811a3de3d214b",
+        "size_in_bytes": 2009
+      },
+      {
+        "_path": "include/laswriter_wrl.hpp",
+        "path_type": "hardlink",
+        "sha256": "58b689049f41c1da6d4cfa239edb1ebf4924af56cc6566de78579691cb6e7aff",
+        "sha256_in_prefix": "58b689049f41c1da6d4cfa239edb1ebf4924af56cc6566de78579691cb6e7aff",
+        "size_in_bytes": 1636
+      },
+      {
+        "_path": "include/laswritercompatible.hpp",
+        "path_type": "hardlink",
+        "sha256": "3d622fc0daa0882c91006ab38b38fb8cca7fc9a0fcf61f9c1940ffec42f3f82a",
+        "sha256_in_prefix": "3d622fc0daa0882c91006ab38b38fb8cca7fc9a0fcf61f9c1940ffec42f3f82a",
+        "size_in_bytes": 2402
+      },
+      {
+        "_path": "include/laszip.hpp",
+        "path_type": "hardlink",
+        "sha256": "3a24583fa9cbfe03bd11dd9e9d8ff28e6c92135abfcca207798b664af26299d3",
+        "sha256_in_prefix": "3a24583fa9cbfe03bd11dd9e9d8ff28e6c92135abfcca207798b664af26299d3",
+        "size_in_bytes": 5854
+      },
+      {
+        "_path": "include/laszip_common_v1.hpp",
+        "path_type": "hardlink",
+        "sha256": "9bb06e217e2daab364cd267a8a1be8ba263fea6096827fd71f23f7137a383fd5",
+        "sha256_in_prefix": "9bb06e217e2daab364cd267a8a1be8ba263fea6096827fd71f23f7137a383fd5",
+        "size_in_bytes": 2525
+      },
+      {
+        "_path": "include/laszip_common_v2.hpp",
+        "path_type": "hardlink",
+        "sha256": "bfdef432450911b949941801f07b92b97aded90234b4e5899782aa17aef147e1",
+        "sha256_in_prefix": "bfdef432450911b949941801f07b92b97aded90234b4e5899782aa17aef147e1",
+        "size_in_bytes": 4801
+      },
+      {
+        "_path": "include/laszip_common_v3.hpp",
+        "path_type": "hardlink",
+        "sha256": "0c5ebf9fee9c42c59d2110357f5bcfa5e34af4c852948962125a7f6ca0aa1672",
+        "sha256_in_prefix": "0c5ebf9fee9c42c59d2110357f5bcfa5e34af4c852948962125a7f6ca0aa1672",
+        "size_in_bytes": 14337
+      },
+      {
+        "_path": "include/laszip_decompress_selective_v3.hpp",
+        "path_type": "hardlink",
+        "sha256": "e7392417b1b3c113f3863730207e7bd9fa3dacf87423b36a6579f51db49eba3d",
+        "sha256_in_prefix": "e7392417b1b3c113f3863730207e7bd9fa3dacf87423b36a6579f51db49eba3d",
+        "size_in_bytes": 2514
+      },
+      {
+        "_path": "include/laszipper.hpp",
+        "path_type": "hardlink",
+        "sha256": "fe776b73d08129a29bc4babdbdd4150441e3ab90e0b724d76bc468cc99344d98",
+        "sha256_in_prefix": "fe776b73d08129a29bc4babdbdd4150441e3ab90e0b724d76bc468cc99344d98",
+        "size_in_bytes": 1988
+      },
+      {
+        "_path": "include/mydefs.hpp",
+        "path_type": "hardlink",
+        "sha256": "26066789598fe26cfb513678b5c5e27d6db6a95756c23b469027408ffc1036c5",
+        "sha256_in_prefix": "26066789598fe26cfb513678b5c5e27d6db6a95756c23b469027408ffc1036c5",
+        "size_in_bytes": 7507
+      },
+      {
+        "_path": "lib/liblas.so",
+        "path_type": "hardlink",
+        "sha256": "bb30ded11a03651c165f0d85a8e5dca74f9c064a19816ba49466d596741e27e2",
+        "sha256_in_prefix": "bb30ded11a03651c165f0d85a8e5dca74f9c064a19816ba49466d596741e27e2",
+        "size_in_bytes": 1430768
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "lastools==20171231=hf484d3e_1000",
+  "sha256": "ec003ca297d8e7110e7581acf08c9e3bdd5a018a94319ab1913dd27c5fe5e744",
+  "size": 883927,
+  "subdir": "linux-64",
+  "timestamp": 1536818200290,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lastools-20171231-hf484d3e_1000.tar.bz2",
+  "version": "20171231"
+}

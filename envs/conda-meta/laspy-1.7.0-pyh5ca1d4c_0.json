@@ -1,0 +1,378 @@
+{
+  "build": "pyh5ca1d4c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "lastools",
+    "laszip",
+    "numpy",
+    "python >=3"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/laspy-1.7.0-pyh5ca1d4c_0",
+  "features": "",
+  "files": [
+    "laspytest/data/simple.las",
+    "laspytest/data/simple.laz",
+    "laspytest/data/simple1_3.las",
+    "laspytest/data/simple1_4.las",
+    "lib/python3.7/site-packages/laspy-1.7.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/laspy-1.7.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/laspy-1.7.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/laspy-1.7.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/laspy-1.7.0.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/laspy-1.7.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/laspy/__init__.py",
+    "lib/python3.7/site-packages/laspy/base.py",
+    "lib/python3.7/site-packages/laspy/file.py",
+    "lib/python3.7/site-packages/laspy/glviewer.py",
+    "lib/python3.7/site-packages/laspy/header.py",
+    "lib/python3.7/site-packages/laspy/tools/__init__.py",
+    "lib/python3.7/site-packages/laspy/tools/lascopy.py",
+    "lib/python3.7/site-packages/laspy/tools/lasexplorer.py",
+    "lib/python3.7/site-packages/laspy/tools/lasnoise.py",
+    "lib/python3.7/site-packages/laspy/tools/lasvalidate.py",
+    "lib/python3.7/site-packages/laspy/tools/lasverify.py",
+    "lib/python3.7/site-packages/laspy/tools/lasviewer.py",
+    "lib/python3.7/site-packages/laspy/util.py",
+    "lib/python3.7/site-packages/laspytest/__init__.py",
+    "lib/python3.7/site-packages/laspytest/data/simple.las",
+    "lib/python3.7/site-packages/laspytest/data/simple.laz",
+    "lib/python3.7/site-packages/laspytest/data/simple1_3.las",
+    "lib/python3.7/site-packages/laspytest/data/simple1_4.las",
+    "lib/python3.7/site-packages/laspytest/test_laspy.py",
+    "lib/python3.7/site-packages/laspy/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/__pycache__/base.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/__pycache__/file.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/__pycache__/glviewer.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/__pycache__/header.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/tools/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/tools/__pycache__/lascopy.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/tools/__pycache__/lasexplorer.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/tools/__pycache__/lasnoise.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/tools/__pycache__/lasvalidate.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/tools/__pycache__/lasverify.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/tools/__pycache__/lasviewer.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspy/__pycache__/util.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspytest/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/laspytest/__pycache__/test_laspy.cpython-37.pyc",
+    "bin/lascopy",
+    "bin/lasexplorer",
+    "bin/lasnoise",
+    "bin/lasverify",
+    "bin/lasvalidate",
+    "bin/lasviewer"
+  ],
+  "fn": "laspy-1.7.0-pyh5ca1d4c_0.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/laspy-1.7.0-pyh5ca1d4c_0",
+    "type": 1
+  },
+  "md5": "49255c369948fef8d65550ed0d61a1b1",
+  "name": "laspy",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/laspy-1.7.0-pyh5ca1d4c_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "laspytest/data/simple.las",
+        "path_type": "hardlink",
+        "sha256": "a0570ef57b685b77a6d3e3992cbdfeecdb2c3065d3780bbeaba490818258b734",
+        "sha256_in_prefix": "a0570ef57b685b77a6d3e3992cbdfeecdb2c3065d3780bbeaba490818258b734",
+        "size_in_bytes": 36437
+      },
+      {
+        "_path": "laspytest/data/simple.laz",
+        "path_type": "hardlink",
+        "sha256": "87ac5d2e8edb6cd3c63f1dd1b982d76b1b3c23ca634658ac6c658e1a70e73e71",
+        "sha256_in_prefix": "87ac5d2e8edb6cd3c63f1dd1b982d76b1b3c23ca634658ac6c658e1a70e73e71",
+        "size_in_bytes": 18217
+      },
+      {
+        "_path": "laspytest/data/simple1_3.las",
+        "path_type": "hardlink",
+        "sha256": "6753c0da6e89b9e9e1e866946746dadb2b2c31b7eb8fd4602bcaf6a1d1ad2cea",
+        "sha256_in_prefix": "6753c0da6e89b9e9e1e866946746dadb2b2c31b7eb8fd4602bcaf6a1d1ad2cea",
+        "size_in_bytes": 62888
+      },
+      {
+        "_path": "laspytest/data/simple1_4.las",
+        "path_type": "hardlink",
+        "sha256": "1162a745e71e9eedddf453062e01c476e791ea09a75190f68f52050dad4a0330",
+        "sha256_in_prefix": "1162a745e71e9eedddf453062e01c476e791ea09a75190f68f52050dad4a0330",
+        "size_in_bytes": 814388
+      },
+      {
+        "_path": "site-packages/laspy-1.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/laspy-1.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0fb02ff488beed3a41b02b28421359674f2e2e575d34c591213816da8dafd315",
+        "sha256_in_prefix": "0fb02ff488beed3a41b02b28421359674f2e2e575d34c591213816da8dafd315",
+        "size_in_bytes": 3249
+      },
+      {
+        "_path": "site-packages/laspy-1.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ce4a1d8e0c383cdb5931b04dea0d7be4c1ec96de0b8a809e60bf395c080c6c53",
+        "sha256_in_prefix": "ce4a1d8e0c383cdb5931b04dea0d7be4c1ec96de0b8a809e60bf395c080c6c53",
+        "size_in_bytes": 3563
+      },
+      {
+        "_path": "site-packages/laspy-1.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/laspy-1.7.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "ef25797a6c6b7a9279f1159ab8b1b6728d7f79febf4754c42b31c9e7019c8155",
+        "sha256_in_prefix": "ef25797a6c6b7a9279f1159ab8b1b6728d7f79febf4754c42b31c9e7019c8155",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "site-packages/laspy-1.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e45b7de4367c6c70342e62c3b076e06a1a9349e03edea383dae74c24fcc88ea2",
+        "sha256_in_prefix": "e45b7de4367c6c70342e62c3b076e06a1a9349e03edea383dae74c24fcc88ea2",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/laspy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "51d05447782320522d4578431e9c895c8e7b537fc59f006737ab8490cd20f3b6",
+        "sha256_in_prefix": "51d05447782320522d4578431e9c895c8e7b537fc59f006737ab8490cd20f3b6",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/laspy/base.py",
+        "path_type": "hardlink",
+        "sha256": "35913ac533ab7c2535d540089ebbe835d7b72f2786824a8f0a8d298a0a4f1858",
+        "sha256_in_prefix": "35913ac533ab7c2535d540089ebbe835d7b72f2786824a8f0a8d298a0a4f1858",
+        "size_in_bytes": 73787
+      },
+      {
+        "_path": "site-packages/laspy/file.py",
+        "path_type": "hardlink",
+        "sha256": "de51ba44743d475979508bc0c0a8ff9ff40cc9bd93ac5ea0fa329939c8852e6f",
+        "sha256_in_prefix": "de51ba44743d475979508bc0c0a8ff9ff40cc9bd93ac5ea0fa329939c8852e6f",
+        "size_in_bytes": 25971
+      },
+      {
+        "_path": "site-packages/laspy/glviewer.py",
+        "path_type": "hardlink",
+        "sha256": "fc0d242bf48696e9fb7246998d2b7912323ca6c1b092d152bc851c87b4d5db27",
+        "sha256_in_prefix": "fc0d242bf48696e9fb7246998d2b7912323ca6c1b092d152bc851c87b4d5db27",
+        "size_in_bytes": 13411
+      },
+      {
+        "_path": "site-packages/laspy/header.py",
+        "path_type": "hardlink",
+        "sha256": "aad4cb2ba30375d68f22a797e219e3fd1e765b5ace38e9598240e750d9cc48ca",
+        "sha256_in_prefix": "aad4cb2ba30375d68f22a797e219e3fd1e765b5ace38e9598240e750d9cc48ca",
+        "size_in_bytes": 54830
+      },
+      {
+        "_path": "site-packages/laspy/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "05f2cc163dac9bece8f4ee55032949b65345115f63c3103adc303d55eb535ae0",
+        "sha256_in_prefix": "05f2cc163dac9bece8f4ee55032949b65345115f63c3103adc303d55eb535ae0",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/laspy/tools/lascopy.py",
+        "path_type": "hardlink",
+        "sha256": "c69b624d135bdb97102131573215c53ead1bfd16e7e1ae3c0a1cd8078e624d1d",
+        "sha256_in_prefix": "c69b624d135bdb97102131573215c53ead1bfd16e7e1ae3c0a1cd8078e624d1d",
+        "size_in_bytes": 8832
+      },
+      {
+        "_path": "site-packages/laspy/tools/lasexplorer.py",
+        "path_type": "hardlink",
+        "sha256": "6b950a57527bcff9c37607e42f48f71f2f898c12fcbaed0701f9d000b20e39c7",
+        "sha256_in_prefix": "6b950a57527bcff9c37607e42f48f71f2f898c12fcbaed0701f9d000b20e39c7",
+        "size_in_bytes": 2273
+      },
+      {
+        "_path": "site-packages/laspy/tools/lasnoise.py",
+        "path_type": "hardlink",
+        "sha256": "432b17f23cfaf62e3a7b274e53e3b5cb8e3c529a6e1d1e0c80dab4022e3d3ac3",
+        "sha256_in_prefix": "432b17f23cfaf62e3a7b274e53e3b5cb8e3c529a6e1d1e0c80dab4022e3d3ac3",
+        "size_in_bytes": 1705
+      },
+      {
+        "_path": "site-packages/laspy/tools/lasvalidate.py",
+        "path_type": "hardlink",
+        "sha256": "bb0318ff7b1dcbee0285b1aa4dce71bd5884cc7cc603f764683ed1eb3df75c96",
+        "sha256_in_prefix": "bb0318ff7b1dcbee0285b1aa4dce71bd5884cc7cc603f764683ed1eb3df75c96",
+        "size_in_bytes": 5996
+      },
+      {
+        "_path": "site-packages/laspy/tools/lasverify.py",
+        "path_type": "hardlink",
+        "sha256": "54c4091ea4624106cd7b34ed347a6233ccb0275c407d8a2484808298bab72ec5",
+        "sha256_in_prefix": "54c4091ea4624106cd7b34ed347a6233ccb0275c407d8a2484808298bab72ec5",
+        "size_in_bytes": 9292
+      },
+      {
+        "_path": "site-packages/laspy/tools/lasviewer.py",
+        "path_type": "hardlink",
+        "sha256": "b8b7da9e90a99dad700e39f8b7cf75d3917cbaf8ba070946721593db96ac5f23",
+        "sha256_in_prefix": "b8b7da9e90a99dad700e39f8b7cf75d3917cbaf8ba070946721593db96ac5f23",
+        "size_in_bytes": 1524
+      },
+      {
+        "_path": "site-packages/laspy/util.py",
+        "path_type": "hardlink",
+        "sha256": "ffe6dc3940464f75fc6d31344331f601dbf68cda07f696fe53bda9abafe0fe6d",
+        "sha256_in_prefix": "ffe6dc3940464f75fc6d31344331f601dbf68cda07f696fe53bda9abafe0fe6d",
+        "size_in_bytes": 19108
+      },
+      {
+        "_path": "site-packages/laspytest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8cdd6f75269050530a48a951cbb23117e984c07b3b90a80c9fbada43f8b9289a",
+        "sha256_in_prefix": "8cdd6f75269050530a48a951cbb23117e984c07b3b90a80c9fbada43f8b9289a",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/laspytest/data/simple.las",
+        "path_type": "hardlink",
+        "sha256": "a0570ef57b685b77a6d3e3992cbdfeecdb2c3065d3780bbeaba490818258b734",
+        "sha256_in_prefix": "a0570ef57b685b77a6d3e3992cbdfeecdb2c3065d3780bbeaba490818258b734",
+        "size_in_bytes": 36437
+      },
+      {
+        "_path": "site-packages/laspytest/data/simple.laz",
+        "path_type": "hardlink",
+        "sha256": "87ac5d2e8edb6cd3c63f1dd1b982d76b1b3c23ca634658ac6c658e1a70e73e71",
+        "sha256_in_prefix": "87ac5d2e8edb6cd3c63f1dd1b982d76b1b3c23ca634658ac6c658e1a70e73e71",
+        "size_in_bytes": 18217
+      },
+      {
+        "_path": "site-packages/laspytest/data/simple1_3.las",
+        "path_type": "hardlink",
+        "sha256": "6753c0da6e89b9e9e1e866946746dadb2b2c31b7eb8fd4602bcaf6a1d1ad2cea",
+        "sha256_in_prefix": "6753c0da6e89b9e9e1e866946746dadb2b2c31b7eb8fd4602bcaf6a1d1ad2cea",
+        "size_in_bytes": 62888
+      },
+      {
+        "_path": "site-packages/laspytest/data/simple1_4.las",
+        "path_type": "hardlink",
+        "sha256": "1162a745e71e9eedddf453062e01c476e791ea09a75190f68f52050dad4a0330",
+        "sha256_in_prefix": "1162a745e71e9eedddf453062e01c476e791ea09a75190f68f52050dad4a0330",
+        "size_in_bytes": 814388
+      },
+      {
+        "_path": "site-packages/laspytest/test_laspy.py",
+        "path_type": "hardlink",
+        "sha256": "5d8b48b8abdb2802ea4c4ad268c31440adabcd415c9543f4ebbe3786f216d770",
+        "sha256_in_prefix": "5d8b48b8abdb2802ea4c4ad268c31440adabcd415c9543f4ebbe3786f216d770",
+        "size_in_bytes": 40975
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/__pycache__/base.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/__pycache__/file.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/__pycache__/glviewer.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/__pycache__/header.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/tools/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/tools/__pycache__/lascopy.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/tools/__pycache__/lasexplorer.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/tools/__pycache__/lasnoise.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/tools/__pycache__/lasvalidate.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/tools/__pycache__/lasverify.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/tools/__pycache__/lasviewer.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspy/__pycache__/util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspytest/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/laspytest/__pycache__/test_laspy.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/lascopy",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/lasexplorer",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/lasnoise",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/lasverify",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/lasvalidate",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/lasviewer",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "laspy==1.7.0=pyh5ca1d4c_0",
+  "sha256": "f9d8e6d18d056415406403aac691867953025079047c4b1b1e0f27c81ad01b43",
+  "size": 320438,
+  "subdir": "noarch",
+  "timestamp": 1584460619321,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/laspy-1.7.0-pyh5ca1d4c_0.tar.bz2",
+  "version": "1.7.0"
+}

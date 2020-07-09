@@ -1,0 +1,36 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "importlib-metadata >=1.6.0,<1.6.1.0a0"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/importlib_metadata-1.6.0-0",
+  "features": "",
+  "files": [],
+  "fn": "importlib_metadata-1.6.0-0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/importlib_metadata-1.6.0-0",
+    "type": 1
+  },
+  "md5": "5ab13b586ea79f4324a1d4d5de1f04fb",
+  "name": "importlib_metadata",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/importlib_metadata-1.6.0-0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "489183cf8a46ae5289b166562793ca81dc8bb9d4900e93bdca4d84f9a4a466ad",
+  "size": 3437,
+  "subdir": "noarch",
+  "timestamp": 1585490618339,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/importlib_metadata-1.6.0-0.tar.bz2",
+  "version": "1.6.0"
+}

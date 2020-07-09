@@ -1,0 +1,98 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/pyshp-2.1.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/pyshp-2.1.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pyshp-2.1.0.dist-info/LICENSE.TXT",
+    "lib/python3.7/site-packages/pyshp-2.1.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pyshp-2.1.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pyshp-2.1.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pyshp-2.1.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/shapefile.py",
+    "lib/python3.7/site-packages/__pycache__/shapefile.cpython-37.pyc"
+  ],
+  "fn": "pyshp-2.1.0-py_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/pyshp-2.1.0-py_0",
+    "type": 1
+  },
+  "md5": "7ecfdfa85c6862242e7bbf7375a02f02",
+  "name": "pyshp",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/pyshp-2.1.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyshp-2.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/pyshp-2.1.0.dist-info/LICENSE.TXT",
+        "path_type": "hardlink",
+        "sha256": "6cfcbf778f6ff3a4dc29e864f5729828c3cfc0ad8140f3e9951a68c4e6dbbdfa",
+        "sha256_in_prefix": "6cfcbf778f6ff3a4dc29e864f5729828c3cfc0ad8140f3e9951a68c4e6dbbdfa",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "site-packages/pyshp-2.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c6daa182404aac037af56eaa2cf755e4a6a69b41c7d68f769d37ca033bf976bd",
+        "sha256_in_prefix": "c6daa182404aac037af56eaa2cf755e4a6a69b41c7d68f769d37ca033bf976bd",
+        "size_in_bytes": 40756
+      },
+      {
+        "_path": "site-packages/pyshp-2.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1cec12fa8c8c66353c8e41efc4d83a6d6e7c5e12a367230670dbf0d96238a0f9",
+        "sha256_in_prefix": "1cec12fa8c8c66353c8e41efc4d83a6d6e7c5e12a367230670dbf0d96238a0f9",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "site-packages/pyshp-2.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c32e88d119177f5487408f5680c18c66d92b3ea73e738f545ab4c7d7f9ca1674",
+        "sha256_in_prefix": "c32e88d119177f5487408f5680c18c66d92b3ea73e738f545ab4c7d7f9ca1674",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/pyshp-2.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "097c2a9cb7ad421e7c270ac687124becfb1149014a706daec977bf21fd6c3345",
+        "sha256_in_prefix": "097c2a9cb7ad421e7c270ac687124becfb1149014a706daec977bf21fd6c3345",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/shapefile.py",
+        "path_type": "hardlink",
+        "sha256": "8da8ed8bedd9422e09a9d4f3145529b2a1e974480f6a655db6158ff61148f0a4",
+        "sha256_in_prefix": "8da8ed8bedd9422e09a9d4f3145529b2a1e974480f6a655db6158ff61148f0a4",
+        "size_in_bytes": 76938
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/shapefile.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyshp==2.1.0=py_0",
+  "sha256": "0168236d850883fe616be816858f48deed4ef0442a53c35ce328cc9a99b59898",
+  "size": 34869,
+  "subdir": "noarch",
+  "timestamp": 1556071091426,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/pyshp-2.1.0-py_0.tar.bz2",
+  "version": "2.1.0"
+}

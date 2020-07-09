@@ -1,0 +1,222 @@
+{
+  "build": "he1b5a44_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/laz-perf-1.3.0-he1b5a44_1002",
+  "features": "",
+  "files": [
+    "include/laz-perf/common/common.hpp",
+    "include/laz-perf/common/types.hpp",
+    "include/laz-perf/compressor.hpp",
+    "include/laz-perf/decoder.hpp",
+    "include/laz-perf/decompressor.hpp",
+    "include/laz-perf/detail/field_extrabytes.hpp",
+    "include/laz-perf/detail/field_gpstime.hpp",
+    "include/laz-perf/detail/field_point10.hpp",
+    "include/laz-perf/detail/field_rgb.hpp",
+    "include/laz-perf/detail/field_xyz.hpp",
+    "include/laz-perf/encoder.hpp",
+    "include/laz-perf/excepts.hpp",
+    "include/laz-perf/factory.hpp",
+    "include/laz-perf/formats.hpp",
+    "include/laz-perf/io.hpp",
+    "include/laz-perf/las.hpp",
+    "include/laz-perf/main.cpp",
+    "include/laz-perf/model.hpp",
+    "include/laz-perf/portable_endian.hpp",
+    "include/laz-perf/streams.hpp",
+    "include/laz-perf/util.hpp",
+    "lib/cmake/lazperf/lazperf-config.cmake",
+    "lib/cmake/lazperf/lazperf-configVersion.cmake"
+  ],
+  "fn": "laz-perf-1.3.0-he1b5a44_1002.tar.bz2",
+  "license": "LGPL",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/laz-perf-1.3.0-he1b5a44_1002",
+    "type": 1
+  },
+  "md5": "7f42b408375a0113e8e832fe5cb0afd5",
+  "name": "laz-perf",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/laz-perf-1.3.0-he1b5a44_1002.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/laz-perf/common/common.hpp",
+        "path_type": "hardlink",
+        "sha256": "dd6b01e3612a0c18aedd77d4efd1a7d8d07dc05bdbb0ab8beaf4c3d95fd7ce67",
+        "sha256_in_prefix": "dd6b01e3612a0c18aedd77d4efd1a7d8d07dc05bdbb0ab8beaf4c3d95fd7ce67",
+        "size_in_bytes": 1245
+      },
+      {
+        "_path": "include/laz-perf/common/types.hpp",
+        "path_type": "hardlink",
+        "sha256": "510b4765462716cf327939d173d8c5f4e92f137a9f3e48d9ed2e66e37f4e098f",
+        "sha256_in_prefix": "510b4765462716cf327939d173d8c5f4e92f137a9f3e48d9ed2e66e37f4e098f",
+        "size_in_bytes": 7591
+      },
+      {
+        "_path": "include/laz-perf/compressor.hpp",
+        "path_type": "hardlink",
+        "sha256": "efd089b23d2776b3a718941be72aa27dc341680988352fbf353b6db8b4cd3a30",
+        "sha256_in_prefix": "efd089b23d2776b3a718941be72aa27dc341680988352fbf353b6db8b4cd3a30",
+        "size_in_bytes": 6345
+      },
+      {
+        "_path": "include/laz-perf/decoder.hpp",
+        "path_type": "hardlink",
+        "sha256": "bedc3c398e96ce091c4baf6b1a6ec8508ac47db1be3b4ee5cd193958a8d7399f",
+        "sha256_in_prefix": "bedc3c398e96ce091c4baf6b1a6ec8508ac47db1be3b4ee5cd193958a8d7399f",
+        "size_in_bytes": 6096
+      },
+      {
+        "_path": "include/laz-perf/decompressor.hpp",
+        "path_type": "hardlink",
+        "sha256": "56626b0cdfbc5e02baab372a981581ff9432e7adac09641d060340322fabbecc",
+        "sha256_in_prefix": "56626b0cdfbc5e02baab372a981581ff9432e7adac09641d060340322fabbecc",
+        "size_in_bytes": 5483
+      },
+      {
+        "_path": "include/laz-perf/detail/field_extrabytes.hpp",
+        "path_type": "hardlink",
+        "sha256": "b2aa496c6ed212cc248dbf852578104a88a0bff4a7f3f093a1ebd52f125449d1",
+        "sha256_in_prefix": "b2aa496c6ed212cc248dbf852578104a88a0bff4a7f3f093a1ebd52f125449d1",
+        "size_in_bytes": 3274
+      },
+      {
+        "_path": "include/laz-perf/detail/field_gpstime.hpp",
+        "path_type": "hardlink",
+        "sha256": "b4f21b5f50457d9fd26cd44d96d39dee64cb99aa9f7e752f45a18d1447e5477f",
+        "sha256_in_prefix": "b4f21b5f50457d9fd26cd44d96d39dee64cb99aa9f7e752f45a18d1447e5477f",
+        "size_in_bytes": 16474
+      },
+      {
+        "_path": "include/laz-perf/detail/field_point10.hpp",
+        "path_type": "hardlink",
+        "sha256": "fc3c7671370a4d43fc11acec2ab9e2a51ebe6cf5d658fd39df40821aef8504f7",
+        "sha256_in_prefix": "fc3c7671370a4d43fc11acec2ab9e2a51ebe6cf5d658fd39df40821aef8504f7",
+        "size_in_bytes": 15209
+      },
+      {
+        "_path": "include/laz-perf/detail/field_rgb.hpp",
+        "path_type": "hardlink",
+        "sha256": "203c59bd8c9d0ac289c85ecc3177abdfffc4b5a43ff04ab346da6ab8536a4dc2",
+        "sha256_in_prefix": "203c59bd8c9d0ac289c85ecc3177abdfffc4b5a43ff04ab346da6ab8536a4dc2",
+        "size_in_bytes": 7499
+      },
+      {
+        "_path": "include/laz-perf/detail/field_xyz.hpp",
+        "path_type": "hardlink",
+        "sha256": "93d1ff3f9bfe196f7b6f7c539f298d7b8fc4f54d3c733def801c2f6923c672e4",
+        "sha256_in_prefix": "93d1ff3f9bfe196f7b6f7c539f298d7b8fc4f54d3c733def801c2f6923c672e4",
+        "size_in_bytes": 6229
+      },
+      {
+        "_path": "include/laz-perf/encoder.hpp",
+        "path_type": "hardlink",
+        "sha256": "9aade69e97667c5718aa407206d93cbb3b667762ac32694248c6ff80287da3fc",
+        "sha256_in_prefix": "9aade69e97667c5718aa407206d93cbb3b667762ac32694248c6ff80287da3fc",
+        "size_in_bytes": 7609
+      },
+      {
+        "_path": "include/laz-perf/excepts.hpp",
+        "path_type": "hardlink",
+        "sha256": "efb7209194cb1f1ebd5725a83db7d0f3a2b1dc0d6b34f3fb871f940a87fb0820",
+        "sha256_in_prefix": "efb7209194cb1f1ebd5725a83db7d0f3a2b1dc0d6b34f3fb871f940a87fb0820",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "include/laz-perf/factory.hpp",
+        "path_type": "hardlink",
+        "sha256": "38ff860fc4ee700fed11bd71a8945defc5d4281021419a670ff4c1f207131224",
+        "sha256_in_prefix": "38ff860fc4ee700fed11bd71a8945defc5d4281021419a670ff4c1f207131224",
+        "size_in_bytes": 8340
+      },
+      {
+        "_path": "include/laz-perf/formats.hpp",
+        "path_type": "hardlink",
+        "sha256": "9ad72e05856c5365872e5f798cf53e5d8795485b6798548f2bee6904738a6f28",
+        "sha256_in_prefix": "9ad72e05856c5365872e5f798cf53e5d8795485b6798548f2bee6904738a6f28",
+        "size_in_bytes": 14004
+      },
+      {
+        "_path": "include/laz-perf/io.hpp",
+        "path_type": "hardlink",
+        "sha256": "510740fb771ac1242a9e740748fd2310d36f04ca620d9d08a63f7328b2dfe9e9",
+        "sha256_in_prefix": "510740fb771ac1242a9e740748fd2310d36f04ca620d9d08a63f7328b2dfe9e9",
+        "size_in_bytes": 31130
+      },
+      {
+        "_path": "include/laz-perf/las.hpp",
+        "path_type": "hardlink",
+        "sha256": "93f8da1e59242bd85b5294f07d672b86ef671050e699d917057e2b1664fb263c",
+        "sha256_in_prefix": "93f8da1e59242bd85b5294f07d672b86ef671050e699d917057e2b1664fb263c",
+        "size_in_bytes": 2528
+      },
+      {
+        "_path": "include/laz-perf/main.cpp",
+        "path_type": "hardlink",
+        "sha256": "55538c4749a3149316298f082f952ab904fcd7e4c6e785fec36479f3eb7f2069",
+        "sha256_in_prefix": "55538c4749a3149316298f082f952ab904fcd7e4c6e785fec36479f3eb7f2069",
+        "size_in_bytes": 2567
+      },
+      {
+        "_path": "include/laz-perf/model.hpp",
+        "path_type": "hardlink",
+        "sha256": "e4b598545e72f1b9ecf08749274766945e130f82a5afc232e00cb9d57c7fb430",
+        "sha256_in_prefix": "e4b598545e72f1b9ecf08749274766945e130f82a5afc232e00cb9d57c7fb430",
+        "size_in_bytes": 8075
+      },
+      {
+        "_path": "include/laz-perf/portable_endian.hpp",
+        "path_type": "hardlink",
+        "sha256": "18d77a16026b03b45b9c5ed93bd76fd5d76a5a72a9fc306c58b795e011376ec0",
+        "sha256_in_prefix": "18d77a16026b03b45b9c5ed93bd76fd5d76a5a72a9fc306c58b795e011376ec0",
+        "size_in_bytes": 2794
+      },
+      {
+        "_path": "include/laz-perf/streams.hpp",
+        "path_type": "hardlink",
+        "sha256": "5fa6df25df7f2aace7e2a81de0e594432922e1a2b5bbdf88efdbe602e90f569c",
+        "sha256_in_prefix": "5fa6df25df7f2aace7e2a81de0e594432922e1a2b5bbdf88efdbe602e90f569c",
+        "size_in_bytes": 2409
+      },
+      {
+        "_path": "include/laz-perf/util.hpp",
+        "path_type": "hardlink",
+        "sha256": "bc222ee6b5b3c68a7d65cf45703328eebef943a12449f16b09899b8a6404a9dc",
+        "sha256_in_prefix": "bc222ee6b5b3c68a7d65cf45703328eebef943a12449f16b09899b8a6404a9dc",
+        "size_in_bytes": 5040
+      },
+      {
+        "_path": "lib/cmake/lazperf/lazperf-config.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "01248bb0ff522c01aa66a38af34e5aef7aa37a2e582365cfc1b33609fc3bcd38",
+        "sha256_in_prefix": "e7c45bbf26ea3d92ab96b9b0fba27a7090805e0c45fe432b1944e728bbeee85d",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/cmake/lazperf/lazperf-configVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "112bb05704e812e7cf981b24233f23bffafb4744bc3475865d290575792fe41e",
+        "sha256_in_prefix": "112bb05704e812e7cf981b24233f23bffafb4744bc3475865d290575792fe41e",
+        "size_in_bytes": 380
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "laz-perf==1.3.0=he1b5a44_1002",
+  "sha256": "93df65fec3efc0950c38a5fae24012bb1fe0b245c55553c659ea96699c506b83",
+  "size": 33385,
+  "subdir": "linux-64",
+  "timestamp": 1559246968085,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/laz-perf-1.3.0-he1b5a44_1002.tar.bz2",
+  "version": "1.3.0"
+}

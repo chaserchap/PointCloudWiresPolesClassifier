@@ -1,0 +1,72 @@
+#!/bin/sh
+prefix=/home/chapmaca/Projects/pointcloudclassifier/envs
+exec_prefix=/home/chapmaca/Projects/pointcloudclassifier/envs/bin
+libdir=/home/chapmaca/Projects/pointcloudclassifier/envs/lib
+
+usage()
+{
+	cat <<EOF
+Usage: pdal-config [OPTIONS]
+Options:
+	[--cflags]
+	[--cxxflags]
+	[--defines]
+	[--includes]
+	[--libs]
+	[--plugin-dir]
+	[--version]
+	[--python-version]
+EOF
+	exit $1
+}
+
+if test $# -eq 0; then
+	usage 1 1>&2
+fi
+
+case $1 in
+  --libs)
+    echo -L/home/chapmaca/Projects/pointcloudclassifier/envs/lib -lpdalcpp
+    ;;
+
+  --plugin-dir)
+    echo /home/chapmaca/Projects/pointcloudclassifier/envs/lib
+    ;;
+
+  --prefix)
+    echo ${prefix}
+     ;;
+
+  --ldflags)
+    echo -L${libdir}
+    ;;
+
+  --defines)
+    echo 
+    ;;
+
+  --includes)
+    echo -I/home/chapmaca/Projects/pointcloudclassifier/envs/include -I/home/chapmaca/Projects/pointcloudclassifier/envs/include -I/home/chapmaca/Projects/pointcloudclassifier/envs/include/libxml2 -I/home/chapmaca/Projects/pointcloudclassifier/envs/include
+    ;;
+
+  --cflags)
+    echo -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chapmaca/Projects/pointcloudclassifier/envs/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/work=/usr/local/src/conda/pdal-2.0.1 -fdebug-prefix-map=/home/chapmaca/Projects/pointcloudclassifier/envs=/usr/local/src/conda-prefix
+    ;;
+
+  --cxxflags)
+    echo -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/chapmaca/Projects/pointcloudclassifier/envs/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/pdal_1584302962938/work=/usr/local/src/conda/pdal-2.0.1 -fdebug-prefix-map=/home/chapmaca/Projects/pointcloudclassifier/envs=/usr/local/src/conda-prefix -std=c++11 -std=c++11
+    ;;
+
+  --version)
+    echo 2.0.1
+    ;;
+
+  --python-version)
+    echo 
+    ;;
+
+  *)
+    usage 1 1>&2
+    ;;
+
+esac

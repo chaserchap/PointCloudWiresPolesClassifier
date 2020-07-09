@@ -1,0 +1,30 @@
+{
+  "build": "openblas",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/blas-1.0-openblas",
+  "features": "",
+  "files": [],
+  "fn": "blas-1.0-openblas.tar.bz2",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/blas-1.0-openblas",
+    "type": 1
+  },
+  "md5": "671f6e045d03a842f379145e7fc43c0d",
+  "name": "blas",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/blas-1.0-openblas.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "blas==1.0=openblas",
+  "sha256": "ed246aa0bf2809030f911cefd5b16a2c4de0d1b21f75f76e5178122d2213727e",
+  "size": 49374,
+  "subdir": "linux-64",
+  "timestamp": 1528224118045,
+  "track_features": "nomkl",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/blas-1.0-openblas.tar.bz2",
+  "version": "1.0"
+}

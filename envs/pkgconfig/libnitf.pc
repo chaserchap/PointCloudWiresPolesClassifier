@@ -1,0 +1,12 @@
+prefix=/home/chapmaca/Projects/pointcloudclassifier/envs
+exec_prefix=/home/chapmaca/Projects/pointcloudclassifier/envs
+libdir=lib
+includedir=include
+
+Name: Nitro
+Description: C/C++ library for National Imagery Transmission Format (NITF)
+Requires: 
+Version: 
+Libs: -L${libdir} -lnitf-cpp -lnitf-c
+Cflags: -I${includedir}/nitro 
+

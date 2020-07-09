@@ -1,0 +1,117 @@
+{
+  "build": "py_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base",
+    "python"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/descartes-1.1.0-py_4",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/descartes-1.1.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/descartes-1.1.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/descartes-1.1.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/descartes-1.1.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/descartes-1.1.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/descartes/__init__.py",
+    "lib/python3.7/site-packages/descartes/patch.py",
+    "lib/python3.7/site-packages/descartes/tests.py",
+    "lib/python3.7/site-packages/descartes/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/descartes/__pycache__/patch.cpython-37.pyc",
+    "lib/python3.7/site-packages/descartes/__pycache__/tests.cpython-37.pyc"
+  ],
+  "fn": "descartes-1.1.0-py_4.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/descartes-1.1.0-py_4",
+    "type": 1
+  },
+  "md5": "df5d2732bd8fef70c820ef482e991839",
+  "name": "descartes",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/descartes-1.1.0-py_4.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/descartes-1.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/descartes-1.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "bb0ccd49ccadb9880e29882c63c1a4efdb1b87b2ea8a912e75e4fb0f2259493b",
+        "sha256_in_prefix": "bb0ccd49ccadb9880e29882c63c1a4efdb1b87b2ea8a912e75e4fb0f2259493b",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/descartes-1.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "efa5d1aedf1f932ae3ec8fe0c0cd661e04ad34683047426dc458a776dacd4b00",
+        "sha256_in_prefix": "efa5d1aedf1f932ae3ec8fe0c0cd661e04ad34683047426dc458a776dacd4b00",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "site-packages/descartes-1.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/descartes-1.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "69e73c641503461e05491a1b26ad35abe06169abcd8b6b501700793c6f23f509",
+        "sha256_in_prefix": "69e73c641503461e05491a1b26ad35abe06169abcd8b6b501700793c6f23f509",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/descartes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3d328329a21d6b147a049f76c9cf26d34372c35a6cb2768a8c56a94a4cbb7b41",
+        "sha256_in_prefix": "3d328329a21d6b147a049f76c9cf26d34372c35a6cb2768a8c56a94a4cbb7b41",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/descartes/patch.py",
+        "path_type": "hardlink",
+        "sha256": "82a7b300c5d270b48abbdceaf3f329bfe17c4be9c16a23270f17e048dcfabba7",
+        "sha256_in_prefix": "82a7b300c5d270b48abbdceaf3f329bfe17c4be9c16a23270f17e048dcfabba7",
+        "size_in_bytes": 2860
+      },
+      {
+        "_path": "site-packages/descartes/tests.py",
+        "path_type": "hardlink",
+        "sha256": "58d8a08108d0d91245e7f22a2b269b8d1adc3bcfa41c4ba5720b561121a48788",
+        "sha256_in_prefix": "58d8a08108d0d91245e7f22a2b269b8d1adc3bcfa41c4ba5720b561121a48788",
+        "size_in_bytes": 3158
+      },
+      {
+        "_path": "lib/python3.7/site-packages/descartes/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/descartes/__pycache__/patch.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/descartes/__pycache__/tests.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "descartes==1.1.0=py_4",
+  "sha256": "48597c8833f0adf9ef660a00f362948bfdaf264543f2c1dc677ee4a844744fd3",
+  "size": 10331,
+  "subdir": "noarch",
+  "timestamp": 1585132645768,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/descartes-1.1.0-py_4.tar.bz2",
+  "version": "1.1.0"
+}

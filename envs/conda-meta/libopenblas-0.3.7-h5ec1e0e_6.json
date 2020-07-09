@@ -1,0 +1,54 @@
+{
+  "build": "h5ec1e0e_6",
+  "build_number": 6,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "openblas >=0.3.7,<0.3.8.0a0"
+  ],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libgfortran-ng >=7,<8.0a0"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/libopenblas-0.3.7-h5ec1e0e_6",
+  "features": "",
+  "files": [
+    "lib/libopenblas.so.0",
+    "lib/libopenblasp-r0.3.7.so"
+  ],
+  "fn": "libopenblas-0.3.7-h5ec1e0e_6.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/libopenblas-0.3.7-h5ec1e0e_6",
+    "type": 1
+  },
+  "md5": "c0c88e00ceb918b27fdebd537ede738c",
+  "name": "libopenblas",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/libopenblas-0.3.7-h5ec1e0e_6.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenblas.so.0",
+        "path_type": "softlink",
+        "sha256": "6551896cb267eeb2a155229a769d9c140f76b2c6a061ee119a30e19bd159ecd2",
+        "size_in_bytes": 29900896
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.7.so",
+        "path_type": "hardlink",
+        "sha256": "6551896cb267eeb2a155229a769d9c140f76b2c6a061ee119a30e19bd159ecd2",
+        "sha256_in_prefix": "6551896cb267eeb2a155229a769d9c140f76b2c6a061ee119a30e19bd159ecd2",
+        "size_in_bytes": 29900896
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libopenblas==0.3.7=h5ec1e0e_6",
+  "sha256": "6e17e4b973f927e4ea9641b7164352417e3246e68537220ceb952c2287e02bed",
+  "size": 8011770,
+  "subdir": "linux-64",
+  "timestamp": 1576855401409,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libopenblas-0.3.7-h5ec1e0e_6.tar.bz2",
+  "version": "0.3.7"
+}

@@ -1,0 +1,59 @@
+{
+  "build": "h2d50403_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libstdcxx-ng >=4.9"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/tbb-2018.0.5-h2d50403_0",
+  "features": "",
+  "files": [
+    "lib/libtbb.so.2",
+    "lib/libtbbmalloc.so.2",
+    "lib/libtbbmalloc_proxy.so.2"
+  ],
+  "fn": "tbb-2018.0.5-h2d50403_0.tar.bz2",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/tbb-2018.0.5-h2d50403_0",
+    "type": 1
+  },
+  "md5": "be43b790055916fd6bca1991fe812577",
+  "name": "tbb",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/tbb-2018.0.5-h2d50403_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libtbb.so.2",
+        "path_type": "hardlink",
+        "sha256": "e343ba58f7b543be3a07d7de0aecb876617b33297f451536cb0eb106783c3193",
+        "sha256_in_prefix": "e343ba58f7b543be3a07d7de0aecb876617b33297f451536cb0eb106783c3193",
+        "size_in_bytes": 2574333
+      },
+      {
+        "_path": "lib/libtbbmalloc.so.2",
+        "path_type": "hardlink",
+        "sha256": "baad32669148d5376ec40daa467fb4794378ae3ee12301aa358d7449b1babe71",
+        "sha256_in_prefix": "baad32669148d5376ec40daa467fb4794378ae3ee12301aa358d7449b1babe71",
+        "size_in_bytes": 763260
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.so.2",
+        "path_type": "hardlink",
+        "sha256": "5cf7fd3cacb57e62a5227cffaa7dc99da5a3a9307a116c837d0cf91a6729fd82",
+        "sha256_in_prefix": "5cf7fd3cacb57e62a5227cffaa7dc99da5a3a9307a116c837d0cf91a6729fd82",
+        "size_in_bytes": 38212
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tbb==2018.0.5=h2d50403_0",
+  "sha256": "a24fe7ed8506ad4e51e25c6f0dd4603559493d583742c84129a7a3227bfe8c45",
+  "size": 1204500,
+  "subdir": "linux-64",
+  "timestamp": 1530117517680,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/tbb-2018.0.5-h2d50403_0.tar.bz2",
+  "version": "2018.0.5"
+}

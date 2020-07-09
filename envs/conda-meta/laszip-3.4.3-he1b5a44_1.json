@@ -1,0 +1,97 @@
+{
+  "build": "he1b5a44_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/laszip-3.4.3-he1b5a44_1",
+  "features": "",
+  "files": [
+    "include/laszip/laszip_api.h",
+    "include/laszip/laszip_api_version.h",
+    "lib/liblaszip.so",
+    "lib/liblaszip.so.8",
+    "lib/liblaszip.so.8.0.5",
+    "lib/liblaszip_api.so",
+    "lib/liblaszip_api.so.8",
+    "lib/liblaszip_api.so.8.0.5"
+  ],
+  "fn": "laszip-3.4.3-he1b5a44_1.tar.bz2",
+  "license": "LGPL-2.0",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/laszip-3.4.3-he1b5a44_1",
+    "type": 1
+  },
+  "md5": "655d61ddf4676e8d8923cb8cd5d9311f",
+  "name": "laszip",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/laszip-3.4.3-he1b5a44_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/laszip/laszip_api.h",
+        "path_type": "hardlink",
+        "sha256": "9a11732cf659f946c84f9e0b2aa74f89eafd13171f497f8e884ecd9637fd6cc3",
+        "sha256_in_prefix": "9a11732cf659f946c84f9e0b2aa74f89eafd13171f497f8e884ecd9637fd6cc3",
+        "size_in_bytes": 20899
+      },
+      {
+        "_path": "include/laszip/laszip_api_version.h",
+        "path_type": "hardlink",
+        "sha256": "6a209013e0b109f86b883eb082522b5cb7cc8282eb4c99181cf379c2976bbc33",
+        "sha256_in_prefix": "6a209013e0b109f86b883eb082522b5cb7cc8282eb4c99181cf379c2976bbc33",
+        "size_in_bytes": 1104
+      },
+      {
+        "_path": "lib/liblaszip.so",
+        "path_type": "softlink",
+        "sha256": "b56eee60745af8409f2d0a13c7eec07d9f8441a2d65c1a600f85207a5e0120ae",
+        "size_in_bytes": 521696
+      },
+      {
+        "_path": "lib/liblaszip.so.8",
+        "path_type": "softlink",
+        "sha256": "b56eee60745af8409f2d0a13c7eec07d9f8441a2d65c1a600f85207a5e0120ae",
+        "size_in_bytes": 521696
+      },
+      {
+        "_path": "lib/liblaszip.so.8.0.5",
+        "path_type": "hardlink",
+        "sha256": "b56eee60745af8409f2d0a13c7eec07d9f8441a2d65c1a600f85207a5e0120ae",
+        "sha256_in_prefix": "b56eee60745af8409f2d0a13c7eec07d9f8441a2d65c1a600f85207a5e0120ae",
+        "size_in_bytes": 521696
+      },
+      {
+        "_path": "lib/liblaszip_api.so",
+        "path_type": "softlink",
+        "sha256": "333e4c013abca2d5e0c5b5757c6f7b36d84b7bcc293af0321176a8d2864549b2",
+        "size_in_bytes": 28296
+      },
+      {
+        "_path": "lib/liblaszip_api.so.8",
+        "path_type": "softlink",
+        "sha256": "333e4c013abca2d5e0c5b5757c6f7b36d84b7bcc293af0321176a8d2864549b2",
+        "size_in_bytes": 28296
+      },
+      {
+        "_path": "lib/liblaszip_api.so.8.0.5",
+        "path_type": "hardlink",
+        "sha256": "333e4c013abca2d5e0c5b5757c6f7b36d84b7bcc293af0321176a8d2864549b2",
+        "sha256_in_prefix": "333e4c013abca2d5e0c5b5757c6f7b36d84b7bcc293af0321176a8d2864549b2",
+        "size_in_bytes": 28296
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "laszip==3.4.3=he1b5a44_1",
+  "sha256": "f831519a03f73042e07f4f226792aa8b4488b871774d03f5cef5a2d626c588e8",
+  "size": 188081,
+  "subdir": "linux-64",
+  "timestamp": 1584640686017,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/laszip-3.4.3-he1b5a44_1.tar.bz2",
+  "version": "3.4.3"
+}

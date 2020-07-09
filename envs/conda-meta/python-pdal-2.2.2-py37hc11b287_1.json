@@ -1,0 +1,165 @@
+{
+  "build": "py37hc11b287_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "python_abi * *_cp37m"
+  ],
+  "depends": [
+    "gdal >=3.0.2,<3.1.0a0",
+    "libgcc-ng >=7.3.0",
+    "libgdal >=3.0.2,<3.1.0a0",
+    "libstdcxx-ng >=7.3.0",
+    "numpy >=1.14.6,<2.0a0",
+    "packaging",
+    "pdal >=2.0.1,<2.1.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/home/chapmaca/miniconda3/pkgs/python-pdal-2.2.2-py37hc11b287_1",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/LICENSE.txt",
+    "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/METADATA",
+    "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/RECORD",
+    "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/WHEEL",
+    "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pdal/__init__.py",
+    "lib/python3.7/site-packages/pdal/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pdal/__pycache__/array.cpython-37.pyc",
+    "lib/python3.7/site-packages/pdal/__pycache__/dimension.cpython-37.pyc",
+    "lib/python3.7/site-packages/pdal/__pycache__/pipeline.cpython-37.pyc",
+    "lib/python3.7/site-packages/pdal/array.py",
+    "lib/python3.7/site-packages/pdal/dimension.py",
+    "lib/python3.7/site-packages/pdal/libpdalpython.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pdal/pipeline.py"
+  ],
+  "fn": "python-pdal-2.2.2-py37hc11b287_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/chapmaca/miniconda3/pkgs/python-pdal-2.2.2-py37hc11b287_1",
+    "type": 1
+  },
+  "md5": "bcc2bd6a4e754672c4f07ca7ecc1137e",
+  "name": "python-pdal",
+  "package_tarball_full_path": "/home/chapmaca/miniconda3/pkgs/python-pdal-2.2.2-py37hc11b287_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "0e42abeec615088db26c013dc66fe4b3e1a559a44d4314aa551402a924d5914a",
+        "sha256_in_prefix": "0e42abeec615088db26c013dc66fe4b3e1a559a44d4314aa551402a924d5914a",
+        "size_in_bytes": 1898
+      },
+      {
+        "_path": "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "40e4f801cb8c564cc5749daad775d41c6056e033557c3cfa2ef36d150f9f4a09",
+        "sha256_in_prefix": "40e4f801cb8c564cc5749daad775d41c6056e033557c3cfa2ef36d150f9f4a09",
+        "size_in_bytes": 3048
+      },
+      {
+        "_path": "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a10bad089ba2f19b4a0c89e62125d0bdf23e5dda426b098677a4ea4f4eed3127",
+        "sha256_in_prefix": "a10bad089ba2f19b4a0c89e62125d0bdf23e5dda426b098677a4ea4f4eed3127",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a5e91952fde2c31ba0dd225b819cc51782fa15d7040f177cc3a61b994f3fa973",
+        "sha256_in_prefix": "a5e91952fde2c31ba0dd225b819cc51782fa15d7040f177cc3a61b994f3fa973",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.7/site-packages/PDAL-2.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "66892ed5ed01845e50a603d1a466cc6a79c145aec92c0085c637492d16e5ae28",
+        "sha256_in_prefix": "66892ed5ed01845e50a603d1a466cc6a79c145aec92c0085c637492d16e5ae28",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6c477070a9cf8ef28ba81d7b8dd718be13e99ed025c6c2cb7d20f21b36088e87",
+        "sha256_in_prefix": "6c477070a9cf8ef28ba81d7b8dd718be13e99ed025c6c2cb7d20f21b36088e87",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "66c7098e97e7d12a778e45484322c6187d96adce52e67b9acb8a791f7a5c81ac",
+        "sha256_in_prefix": "66c7098e97e7d12a778e45484322c6187d96adce52e67b9acb8a791f7a5c81ac",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/__pycache__/array.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e788a964ea0a8f5e2743c2658a0199a1bb64662321915df5766628809238e798",
+        "sha256_in_prefix": "e788a964ea0a8f5e2743c2658a0199a1bb64662321915df5766628809238e798",
+        "size_in_bytes": 542
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/__pycache__/dimension.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "32a146bdbe710ab48c3f875b1056c01dd610582feda3ea1edb0dae86c1246acc",
+        "sha256_in_prefix": "32a146bdbe710ab48c3f875b1056c01dd610582feda3ea1edb0dae86c1246acc",
+        "size_in_bytes": 271
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/__pycache__/pipeline.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dde23c5562bf6b285629989c33c7495676494d1910e5860124ebdca9e4908088",
+        "sha256_in_prefix": "dde23c5562bf6b285629989c33c7495676494d1910e5860124ebdca9e4908088",
+        "size_in_bytes": 1982
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/array.py",
+        "path_type": "hardlink",
+        "sha256": "be2294ffcec0afbc02e7173365015a27207f25315c4f1a6af78431f5a42088dd",
+        "sha256_in_prefix": "be2294ffcec0afbc02e7173365015a27207f25315c4f1a6af78431f5a42088dd",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/dimension.py",
+        "path_type": "hardlink",
+        "sha256": "a843f6728ab4711c376d4808f166269ccbd31b252f042df5a2eeb89c8273a8a2",
+        "sha256_in_prefix": "a843f6728ab4711c376d4808f166269ccbd31b252f042df5a2eeb89c8273a8a2",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/libpdalpython.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "8d75060392b50fc4e124566b260a4dfef0363d812fb8d1e365aec3bf716b1d66",
+        "sha256_in_prefix": "8d75060392b50fc4e124566b260a4dfef0363d812fb8d1e365aec3bf716b1d66",
+        "size_in_bytes": 1889480
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pdal/pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "bc23b77174fac513b5cee094048a32558c0797b67611687451b9ece0e3378942",
+        "sha256_in_prefix": "bc23b77174fac513b5cee094048a32558c0797b67611687451b9ece0e3378942",
+        "size_in_bytes": 1140
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-pdal==2.2.2=py37hc11b287_1",
+  "sha256": "ee5a987779d7415cca615a0da94aacdb4de062833a0d7c21d383aa356b8407e2",
+  "size": 667727,
+  "subdir": "linux-64",
+  "timestamp": 1574027540066,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-pdal-2.2.2-py37hc11b287_1.tar.bz2",
+  "version": "2.2.2"
+}
